@@ -1,0 +1,342 @@
+pubs:
+  - id: "systex22-abi"
+    title: "A Case for Unified ABI Shielding in Intel SGX Runtimes"
+    author: ['Jo Van Bulck', 'Fritz Alder', 'Frank Piessens']
+    venue: "5th Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2022
+    github: "https://github.com/jovanbulck/sgx-abi-data"
+    slides: true
+    cve: "Patched in Enarx v0.2.1"
+    bibtex: "vanbulck2022abi"
+
+  - id: "oakland22-gap"
+    title: "Mind the Gap: Studying the Insecurity of Provably Secure Embedded Trusted Execution Architectures"
+    author: ['Marton Bognar', 'Jo Van Bulck', 'Frank Piessens']
+    venue: "43rd IEEE Symposium on Security and Privacy (S&P)"
+    year: 2022
+    github: "https://github.com/martonbognar/gap-attacks"
+    bibtex: "bognar2022gap"
+
+  - id: "dtrap22-fpu"
+    title: "Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments"
+    author: ['Fritz Alder', 'Jo Van Bulck', 'Jesse Spielman', 'David Oswald', 'Frank Piessens']
+    venue: "ACM Digital Threats: Research and Practice (DTRAP)"
+    year: 2022
+    bibtex: "alder2022fpu"
+
+  - id: "ccs21-aion"
+    title: "Aion: Enabling Open Systems through Strong Availability Guarantees for Enclaves"
+    author: ['Fritz Alder', 'Jo Van Bulck', 'Frank Piessens', 'Jan Tobias Mühlberg']
+    venue: "28th ACM Conference on Computer and Communications Security (CCS)"
+    year: 2021
+    github: "https://github.com/sancus-tee/sancus-riot"
+    bibtex: "alder2021aion"
+    slides: "https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs21-slides.pdf"
+    recording: "https://youtu.be/E_SbvA-txnQ"
+
+  - ext-id: "https://dl.acm.org/doi/abs/10.1145/3470534"
+    title: "Securing Interruptible Enclaved Execution on Small Microprocessors"
+    author: ['Matteo Busi', 'Job Noorman', 'Jo Van Bulck', 'Letterio Galletta', 'Pierpaolo Degano', 'Jan Tobias Mühlberg', 'Frank Piessens']
+    venue: "ACM Transactions on Programming Languages and Systems (TOPLAS)"
+    year: 2021
+    bibtex: "busi2021securing"
+
+  - id: "comnet21-robust"
+    title: "Robust Authentication for Automotive Control Networks through Covert Channels"
+    author: ['Stien Vanderhallen', 'Jo Van Bulck', 'Frank Piessens', 'Jan Tobias Mühlberg']
+    venue: "Computer Networks"
+    year: 2021
+    github: "https://github.com/Stienvdh/vulcan/tree/iat-nonce"
+    bibtex: "vanderhalle2021robust"
+
+  - id: "acsac20-fpu"
+    title: "Faulty Point Unit: ABI Poisoning Attacks on Intel SGX"
+    author: ['Fritz Alder', 'Jo Van Bulck', 'David Oswald', 'Frank Piessens']
+    venue: "36th Annual Computer Security Applications Conference (ACSAC)"
+    year: 2020
+    github: "https://github.com/fritzalder/faulty-point-unit/"
+    cve: "CVE-2020-0561, CVE-2020-15107"
+    badge: "Artifacts evaluated: Reusable"
+    award: "Distinguished paper with artifacts award"
+    bibtex: "alder2020fpu"
+    recording: "https://www.youtube.com/watch?v=SBLRt2yPL3I"
+    slides: true
+    poster: "files/eurosp21-fpu-poster.pdf"
+
+  - id: "phd-thesis"
+    title: "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
+    author: ['Jo Van Bulck']
+    venue: "PhD thesis KU Leuven"
+    month: "September 14"
+    year: 2020
+    slides: true
+    recording: "https://youtu.be/NbXXXt0kITA"
+    bibtex: "vanbulck2020phd"
+    award: "ACM SIGSAC Doctoral Dissertation Award 2021, ERCIM STM PhD Award 2021, FWO/IBM Innovation Award 2021"
+    poster: true
+
+  - id: "usenix20-copycat"
+    title: "CopyCat: Controlled Instruction-Level Attacks on Enclaves"
+    author: ['Daniel Moghimi', 'Jo Van Bulck', 'Nadia Heninger', 'Frank Piessens', 'Berk Sunar']
+    venue: "29th USENIX Security Symposium"
+    cve: "CVE-2019-19960, CVE-2019-19961, CVE-2019-19963, CVE-2020-7960"
+    year: 2020
+    recording: "https://youtu.be/MXbWsxdVg-o"
+    bibtex: "moghimi2020copycat"
+
+  - id: "csf20-irq"
+    title: "Provably Secure Isolation for Interruptible Enclaved Execution on Small Microprocessors"
+    author: ['Matteo Busi', 'Job Noorman', 'Jo Van Bulck', 'Letterio Galletta', 'Pierpaolo Degano', 'Jan Tobias Mühlberg', 'Frank Piessens']
+    venue: "33rd IEEE Computer Security Foundations Symposium (CSF)"
+    github: "https://github.com/sancus-tee/sancus-core/tree/nemesis"
+    arxiv: "https://arxiv.org/abs/2001.10881"
+    year: 2020
+    bibtex: "busi2020provably"
+
+  - id: "sp20-plundervoltmagazine"
+    title: "Plundervolt: How a Little Bit of Undervolting Can Create a Lot of Trouble"
+    author: ['Kit Murdock', 'David Oswald', 'Flavio D. Garcia', 'Jo Van Bulck', 
+             'Daniel Gruss', 'Frank Piessens']
+    venue: "IEEE Security & Privacy Magazine Special Issue on Hardware-Assisted Security"
+    year: 2020
+    bibtex: "murdock2020plundervoltmagazine"
+
+  - id: "oakland20-lvi"
+    title: "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection"
+    author: ['Jo Van Bulck', 'Daniel Moghimi', 'Michael Schwarz', 'Moritz Lipp', 'Marina Minkin',
+             'Daniel Genkin', 'Yuval Yarom', 'Berk Sunar', 'Daniel Gruss', 'Frank Piessens']
+    venue: "41st IEEE Symposium on Security and Privacy (S&P)"
+    year: 2020
+    cve: "CVE-2020-0551"
+    slides: true
+    website: "https://lviattack.eu/"
+    github: "https://github.com/jovanbulck/sgx-step/tree/master/app/lvi"
+    recording: "https://youtu.be/99kVz-YGi6Y"
+    demo: "https://youtu.be/baKHSXeIIaI"
+    wiki: "https://en.wikipedia.org/wiki/Load_value_injection"
+    links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/load-value-injection']]
+    bibtex: "vanbulck2020lvi"
+    poster: "files/oakland22-lvi-poster.pdf"
+
+  - id: "oakland20-plundervolt"
+    title: "Plundervolt: Software-Based Fault Injection Attacks Against Intel SGX"
+    author: ['Kit Murdock', 'David Oswald', 'Flavio D. Garcia', 'Jo Van Bulck', 
+             'Daniel Gruss', 'Frank Piessens']
+    venue: "41st IEEE Symposium on Security and Privacy (S&P)"
+    year: 2020
+    cve: "CVE-2019-11157"
+    website: "https://plundervolt.com/"
+    github: "https://github.com/KitMurdock/plundervolt"
+    recording: "https://www.youtube.com/watch?v=5Mr1FCZ7VBQ"
+    demo: "https://youtu.be/FXPnzkHz3q0?list=PL0pRF4xvoD0n5MV4cPdF-AvrvRGQVYa-q"
+    links: [['Intel response','https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html']]
+    bibtex: "murdock2020plundervolt"
+
+  - id: "ccs19-tale"
+    title: "A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes"
+    author: ['Jo Van Bulck', 'David Oswald', 'Eduard Marin', 'Abdulla Aldoseri', 'Flavio D. Garcia', 'Frank Piessens']
+    venue: "26th ACM Conference on Computer and Communications Security (CCS)"
+    year: 2019
+    cve: "CVE-2018-3626, CVE-2019-14565, CVE-2019-0876, CVE-2019-1369, CVE-2019-1370"
+    slides: true
+    github: "https://github.com/jovanbulck/0xbadc0de"
+    recording: "https://dl.acm.org/doi/abs/10.1145/3319535.3363206"
+    links: [['Intel response','https://software.intel.com/sites/default/files/managed/e1/ec/180309_SGX_SDK_Developer_Guidance_Edger8r.pdf']]
+    bibtex: "vanbulck2019tale"
+
+  - id: "ccs19-zombieload"
+    title: "ZombieLoad: Cross-Privilege-Boundary Data Sampling"
+    author: ['Michael Schwarz', 'Moritz Lipp', 'Daniel Moghimi',
+            'Jo Van Bulck', 'Julian Stecklina', 'Thomas Prescher', 'Daniel Gruss']
+    venue: "26th ACM Conference on Computer and Communications Security (CCS)"
+    year: 2019
+    cve: "CVE-2018-12130, CVE-2019-11135, CVE-2020-0549"
+    github: "https://github.com/IAIK/ZombieLoad"
+    website: "https://zombieloadattack.com/"
+    demo: "https://www.youtube.com/watch?v=wQvgyChrk_g"
+    wiki: "https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling"
+    links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/microarchitectural-data-sampling']]
+    bibtex: "schwarz2019zombieload"
+
+  - id: "ccs19-fallout"
+    title: "Fallout: Leaking Data on Meltdown-Resistant CPUs"
+    author: ['Claudio Canella', 'Daniel Genkin', 'Lukas Giner', 'Daniel Gruss', 'Moritz Lipp',
+             'Marina Minkin', 'Daniel Moghimi', 'Frank Piessens', 'Michael Schwarz', 'Berk Sunar', 'Jo Van Bulck', 'Yuval Yarom']
+    venue: "26th ACM Conference on Computer and Communications Security (CCS)"
+    year: 2019
+    cve: "CVE-2018-12126"
+    website: "https://mdsattacks.com/"
+    wiki: "https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling"
+    links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/microarchitectural-data-sampling']]
+    bibtex: "canella2019fallout"
+
+  - id: "usenix19-transientsok"
+    title: "A Systematic Evaluation of Transient Execution Attacks and Defenses"
+    author: ['Claudio Canella', 'Jo Van Bulck', 'Michael Schwarz', 'Moritz Lipp', 'Benjamin von Berg', 'Philipp Ortner', 'Frank Piessens', 'Dmitry Evtyushkin', 'Daniel Gruss']
+    venue: "28th USENIX Security Symposium"
+    year: 2019
+    github: "https://github.com/IAIK/transientfail"
+    website: "https://transient.fail/"
+    recording: "https://www.youtube.com/watch?v=ibqC4nbs23Y"
+    links: [['Intel response','https://software.intel.com/security-software-guidance/insights/more-information-transient-execution-findings'],
+            ['AMD response','https://www.amd.com/en/support/kb/faq/pa-220']]
+    bibtex: "canella2019systematic"
+
+  - id: "micro19-foreshadow"
+    title: "Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow"
+    author: ['Jo Van Bulck', 'Marina Minkin', 'Ofir Weisse', 'Daniel Genkin', 'Baris Kasikci',
+              'Frank Piessens', 'Mark Silberstein', 'Thomas Wenisch', 'Yuval Yarom', 'Raoul Strackx']
+    venue: "IEEE Micro Top Picks from the 2018 Computer Architecture Conferences"
+    year: 2019
+    bibtex: "vanbulck2019breaking"
+
+  - id: "space18-tutorial"
+    title: "Tutorial: Uncovering and Mitigating Side-Channel Leakage in Intel SGX Enclaves"
+    author: ['Jo Van Bulck', 'Frank Piessens']
+    venue: "8th International Conference on Security, Privacy, and Applied Cryptography Engineering (SPACE)"
+    year: 2018
+    github: "https://github.com/jovanbulck/sgx-tutorial-space18"
+    slides: true
+    bibtex: "vanbulck2018tutorial"
+
+  - id: "ccs18-nemesis"
+    title: "Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic"
+    author: ['Jo Van Bulck', 'Frank Piessens', 'Raoul Strackx']
+    venue: "25th ACM Conference on Computer and Communications Security (CCS)"
+    year: 2018
+    slides: true
+    github: "https://github.com/jovanbulck/nemesis"
+    recording: "https://www.youtube.com/watch?v=njE9Vg8HOqk"
+    bibtex: "vanbulck2018nemesis"
+
+  - id: "foreshadow-ng"
+    title: "Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution"
+    author: ['Ofir Weisse', 'Jo Van Bulck', 'Marina Minkin', 'Daniel Genkin', 'Baris Kasikci',
+              'Frank Piessens', 'Mark Silberstein', 'Raoul Strackx', 'Thomas Wenisch', 'Yuval Yarom']
+    venue: "Technical report"
+    year: 2018
+    website: "https://foreshadowattack.eu/"
+    cve: "CVE-2018-3620, CVE-2018-3646"
+    wiki: "https://en.wikipedia.org/wiki/Foreshadow_(security_vulnerability)"
+    links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/l1-terminal-fault']]
+    bibtex: "weisse2018foreshadowNG"
+
+  - id: "usenix18-foreshadow"
+    title: "Foreshadow: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution"
+    author: ['Jo Van Bulck', 'Marina Minkin', 'Ofir Weisse', 'Daniel Genkin', 'Baris Kasikci',
+              'Frank Piessens', 'Mark Silberstein', 'Thomas Wenisch', 'Yuval Yarom', 'Raoul Strackx']
+    venue: "27th USENIX Security Symposium"
+    year: 2018
+    cve: "CVE-2018-3615"
+    slides: true
+    website: "https://foreshadowattack.eu/"
+    recording: "https://www.youtube.com/watch?v=fEV6eA9o21o"
+    demo: "https://youtu.be/8ZF6kX6z7pM"
+    wiki: "https://en.wikipedia.org/wiki/Foreshadow_(security_vulnerability)"
+    links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/l1-terminal-fault']]
+    bibtex: "vanbulck2018foreshadow"
+
+  - id: "dsn18-tutorial"
+    title: "Tutorial: Building Distributed Enclave Applications with Sancus and SGX"
+    author: ['Jan Tobias Mühlberg', 'Jo Van Bulck']
+    venue: "48th International Conference on Dependable Systems and Networks (DSN)"
+    year: 2018
+    demo: "https://www.youtube.com/watch?v=5soMsk8JYN0"
+    github: "https://github.com/sancus-tee/tutorial-dsn18"
+    website: "https://distrinet.cs.kuleuven.be/software/sancus/tutorial.php"
+    bibtex: "muehlber2018tutorial"
+
+  - id: "login18-reflections"
+    title: "Reflections on Post-Meltdown Trusted Computing: A Case for Open Security Processors"
+    author: ['Jan Tobias Mühlberg', 'Jo Van Bulck']
+    venue: ";login: the USENIX magazine vol.43 no.3"
+    year: 2018
+    bibtex: "muelberg2018reflections"
+
+  - id: "essos18-offlimits"
+    title: "Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution"
+    author: ['Jago Gyselinck', 'Jo Van Bulck', 'Frank Piessens', 'Raoul Strackx']
+    venue: "International Symposium on Engineering Secure Software and Systems (ESSoS)"
+    year: 2018
+    github: "https://distrinet.cs.kuleuven.be/software/off-limits/"
+    badge: "Artifacts evaluated"
+    bibtex: "gyselinck2018off"
+
+  - id: "acsac17-vulcan"
+    title: "VulCAN: Efficient Component Authentication and Software Isolation for Automotive Control Networks"
+    author: ['Jo Van Bulck', 'Jan Tobias Mühlberg', 'Frank Piessens']
+    venue: "33th Annual Computer Security Applications Conference (ACSAC)"
+    year: 2017
+    website: "https://distrinet.cs.kuleuven.be/software/vulcan/"
+    github: "https://github.com/sancus-tee/vulcan/"
+    demo: "https://youtu.be/gzxwiWfkl9g"
+    award: "Nominated for distinguished paper award"
+    badge: "Artifacts evaluated"
+    bibtex: "vanbulck2017vulcan"
+
+  - id: "systex17-sgxstep"
+    title: "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control"
+    author: ['Jo Van Bulck', 'Frank Piessens', 'Raoul Strackx']
+    venue: "2nd Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2017
+    slides: true
+    github: "https://github.com/jovanbulck/sgx-step/"
+    award: "Best paper award"
+    bibtex: "vanbulck2017sgxstep"
+
+  - id: "usenix17-pte"
+    title: "Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution"
+    author: ['Jo Van Bulck', 'Nico Weichbrodt', 'Rüdiger Kapitza', 'Frank Piessens', 'Raoul Strackx']
+    venue: "26th USENIX Security Symposium"
+    year: 2017
+    cve: "Patched in Libgcrypt v1.7.7"
+    slides: true
+    github: "https://github.com/jovanbulck/sgx-pte"
+    recording: "https://www.youtube.com/watch?v=bi1fs0b7GdI"
+    bibtex: "vanbulck2017telling"
+
+  - id: "tops17-sancus"
+    title: "Sancus 2.0: A Low-Cost Security Architecture for IoT Devices"
+    author: ['Job Noorman', 'Jo Van Bulck', 'Jan Tobias Mühlberg', 'Frank Piessens', 'Pieter Maene',
+             'Bart Preneel', 'Ingrid Verbauwhede', 'Johannes Götzfried', 'Tilo Müller', 'Felix Freiling']
+    venue: "ACM Transactions on Privacy and Security (TOPS)"
+    year: 2017
+    github: "https://github.com/sancus-tee"
+    website: "https://distrinet.cs.kuleuven.be/software/sancus/"
+    bibtex: "noorman2017sancus"
+
+  - id: "wistp16-has"
+    title: "Implementation of a High Assurance Smart Meter using Protected Module Architectures"
+    author: ['Jan Tobias Mühlberg', 'Sara Cleemput', 'Mustafa A. Mustafa', 'Jo Van Bulck', 'Bart Preneel', 'Frank Piessens']
+    venue: "10th WISTP International Conference on Information Security Theory and Practice (WISTP)"
+    year: 2016
+    github: "https://distrinet.cs.kuleuven.be/software/sancus/wistp16/"
+    bibtex: "muehlber2016implementation"
+
+  - id: "mass16-rtpma"
+    title: "Towards Availability and Real-Time Guarantees for Protected Module Architectures"
+    author: ['Jo Van Bulck', 'Job Noorman', 'Jan Tobias Mühlberg', 'Frank Piessens']
+    venue: "Workshop on Modularity Across the System Stack (MASS)"
+    year: 2016
+    slides: true
+    bibtex: "vanbulck2016towards"
+
+  - id: "wistp15-sfs"
+    title: "Secure Resource Sharing for Embedded Protected Module Architectures"
+    author: ['Jo Van Bulck', 'Job Noorman', 'Jan Tobias Mühlberg', 'Frank Piessens']
+    venue: "9th WISTP International Conference on Information Security Theory and Practice (WISTP)"
+    year: 2015
+    github: "https://github.com/sancus-tee/sm-access-control"
+    website: "https://distrinet.cs.kuleuven.be/software/sancus/wistp15/"
+    slides: true
+    bibtex: "vanbulck2015secure"
+
+  - id: "msc-thesis"
+    title: "Secure Resource Sharing for Embedded Protected Module Architectures"
+    author: ['Jo Van Bulck']
+    venue: "Master thesis KU Leuven"
+    year: 2015
+    slides: true
+    github: "https://github.com/jovanbulck/thesis-src/"
+    award: "VASCO thesis award 2015, BELCLIV thesis award 2016"
+    bibtex: "vanbulck2015thesis"

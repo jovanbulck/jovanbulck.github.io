@@ -1,0 +1,518 @@
+talks:
+  - id: "graz22"
+    title: "Privileged Side-Channel Attacks on Trusted Execution Environments"
+    author: ['Jo Van Bulck']
+    year: 2022
+    month: "September 30"
+    venue: "4th Summer School on Security & Correctness"
+    type: "Invited lecture"
+    location: "Graz, Austria"
+    website: "https://securityweek.at/2022/"
+
+  - id: "silm22"
+    title: "Towards ABI Unification for Intel SGX Enclave Shielding Runtimes"
+    author: ['Jo Van Bulck']
+    year: 2022
+    month: "June 6"
+    venue: "SILM'22 Workshop"
+    type: "Lightning talk"
+    location: "Genoa, Italy"
+    website: "https://silm-workshop.github.io/2022-program/"
+
+  - id: "oakland22-lvi-poster"
+    title: "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection"
+    author: ['Jo Van Bulck']
+    venue: "43rd IEEE Symposium on Security and Privacy (S&P)"
+    year: 2022
+    month: "May 23"
+    type: "Poster presentation"
+    location: "San Francisco, USA"
+    website: "https://www.ieee-security.org/TC/SP2022/program-posters-SP2021.html"
+
+  - id: "cybersec22"
+    title: "Deepen the Defenses: A Case for Microarchitectural Isolation"
+    author: ['Jo Van Bulck']
+    year: 2022
+    month: "May 11"
+    type: "Invited talk"
+    venue: "Cybersec Europe, FutureLab Stage"
+    location: "Brussels, Belgium"
+    website: "https://app.swapcard.com/widget/event/cybersec/planning/UGxhbm5pbmdfODg2MjE2"
+
+  - id: "circuit22"
+    title: "The Hitchhiker's Guide to Subverting Intel SGX Enclaves"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "Intel Project Circuit Breaker SGX Bootcamp"
+    location: "Online"
+    month: "March 27"
+    year: 2022
+    website: "https://guardenparty.intigriti.io/"
+
+  - id: "systex22-abi-slides"
+    title: "A Case for Unified ABI Shielding in Intel SGX Runtimes"
+    author: ['Jo Van Bulck']
+    venue: "5th Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2022
+    type: "Paper presentation"
+    month: "March, 1"
+    location: "Lausanne, Switzerland"
+    website: "https://systex22.github.io/"
+
+  - id: "binsec22"
+    title: "You're Gonna Need A Bigger Boat: Lessons from Capsizing SGX Enclave Programs"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "BINSEC seminar, Université Paris-Saclay"
+    location: "Online"
+    month: "February 10"
+    year: 2022
+    website: "https://binsec.github.io/"
+
+  - ext-id: "https://fosdem.org/2022/schedule/event/tee_discussion/"
+    title: "Process-Based Abstractions for VM-Based Environments"
+    author: ['Vasily Sartakov', 'Jo Van Bulck', 'Mike Bursell', 'Jethro G. Beekman', 'Hugo Lefeuvre', 'Marta Rybczynska']
+    type: "Panel discussion"
+    venue: "FOSDEM"
+    location: "Online"
+    month: "February 5"
+    year: 2022
+    recording: "https://video.fosdem.org/2022/D.trusted-hardware/tee_discussion.webm"
+    website: "https://fosdem.org/2022/schedule/event/tee_discussion/"
+
+  - ext-id: "https://fosdem.org/2022/schedule/event/tee_welcome/"
+    title: "Opening 3th Hardware-Aided Trusted Computing Devroom: Welcome, Overview, Lineup"
+    author: ['Jo Van Bulck', 'Fritz Alder', 'Vasily Sartakov']
+    type: "Talk"
+    venue: "FOSDEM"
+    location: "Online"
+    month: "February 5"
+    year: 2022
+    recording: "https://video.fosdem.org/2022/D.trusted-hardware/tee_welcome.webm"
+    website: "https://fosdem.org/2022/schedule/event/tee_welcome/"
+
+  - id: "cif21"
+    title: "Review & Perspective: Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
+    author: ['Jo Van Bulck']
+    type: "Talk"
+    venue: "Cybersecurity Initiative Flanders (CIF) Review"
+    location: "Leuven"
+    month: "October 28"
+    year: 2021
+
+  - id: "ibm21"
+    title: "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
+    author: ['Jo Van Bulck']
+    type: "FWO/IBM Innovation Award Talk"
+    venue: "IBM Belgium"
+    location: "Brussels"
+    month: "October 14"
+    year: 2021
+    recording: "https://www.youtube.com/watch?v=-N0Va_vWouw"
+
+  - id: "stm21"
+    title: "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
+    author: ['Jo Van Bulck']
+    type: "STM PhD Award Talk"
+    venue: "17th International Workshop on Security and Trust Management (STM)"
+    location: "Online"
+    month: "October 8"
+    year: 2021
+    website: "https://www.nics.uma.es/pub/stm2021/#Program"
+
+  - ext-id: "https://fosdem.org/2021/schedule/event/tee_welcome/"
+    title: "Opening 2nd Hardware-Aided Trusted Computing Devroom: Welcome, Overview, Lineup"
+    author: ['Jo Van Bulck']
+    type: "Talk"
+    venue: "FOSDEM"
+    location: "Online"
+    month: "February 6"
+    year: 2021
+    recording: "https://video.fosdem.org/2021/D.hardware.trusted/tee_welcome.webm"
+    website: "https://fosdem.org/2021/schedule/event/tee_welcome/"
+
+  - id: "rc3-t2w"
+    title: "Ramming Enclave Gates: A Systematic Vulnerability Assessment of TEE Shielding Runtimes"
+    author: ['Jo Van Bulck', 'Fritz Alder', 'David Oswald']
+    venue: "Remote Chaos Experience (RC3)"
+    year: 2020
+    month: "December 31"
+    type: "Talk"
+    location: "Online"
+    website: "https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11366.html"
+    recording: "https://media.ccc.de/v/rc3-11366-ramming_enclave_gates_a_systematic_vulnerability_assessment_of_tee_shielding_runtimes"
+
+  - id: "rc3-lvi"
+    title: "Microarchitectural Inception"
+    author: ['Jo Van Bulck', 'Michael Schwarz', 'Daniel Gruss', 'Moritz Lipp']
+    venue: "Remote Chaos Experience (RC3)"
+    year: 2020
+    month: "December 27"
+    type: "Talk"
+    location: "Online"
+    website: "https://media.ccc.de/v/rc3-11365-lvi_hijacking_transient_execution_through_microarchitectural_load_value_injection"
+    recording: "https://www.youtube.com/watch?v=6knsvmedXsg"
+
+  - id: "csaw20"
+    title: "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection"
+    author: ['Jo Van Bulck']
+    venue: "CSAW'20 Applied Research Competition"
+    year: 2020
+    month: "November 6"
+    type: "Finalist"
+    location: "Online"
+    website: "https://43f60238-2232-4612-9aac-81bc9da2dd4e.filesusr.com/ugd/acbc49_13fe4df0d8ef4f469f9442420dfadc1a.pdf"
+    recording: "https://drive.google.com/file/d/1A5TpjcavwIcQvAcTMbNwiBe0bpCgpV5G/view?usp=sharing"
+
+  - id: "lsds20"
+    title: "Microarchitectural Side-Channel Attacks for Untrusted Operating Systems"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "LSDS seminar, Imperial College London"
+    location: "Online"
+    month: "October 29"
+    year: 2020
+    website: "https://lsds.doc.ic.ac.uk/content/microarchitectural-side-channel-attacks-untrusted-operating-systems"
+
+  - id: "phd-thesis-slides"
+    title: "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
+    author: ['Jo Van Bulck']
+    venue: "KU Leuven"
+    type: "PhD defense"
+    location: "Leuven, Belgium"
+    month: "September 14"
+    year: 2020
+    slides: true
+    recording: "https://youtu.be/NbXXXt0kITA"
+    website: "https://www.kuleuven.be/doctoraatsverdediging/fiches/3E15/3E150917.htm"
+
+  - id: "scw20"
+    title: "The Tale Continues: Pitfalls and Best Practices for SGX Shielding Runtimes"
+    author: ['Jo Van Bulck', 'Fritz Alder']
+    type: "Talk"
+    venue: "2nd Intel SGX Community Workshop"
+    location: "Online"
+    month: "July 14"
+    year: 2020
+    website: "https://www.intel.com/content/www/us/en/research/blogs/sgx-community-day-2020.html"
+
+  - ext-id: "https://syslog.show/2020/06/23/episode6.html"
+    title: "Podcast: Intel SGX"
+    author: ['Julian Stecklina', 'Florian Pester', 'Jo Van Bulck']
+    month: "June 23"
+    year: 2020
+    type: "Podcast"
+    venue: "Syslog.show"
+    location: "Online"
+    website: "https://syslog.show/2020/06/23/episode6.html"
+    audio: "https://syslog.show/episodes/episode6.mp3"
+
+  - id: "oakland20-lvi-slides"
+    title: "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection"
+    author: ['Jo Van Bulck']
+    venue: "41st IEEE Symposium on Security and Privacy (S&P)"
+    year: 2020
+    month: "May, 18"
+    type: "Paper presentation"
+    location: "Online"
+    website: "https://www.ieee-security.org/TC/SP2020/"
+    recording: "https://youtu.be/99kVz-YGi6Y"
+
+  - id: "hwio20"
+    title: "LVI: Hijacking Transient Execution with Load Value Injection"
+    author: ['Daniel Gruss', 'Daniel Moghimi', 'Jo Van Bulck']
+    type: "Talk"
+    venue: "Hardwear.io Virtual Con"
+    location: "Online"
+    month: "April 30"
+    year: 2020
+    website: "https://hardwear.io/virtual-con-2020/speakers/microarchitectural-attacks.php"
+
+  - ext-id: "https://duo.com/decipher/decipher-podcast-jo-van-bulck"
+    title: "Podcast: Load Value Injection"
+    author: ['Dennis Fisher', 'Jo Van Bulck']
+    month: "March 17"
+    year: 2020
+    type: "Podcast"
+    venue: "Decipher Security"
+    location: "Online"
+    website: "https://duo.com/decipher/decipher-podcast-jo-van-bulck"
+    audio: "https://www.buzzsprout.com/228511/3035917-jo-van-bulck.mp3"
+
+  - id: "bham20"
+    title: "Privileged Side-Channel Attacks for Enclave Software Adversaries"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "University of Birmingham Seminar"
+    location: "Birmingham, UK"
+    month: "February 20"
+    year: 2020
+
+  - id: "reunion20"
+    title: "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
+    author: ['Jo Van Bulck']
+    type: "Talk"
+    venue: "DistriNet Reunion"
+    location: "Leuven, Belgium"
+    month: "February 5"
+    year: 2020
+
+  - id: "fosdem20"
+    title: "A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes"
+    author: ['Jo Van Bulck']
+    type: "Talk"
+    venue: "FOSDEM"
+    location: "Brussels, Belgium"
+    month: "February 1"
+    year: 2020
+    recording: "https://www.youtube.com/watch?v=zjdUEKX1jlI"
+    website: "https://fosdem.org/2020/schedule/event/tale/"
+
+  - id: "brno20"
+    title: "Leaky Processors: Lessons from Spectre, Meltdown, and Foreshadow"
+    author: ['Jo Van Bulck', 'Daniel Gruss']
+    type: "Talk"
+    venue: "Red Hat Research Day"
+    location: "Brno, Czech Republic"
+    month: "January 23"
+    year: 2020
+    recording: "https://youtu.be/j63YZQjjg7Y?list=PLVuc-VIfmlz3zeKbY2uK8_VqksLDZyaql"
+    website: "https://research.redhat.com/blog/events/research-day-brno-2020/"
+
+  - id: "ccs19-tale-slides"
+    title: "A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes"
+    author: ['Jo Van Bulck', 'David Oswald']
+    venue: "26th ACM Conference on Computer and Communications Security (CCS)"
+    year: 2019
+    type: "Paper presentation"
+    month: "November, 14"
+    location: "London, UK"
+    recording: "https://dl.acm.org/doi/abs/10.1145/3319535.3363206"
+    website: "https://ccs19.swenjacobs.com/"
+
+  - id: "cosic19"
+    title: "Microarchitectural Side-Channel Attacks for Privileged Adversaries"
+    author: ['Jo Van Bulck']
+    type: "Invited lecture"
+    venue: "COSIC Hardware Security Course"
+    location: "Leuven, Belgium"
+    month: "October 21"
+    year: 2019
+
+  - id: "forum19"
+    title: "Leaky Processors: Lessons from Spectre, Meltdown, and Foreshadow"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "KU Leuven Alumni Forum"
+    location: "Leuven, Belgium"
+    month: "October 15"
+    year: 2019
+    website: "https://alumninet.alum.kuleuven.be/nl/activiteit/hacken-een-postitief-verhaal"
+
+  - id: "shard19"
+    title: "Cards Against Confusion"
+    author: ['Claudio Canella', 'Jo Van Bulck', 'Daniel Gruss']
+    type: "Talk"
+    venue: "SHARD Workshop"
+    location: "Leiden, Netherlands"
+    month: "September 23"
+    year: "2019"
+
+  - ext-id: "https://tech45.eu/435-neergelaten-ijzeren-gordijnen/"
+    title: "Podcast: ZombieLoad"
+    author: ['Maarten Hendrikx', 'Toon van de Putte', 'Steven Op de beeck', 'Ruurd Sanders', 'Jo Van Bulck']
+    month: "June 22"
+    year: 2019
+    type: "Podcast"
+    venue: "Tech45"
+    location: "Online"
+    website: "https://tech45.eu/435-neergelaten-ijzeren-gordijnen/"
+    audio: "https://traffic.libsyn.com/tech45/tech45-435.mp3"
+
+  - id: "glt19"
+    title: "A Christmas Carol: The Spectres of the Past, Present, and Future"
+    author: ['Daniel Gruss', 'Moritz Lipp', 'Michael Schwarz', 'Claudio Canella', 'Jo Van Bulck']
+    type: "Talk"
+    venue: "Grazer Linuxtage"
+    location: "Graz, Austria"
+    month: "April 26"
+    year: "2019"
+    website: "https://pretalx.linuxtage.at/glt19/talk/TRTJ8P/"
+
+  - id: "space18-tutorial-slides"
+    title: "Tutorial: Uncovering and Mitigating Side-Channel Leakage in Intel SGX Enclaves"
+    author: ['Jo Van Bulck']
+    venue: "8th International Conference on Security, Privacy, and Applied Cryptography Engineering (SPACE)"
+    year: 2018
+    type: "Invited Tutorial"
+    location: "Kanpur, India"
+    website: "https://security.cse.iitk.ac.in/SPACE2018Schedule"
+    month: "December 15"
+
+  - id: "owasp18"
+    title: "Leaky Processors: Stealing Your Secrets With Foreshadow"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "OWASP BeNeLux-Days"
+    location: "Mechelen, Belgium"
+    month: "November 30"
+    year: "2018"
+    website: "https://wiki.owasp.org/index.php/OWASP_BeNeLux-Days_2018"
+    recording: "https://www.youtube.com/watch?v=le60NzmxU6s&feature=youtu.be"
+
+  - id: "rise18"
+    title: "Leaky Processors and the RISE of Hardware-Based Trusted Computing"
+    author: ['Jo Van Bulck']
+    type: "Keynote"
+    venue: "RISE Annual Conference"
+    location: "London, UK"
+    month: "November 14"
+    year: 2018
+    website: "https://www.ukrise.org/rise-2018-annual-conference/"
+
+  - id: "isse18"
+    title: "Transient Execution Attacks: Lessons from Spectre, Meltdown, and Foreshadow"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "20st ISSE Conference"
+    location: "Brussels, Belgium"
+    month: "November 6"
+    year: "2018"
+    website: "https://www.eema.org/event/isse-2018/"
+
+  - id: "ccs18-nemesis-slides"
+    title: "Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic"
+    author: ['Jo Van Bulck']
+    venue: "25th ACM Conference on Computer and Communications Security (CCS)"
+    year: 2018
+    type: "Paper presentation"
+    location: "Toronto, Canada"
+    month: "October, 16"
+    recording: "https://www.youtube.com/watch?v=njE9Vg8HOqk"
+    website: "https://www.sigsac.org/ccs/CCS2018/program/"
+
+  - id: "usenix18-foreshadow-slides"
+    title: "Foreshadow: Extracting the keys to the Intel SGX kingdom with transient out-of-order execution"
+    author: ['Jo Van Bulck', 'Ofir Weisse']
+    venue: "27th USENIX Security Symposium"
+    year: 2018
+    month: "August 16, 2018"
+    type: "Paper presentation"
+    location: "Baltimore, USA"
+    website: "https://www.usenix.org/conference/usenixsecurity18/presentation/bulck"
+    recording: "https://www.youtube.com/watch?v=fEV6eA9o21o"
+
+  - id: "dsn18-tutorial"
+    title: "Tutorial: Building Distributed Enclave Applications with Sancus and SGX"
+    author: ['Jan Tobias Mühlberg', 'Jo Van Bulck']
+    venue: "48th International Conference on Dependable Systems and Networks (DSN)"
+    year: 2018
+    type: "Tutorial"
+    month: "June, 25"
+    location: "Luxembourg City, Luxembourg"
+    website: "https://dsn2018.uni.lu/tutorials/"
+
+  - ext-id: "https://www.imectechnologyforum.com/itf2018belgium/program"
+    title: "Secure Automotive Computing with Sancus"
+    author: ['Jan Tobias Mühlberg', 'Jo Van Bulck']
+    type: "Demo booth"
+    venue: "Imec Technology Forum 2018"
+    location: "Antwerp, Belgium"
+    month: "May 23-24"
+    year: 2018
+
+  - id: "newline18"
+    title: "Hardware-Based Trusted Computing Architectures From an Attack and Defense Perspective"
+    author: ['Jo Van Bulck']
+    type: "Talk"
+    venue: "Newline 0x08"
+    location: "Ghent, Belgium"
+    month: "April 14"
+    year: 2018
+    website: "https://hackerspace.gent/landing/newline.php"
+
+  - id: "systex17-sgxstep-slides"
+    title: "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control"
+    author: ['Jo Van Bulck']
+    venue: "2nd Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2017
+    type: "Paper presentation"
+    month: "October, 28"
+    location: "Shanghai, China"
+    website: "https://systex17.ibr.cs.tu-bs.de/"
+
+  - id: "inteltech17"
+    title: "Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "Intel Tech Talk"
+    location: "Online"
+    month: "September 28"
+    year: 2017
+
+  - id: "usenix17-pte-slides"
+    title: "Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution"
+    author: ['Jo Van Bulck']
+    venue: "26th USENIX Security Symposium"
+    year: 2017
+    month: "August 18"
+    type: "Paper presentation"
+    location: "Vancouver, Canada"
+    recording: "https://youtu.be/bi1fs0b7GdI"
+    website: "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/van-bulck"
+
+  - id: "trust17"
+    title: "Beyond Controlled-Channel Attacks: Information Leakage from Elementary CPU Behavior"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "Distributed Trust Workshop on Data Protection and Privacy"
+    location: "Leuven, Belgium"
+    month: "June 20"
+    year: 2017
+
+  - ext-id: "http://www.itf2017.be"
+    title: "Secure Automotive Computing with Sancus"
+    author: ['Jan Tobias Mühlberg', 'Jo Van Bulck']
+    type: "Demo booth"
+    venue: "Imec Technology Forum 2017"
+    location: "Antwerp, Belgium"
+    month: "May 16-17"
+    year: 2017
+
+  - id: "drads17"
+    title: "Interrupt Latency Timing Attacks Against Enclave Programs"
+    author: ['Jo Van Bulck']
+    type: "Talk"
+    venue: "DRADS DistriNet Workshop"
+    location: "Leuven, Belgium"
+    month: "April 28"
+    year: 2017
+
+  - id: "belcliv17"
+    title: "Secure Resource Sharing for Embedded Protected Module Architectures"
+    author: ['Jo Van Bulck']
+    venue: "BELCLIV Award Lecture"
+    location: "Brussels, Belgium"
+    month: "April 21"
+    year: 2017
+    website: "http://www.clusib.be/wp/price/"
+
+  - id: "mass16-rtpma-slides"
+    title: "Towards Availability and Real-Time Guarantees for Protected Module Architectures"
+    author: ['Jo Van Bulck']
+    venue: "Workshop on Modularity Across the System Stack (MASS)"
+    year: 2016
+    month: "March 14"
+    type: "Paper presentation"
+    location: "Malaga, Spain"
+    website: "https://2016.modularity.info/track/MASS-2016-papers"
+
+  - id: "wistp15-sfs-slides"
+    title: "Secure Resource Sharing for Embedded Protected Module Architectures"
+    author: ['Jo Van Bulck']
+    venue: "9th WISTP International Conference on Information Security Theory and Practice (WISTP)"
+    year: 2015
+    month: "August 24"
+    type: "Paper presentation"
+    location: "Heraklion, Crete, Greece"
+    website: "http://wistp2015.wistp.org/"

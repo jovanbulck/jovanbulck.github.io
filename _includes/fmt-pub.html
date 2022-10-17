@@ -1,0 +1,141 @@
+{% include base_path %}
+
+{% capture reffile %}
+    {% include  references_parsed.bib %}
+{% endcapture %}
+
+{% assign refs = reffile | split: '@' %}
+
+{% assign years = site.data.papers.pubs | group_by: "year" %}
+<table>
+{% for y in years %}
+{% for p in y.items %}
+    <tr>
+        {% if forloop.first == true %}
+            <td style="vertical-align: top;"><b>{{y.name}}</b></td>
+        {% else %}
+            <td></td>
+        {% endif %}
+        <td>
+        <div>
+        <i class="fa fa-file-pdf-o" ></i>
+        <b>
+            <a class="pub-title" href={% if p.id %}"files/{{p.id}}.pdf"{% else %}"{{p.ext-id}}"{% endif %}>{{p.title}}</a>
+        </b>
+        <br>
+        {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
+        <br> <em>{{p.venue}}</em>, {% if p.month %}{{p.month}},{% endif %} {{p.year}}.
+
+        {% if p.website %}
+            <a href="{{p.website}}" class="nounderline">
+                <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae" title="Website"></i>
+            </a>
+        {% endif %}
+        {% if p.wiki %}
+            <a href="{{p.wiki}}" class="nounderline">
+                <i class="fab fa-wikipedia-w" style="color: black;" title="Wikipedia"></i>
+            </a>
+        {% endif %}
+        {% if p.id %}
+            <a href="files/{{p.id}}.pdf" class="nounderline">
+                <i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PDF"></i>
+            </a>
+        {% endif %}
+        {% if p.slides %}
+            <a href={% if p.slides == true %}"files/{{p.id}}-slides.pdf"{% else %}"{{p.slides}}"{% endif %} class="nounderline">
+                <i class="fab fa-slideshare" style="color:#cc7000;" title="Slides"></i>
+            </a>
+        {% endif %}
+        {% if p.poster %}
+            <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
+                <i class="fa fa-image" title="Poster"></i>
+            </a>
+        {% endif %}
+        {% if p.recording %}
+            <a href="{{p.recording}}" class="nounderline">
+                <i class="fas fa-video" title="Talk"></i>
+            </a>
+        {% endif %}
+        {% if p.demo %}
+            <a href="{{p.demo}}" class="nounderline">
+                <i class="fas fa-play-circle" style="color:#bb0000;" title="Demo"></i>
+            </a>
+        {% endif %}
+        {% if p.github %}
+            <a href="{{p.github}}" class="nounderline">
+                <i class="fab fa-github" style="color:#171516;" title="Code"></i>
+            </a>
+        {% endif %}
+        {% if p.arxiv %}
+            <a href="{{p.arxiv}}" class="nounderline">
+                <i class="fas fa-archive" style="color:gray;" title="Extended version (arXiv)"></i>
+            </a>
+        {% endif %}
+        {% if p.bibtex %}
+            {%- for r in refs -%}
+                {%- assign rk = p.bibtex | append: ',' %}
+                {%- if r contains rk -%}
+                    <a class="collapsible nounderline">
+                        <i class="fas fa-quote-right" title="Cite"></i>
+                    </a>
+                    <div class="content" style="display: none; font-size: .75em;">
+                        <pre style="white-space: pre-wrap;">@{{ r }}</pre>
+                    </div>
+                    {% break %}
+                {%- endif -%}
+            {%- endfor -%}
+        {% endif %}
+        </div>
+        {% if p.award %}
+            <div>
+            <span style="font-size:0.75em; color:gray;">
+                <i class="fas fa-star" style="color:#DAA520;"></i>
+                {{p.award}}
+            </span>
+            {% unless p.cve or p.links or p.badge %}
+            </div>
+            {% endunless %}
+        {% endif %}
+        {% if p.cve %}
+            {% unless p.award %}
+                <div>
+            {% endunless %}
+            <span style="font-size:0.75em; color:gray;">
+                <i class="fas fa-bug"></i>
+                {{p.cve}}
+            </span>
+            {% unless p.links or p.badge %}
+                </div>
+            {% endunless %}
+        {% endif %}
+        {% if p.links %}
+            {% unless p.award or p.cve %}
+                <div>
+            {% endunless %}
+
+            <span style="font-size:0.75em; color:gray;">
+                <i class="fas fa-info-circle"></i>
+                {% for l in p.links %}
+                    <a style="color:gray;" href="{{ l[1] }}">{{ l[0] }}</a>{% unless forloop.last == true %},{% endunless %}
+                {% endfor %}
+            </span>
+            {% unless p.badge %}
+            </div>
+            {% endunless %}
+        {% endif %}
+        {% if p.badge %}
+            {% unless p.award or p.cve or p.links %}
+                <div>
+            {% endunless %}
+
+            <span style="font-size:0.75em; color:gray;">
+                <i class="fas fa-certificate" style="color:#8C0046;"></i>
+                {{ p.badge }}
+            </span>
+            </div>
+        {% endif %}
+        </td>
+    </tr>
+{% endfor %}
+{% endfor %}
+</table>

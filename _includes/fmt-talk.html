@@ -1,0 +1,48 @@
+{% include base_path %}
+
+{% assign years = site.data.talks.talks | group_by: "year" %}
+<table>
+{% for y in years %}
+{% for p in y.items %}
+    <tr>
+        {% if forloop.first == true %}
+            <td style="vertical-align: top;"><b>{{y.name}}</b></td>
+        {% else %}
+            <td></td>
+        {% endif %}
+        <td>
+        <i class="fas fa-chalkboard-teacher" style="color:DimGray;"></i>
+        <b>
+            <a class="pub-title" href={% if p.id %}"files/{{p.id}}.pdf"{% else %}"{{p.ext-id}}"{% endif %}>{{p.title}}</a>
+        </b>
+        <br>
+        {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
+        <br>
+        <em>{% if p.type %}{{p.type}} @{% endif %} {{p.venue}}</em>, {{p.location}}, {{p.month}}, {{p.year}}.
+
+        {% if p.website %}
+            <a href="{{p.website}}" class="nounderline">
+                <!--i class="fas fa-info-circle" title="Info"></i-->
+                <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae" title="Info"></i>
+            </a>
+        {% endif %}
+        {% if p.id %}
+            <a href="files/{{p.id}}.pdf" class="nounderline">
+                <i class="fab fa-slideshare" style="color:#cc7000;" title="Slides"></i>
+            </a>
+        {% endif %}
+        {% if p.recording %}
+            <a href="{{p.recording}}" class="nounderline">
+                <i class="fas fa-video" title="Recording"></i>
+            </a>
+        {% endif %}
+        {% if p.audio %}
+            <a href="{{p.audio}}" class="nounderline">
+                <i class="fas fa-music" title="Audio"></i>
+            </a>
+        {% endif %}
+        </td>
+    </tr>
+{% endfor %}
+{% endfor %}
+</table>
