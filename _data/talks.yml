@@ -1,4 +1,26 @@
 talks:
+
+  - ext-id: "https://leia.vtk.be/en/calendar/view/18_02_2023_18_00_00_how-to-hack-elon-musk/"
+    title: "Panel Discussion: Hardware Hacking"
+    author: ['Lennert Wouters', 'Jo Van Bulck', 'Jeroen Baert']
+    type: "Invited panelist"
+    venue: "VTK alumni event"
+    location: "Leuven, Belgium"
+    month: "February 18"
+    year: 2023
+    website: "https://leia.vtk.be/en/calendar/view/18_02_2023_18_00_00_how-to-hack-elon-musk/"
+
+  - ext-id: "https://fosdem.org/2023/schedule/event/cc_closing/"
+    title: "Devroom Closing and Goodbye"
+    author: ['Fritz Alder', 'Jo Van Bulck', 'Fabiano Fidencio']
+    type: "Talk"
+    venue: "4th Confidential Computing Devroom, FOSDEM"
+    location: "Brussels, Belgium"
+    month: "February 5"
+    year: 2023
+    recording: "https://video.fosdem.org/2023/K.4.601/cc_closing.mp4"
+    website: "https://fosdem.org/2023/schedule/event/cc_closing/"
+
   - id: "graz22"
     title: "Privileged Side-Channel Attacks on Trusted Execution Environments"
     author: ['Jo Van Bulck']
