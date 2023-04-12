@@ -1,4 +1,14 @@
 pubs:
+  - title: "Principled Side-Channel Mitigation through Microarchitectural Profiling"
+    author: ['Marton Bognar', 'Hans Winderix', 'Jo Van Bulck', 'Frank Piessens']
+    venue: "7th IEEE European Symposium on Security and Privacy (EuroS&P) -- to appear"
+    year: 2023
+
+  - title: "About Time: On the Challenges of Temporal Guarantees in Untrusted Environments"
+    author: ['Fritz Alder', 'Gianluca Scopelliti', 'Jo Van Bulck', 'Jan Tobias Mühlberg']
+    venue: "6th Workshop on System Software for Trusted Execution (SysTEX) -- to appear"
+    year: 2023
+
   - id: "systex22-abi"
     title: "A Case for Unified ABI Shielding in Intel SGX Runtimes"
     author: ['Jo Van Bulck', 'Fritz Alder', 'Frank Piessens']

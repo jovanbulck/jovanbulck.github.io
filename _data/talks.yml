@@ -1,5 +1,13 @@
 talks:
 
+  - title: "Happy Birthday Sancus! – Lessons from 10 Years of Maintaining a Trusted Computing Research Prototype"
+    author: ['Jo Van Bulck', 'Frank Piessens']
+    type: "Keynote"
+    venue: "DRADS DistriNet Workshop"
+    location: "Rendeux, Belgium"
+    month: "March 24"
+    year: 2023
+
   - ext-id: "https://leia.vtk.be/en/calendar/view/18_02_2023_18_00_00_how-to-hack-elon-musk/"
     title: "Panel Discussion: Hardware Hacking"
     author: ['Lennert Wouters', 'Jo Van Bulck', 'Jeroen Baert']
