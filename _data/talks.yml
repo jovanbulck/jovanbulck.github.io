@@ -1,6 +1,14 @@
 talks:
+  - title: "Side-Channel Attacks and Defenses for Trusted Execution Environments"
+    author: ['Jo Van Bulck']
+    type: "Invited Talk"
+    venue: "EPFL"
+    location: "Lausanne, Switzerland"
+    month: "May 2"
+    year: 2023
 
-  - title: "Happy Birthday Sancus! – Lessons from 10 Years of Maintaining a Trusted Computing Research Prototype"
+  - id: "drads23"
+    title: "Happy Birthday Sancus! – Lessons from 10 Years of Maintaining a Trusted Computing Research Prototype"
     author: ['Jo Van Bulck', 'Frank Piessens']
     type: "Keynote"
     venue: "DRADS DistriNet Workshop"
