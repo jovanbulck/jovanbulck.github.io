@@ -2,7 +2,7 @@ pubs:
   - id: "eurosp23-microprofiler"
     title: "MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling"
     author: ['Marton Bognar', 'Hans Winderix', 'Jo Van Bulck', 'Frank Piessens']
-    venue: "7th IEEE European Symposium on Security and Privacy (EuroS&P)"
+    venue: "8th IEEE European Symposium on Security and Privacy (EuroS&P)"
     bibtex: "bognar2023microprofiler"
     github: "https://github.com/martonbognar/microprofiler/"
     year: 2023
