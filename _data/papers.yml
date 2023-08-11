@@ -1,4 +1,16 @@
 pubs:
+  - id: "usenix23-aexnotify"
+    title: "AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves"
+    author: ['Scott Constable', 'Jo Van Bulck', 'Xiang Cheng', 'Yuan Xiao',
+	     'Cedric Xing', 'Ilya Alexandrovich', 'Taesoo Kim',
+             'Frank Piessens', 'Mona Vij', 'Mark Silberstein']
+    venue: "32nd USENIX Security Symposium"
+    year: 2023
+    slides: true
+    github: "https://github.com/intel/linux-sgx/blob/master/sdk/trts/linux/trts_mitigation.S"
+    links: [['Intel ISA extension','https://www.intel.com/content/www/us/en/content-details/736463/white-paper-asynchronous-enclave-exit-notify-and-the-edeccssa-user-leaf-function.html']]
+    bibtex: "constable23aexnotify"
+
   - id: "eurosp23-microprofiler"
     title: "MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling"
     author: ['Marton Bognar', 'Hans Winderix', 'Jo Van Bulck', 'Frank Piessens']

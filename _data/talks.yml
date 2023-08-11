@@ -1,4 +1,13 @@
 talks:
+  - id: "usenix23-aexnotify-slides"
+    title: "AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves"
+    author: ['Jo Van Bulck']
+    venue: "32nd USENIX Security Symposium"
+    year: 2023
+    month: "August 10"
+    location: "Anaheim, USA"
+    type: "Paper presentation"
+
   - title: "Side-Channel Attacks and Defenses for Trusted Execution Environments"
     author: ['Jo Van Bulck']
     type: "Invited Talk"
