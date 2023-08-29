@@ -9,7 +9,7 @@ pubs:
     slides: true
     github: "https://github.com/intel/linux-sgx/blob/master/sdk/trts/linux/trts_mitigation.S"
     links: [['Intel ISA extension','https://www.intel.com/content/www/us/en/content-details/736463/white-paper-asynchronous-enclave-exit-notify-and-the-edeccssa-user-leaf-function.html']]
-    bibtex: "constable23aexnotify"
+    bibtex: "constable2023aexnotify"
 
   - id: "eurosp23-microprofiler"
     title: "MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling"
