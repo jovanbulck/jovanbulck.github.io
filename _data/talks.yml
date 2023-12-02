@@ -1,4 +1,25 @@
 talks:
+  - ext-id: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23481"
+    title: "Interrupt-Driven Attacks and Defenses for Microarchitectural Security"
+    author: ['Jo Van Bulck']
+    month: 'November, 29'
+    year: 2023
+    type: 'Talk'
+    venue: 'Dagstuhl Seminar on Microarchitectural Attacks and Defenses (MAD)'
+    location: 'Schloss Dagstuhl, Leibniz-Zentrum für Informatik, Germany'
+    website: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23481"
+
+  - ext-id: "https://community.intel.com/t5/Blogs/Products-and-Solutions/Security/Chips-Salsa-Episode-58-AEX-Notify/post/1519854"
+    title: "Chips & Salsa Episode 58: AEX-Notify"
+    author: ['Jerry Bryant', 'Christopher Robinson', 'Scott Constable', 'Jo Van Bulck', 'Xiang Cheng']
+    month: "September 5"
+    year: 2023
+    type: "Podcast"
+    venue: "Intel Technology"
+    location: "Online"
+    website: "https://community.intel.com/t5/Blogs/Products-and-Solutions/Security/Chips-Salsa-Episode-58-AEX-Notify/post/1519854"
+    recording: "https://youtu.be/npmq_nhBFr4"
+
   - id: "usenix23-aexnotify-slides"
     title: "AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves"
     author: ['Jo Van Bulck']
