@@ -4,6 +4,7 @@ pubs:
     author: ['Jo Van Bulck', 'Frank Piessens']
     venue: "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award Finalist"
     year: 2023
+    slides: true
     github: "https://github.com/jovanbulck/sgx-step/"
     bibtex: "vanbulck2023sgxstep"
 
