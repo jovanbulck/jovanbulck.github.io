@@ -2,7 +2,7 @@ pubs:
   - id: "acsac23-sgxstep"
     title: "SGX-Step: An Open-Source Framework for Precise Dissection and Practical Exploitation of Intel SGX Enclaves"
     author: ['Jo Van Bulck', 'Frank Piessens']
-    venue: "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award Finalist"
+    venue: "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award Finalist Short Paper"
     year: 2023
     slides: true
     github: "https://github.com/jovanbulck/sgx-step/"
