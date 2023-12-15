@@ -1,4 +1,12 @@
 pubs:
+  - id: "oakland24-pandora"
+    title: "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes"
+    author: ['Fritz Alder', 'Lesly-Ann Daniel', 'David Oswald', 'Frank Piessens', 'Jo Van Bulck']
+    venue: "45th IEEE Symposium on Security and Privacy (S&P)"
+    year: 2024
+    github: "https://github.com/pandora-tee"
+    bibtex: "alder2024pandora"
+
   - id: "acsac23-sgxstep"
     title: "SGX-Step: An Open-Source Framework for Precise Dissection and Practical Exploitation of Intel SGX Enclaves"
     author: ['Jo Van Bulck', 'Frank Piessens']
