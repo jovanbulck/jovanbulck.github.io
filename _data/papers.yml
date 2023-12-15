@@ -14,6 +14,8 @@ pubs:
     year: 2023
     slides: true
     github: "https://github.com/jovanbulck/sgx-step/"
+    award: "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award"
+    website: "https://www.acsac.org/2023/program/artifacts_competition/"
     bibtex: "vanbulck2023sgxstep"
 
   - id: "usenix23-aexnotify"
@@ -102,7 +104,7 @@ pubs:
     github: "https://github.com/fritzalder/faulty-point-unit/"
     cve: "CVE-2020-0561, CVE-2020-15107"
     badge: "Artifacts evaluated: Reusable"
-    award: "Distinguished paper with artifacts award"
+    award: "ACSAC 2020 distinguished paper with artifacts award"
     bibtex: "alder2020fpu"
     recording: "https://www.youtube.com/watch?v=SBLRt2yPL3I"
     slides: true
@@ -315,7 +317,7 @@ pubs:
     website: "https://distrinet.cs.kuleuven.be/software/vulcan/"
     github: "https://github.com/sancus-tee/vulcan/"
     demo: "https://youtu.be/gzxwiWfkl9g"
-    award: "Nominated for distinguished paper award"
+    award: "Nominated for ACSAC 2017 distinguished paper award"
     badge: "Artifacts evaluated"
     bibtex: "vanbulck2017vulcan"
 
@@ -326,7 +328,7 @@ pubs:
     year: 2017
     slides: true
     github: "https://github.com/jovanbulck/sgx-step/"
-    award: "Best paper award"
+    award: "SysTEX 2017 best paper award, ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award"
     bibtex: "vanbulck2017sgxstep"
 
   - id: "usenix17-pte"

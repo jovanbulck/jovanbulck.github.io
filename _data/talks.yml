@@ -1,4 +1,15 @@
 talks:
+  - id: "acsac23-sgxstep-slides"
+    title: "SGX-Step: An Open-Source Framework for Precise Dissection and Practical Exploitation of Intel SGX Enclaves"
+    author: ['Jo Van Bulck']
+    venue: "40th Annual Computer Security Applications Conference (ACSAC)"
+    location: "Austin, USA"
+    month: "December, 7"
+    year: 2023
+    type: 'Artifact competition talk'
+    slides: true
+    website: "https://www.acsac.org/2023/program/artifacts_competition/"
+
   - ext-id: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23481"
     title: "Interrupt-Driven Attacks and Defenses for Microarchitectural Security"
     author: ['Jo Van Bulck']
