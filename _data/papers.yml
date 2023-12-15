@@ -16,6 +16,7 @@ pubs:
     venue: "32nd USENIX Security Symposium"
     year: 2023
     slides: true
+    recording: "https://youtu.be/1YpTrYC__fg"
     github: "https://github.com/intel/linux-sgx/blob/master/sdk/trts/linux/trts_mitigation.S"
     links: [['Intel ISA extension','https://www.intel.com/content/www/us/en/content-details/736463/white-paper-asynchronous-enclave-exit-notify-and-the-edeccssa-user-leaf-function.html']]
     bibtex: "constable2023aexnotify"

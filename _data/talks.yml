@@ -28,6 +28,7 @@ talks:
     month: "August 10"
     location: "Anaheim, USA"
     type: "Paper presentation"
+    recording: "https://youtu.be/1YpTrYC__fg"
 
   - title: "Side-Channel Attacks and Defenses for Trusted Execution Environments"
     author: ['Jo Van Bulck']
