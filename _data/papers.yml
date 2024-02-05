@@ -4,6 +4,7 @@ pubs:
     author: ['Fritz Alder', 'Lesly-Ann Daniel', 'David Oswald', 'Frank Piessens', 'Jo Van Bulck']
     venue: "45th IEEE Symposium on Security and Privacy (S&P)"
     year: 2024
+    cve: "CVE-2022-26509, CVE-2023-37479, CVE-2023-38022, CVE-2023-38021, CVE-2022-46487, CVE-2022-46486, CVE-2023-38023"
     github: "https://github.com/pandora-tee"
     bibtex: "alder2024pandora"
 
