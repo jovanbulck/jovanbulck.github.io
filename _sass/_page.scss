@@ -99,9 +99,56 @@
       }
     }
   }
+  
+  h1 {
+    font-variant: small-caps;
+  }
+  h2 {
+    font-variant: small-caps;
+  }
+
+  .award-lst ul {
+    list-style-type: none;
+  }
+
+  .award-lst ul li:before {
+    font-family: 'FontAwesome';
+    font-size: 1em;
+    content: '\f005';
+    margin-left: -25px;
+    margin-right: 4px;
+  }
+
+  .cve-lst ul {
+    list-style-type: none;
+  }
+
+  .cve-lst ul li:before {
+    font-family: 'FontAwesome';
+    font-size: 1em;
+    content: '\f188';
+    margin-left: -25px;
+    margin-right: 4px;
+  }
 
   .pub-title {
       color: $info-color;
+  }
+  .ref-btn {
+    background-color: white;
+    color: black;
+    font-size: $type-size-6;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid $primary-color;
+    padding: 1.5px 8px;
+  }
+
+  .ref-btn:hover {
+    background-color: mix(#fff, $gray, 65%);
+    text-decoration: none;
   }
 
   dt {

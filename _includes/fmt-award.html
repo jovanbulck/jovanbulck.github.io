@@ -1,0 +1,55 @@
+{% include base_path %}
+
+{% assign years = site.data.awards.awards | group_by: "year" %}
+<table>
+{% for y in years %}
+{% for p in y.items %}
+    <tr>
+        {% if forloop.first == true %}
+            <td style="vertical-align: top;"><b>{{y.name}}</b></td>
+        {% else %}
+            <td></td>
+        {% endif %}
+        <td>
+            <i class="fas fa-star" style="color:burlywood;"></i>
+            <span style="font-weight: 500;"><a class="pub-title" href="{{p.url}}">{{p.title}}</a></span> – {% if p.venue %}By {{p.venue}}{% endif %}{%if p.quote %}<em> for "{{p.quote}}"</em>{% endif %}, {{p.month}}, {{p.year}}.
+
+            <div>
+                <!--
+                {% if p.url %}
+                <a href="{{p.url}}"><button class="ref-btn"><i class="fas fa-info-circle" style="color:#35798e"></i> Info</button></a>
+                {% endif %}
+                -->
+
+                {% if p.pdf %}
+                    {% for l in p.pdf %}
+                        <a href="files/{{l[1]}}.pdf"><button class="ref-btn"><i class="fa fa-file-pdf-o" style="color:#bb0000;"></i> {{l[0]}}</button></a>
+                    {% endfor %}
+                {% endif %}
+
+                {% if p.slides %}
+                    <a href="files/{{p.slides}}.pdf"><button class="ref-btn"><i class="fab fa-slideshare" style="color:#cc7000;"></i> Slides</button></a> 
+                {% endif %}
+
+                {% if p.video %}
+                    <a href="{{p.video}}"><button class="ref-btn"><i class="fas fa-video"></i> Talk</button></a> 
+                {% endif %}
+
+                {% if p.artifact %}
+                    <a href="{{p.artifact}}"><button class="ref-btn"><i class="fab fa-github" style="color:#171516;"></i> Artifact</button></a> 
+                {% endif %}
+
+                {% if p.citation %}
+                <a class="collapsible nounderline">
+                    <button class="ref-btn"><i class="fas fa-quote-left"></i> Citation</button>
+                </a>
+                <div class="content" style="display: none; font-size: .95em; color:gray;">
+                    <em>"{{ p.citation }}"</em>
+                </div>
+            {% endif %}
+            </div>
+        </td>
+    </tr>
+{% endfor %}
+{% endfor %}
+</table>

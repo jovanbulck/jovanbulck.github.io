@@ -266,7 +266,7 @@ pubs:
     website: "https://foreshadowattack.eu/"
     cve: "CVE-2018-3620, CVE-2018-3646"
     wiki: "https://en.wikipedia.org/wiki/Foreshadow_(security_vulnerability)"
-    links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/l1-terminal-fault']]
+    links: [['Intel response','https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/intel-analysis-l1-terminal-fault.html']]
     bibtex: "weisse2018foreshadowNG"
 
   - id: "usenix18-foreshadow"
@@ -281,7 +281,7 @@ pubs:
     recording: "https://www.youtube.com/watch?v=fEV6eA9o21o"
     demo: "https://youtu.be/8ZF6kX6z7pM"
     wiki: "https://en.wikipedia.org/wiki/Foreshadow_(security_vulnerability)"
-    links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/l1-terminal-fault']]
+    links: [['Intel response','https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/intel-analysis-l1-terminal-fault.html']]
     bibtex: "vanbulck2018foreshadow"
 
   - id: "dsn18-tutorial"
@@ -337,7 +337,7 @@ pubs:
     author: ['Jo Van Bulck', 'Nico Weichbrodt', 'Rüdiger Kapitza', 'Frank Piessens', 'Raoul Strackx']
     venue: "26th USENIX Security Symposium"
     year: 2017
-    cve: "Patched in Libgcrypt v1.7.7"
+    cve: "CVE-2017-9526 (Patched in Libgcrypt v1.7.7)"
     slides: true
     github: "https://github.com/jovanbulck/sgx-pte"
     recording: "https://www.youtube.com/watch?v=bi1fs0b7GdI"

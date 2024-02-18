@@ -1,0 +1,63 @@
+phd:
+  - name: "Márton Bognár"
+    start: 2020
+    end: "current"
+    home: "https://mici.hu/"
+
+  - name: "Fritz Alder"
+    start: 2019
+    end: 2023
+    home: "https://falder.org/"
+    title: "Interface Sanitization and Real-Time Scheduling for Enclaved Execution"
+    pdf: "https://falder.org/files/PhD-Fritz-Alder.pdf"
+
+msc:
+  - name: "Cas Magnus"
+    year: 2023
+
+  - name: "Wim Decelle"
+    year: 2023
+
+  - name: "Martijn Dendooven"
+    year: 2023
+  
+  - name: "Jolan Hofmans"
+    year: 2022
+  - name: "Wouter Jochems"
+    year: 2022
+
+  - name: "Florent Nander Meijer"
+    year: 2021
+
+  - name: "Jonas De Roover"
+    year: 2021
+
+  - name: "Benjamin De Roeck"
+    year: 2021
+
+  - name: "Márton Bognár"
+    year: 2020
+
+  - name: "Stien Vanderhallen"
+    year: 2020
+
+  - name: "Thomas De Backer"
+    year: 2019
+  
+  - name: "Sven Cuyt"
+    year: 2019
+  
+  - name: "Sergio Seminara"
+    year: 2019
+
+  - name: "Sten Verbois"
+    year: 2018
+
+  - name: "Jago Gyselinck"
+    year: 2018
+
+  - name: "Michiel Van Beirendonck"
+    year: 2017
+
+  - name: "Alexandru Madalin Ghenea"
+    year: 2017

@@ -5,3 +5,15 @@ main:
 
   - title: "Talks"
     url: /#talks
+  
+  - title: "Awards"
+    url: /#awards
+
+  - title: "Service"
+    url: /#service
+
+  - title: "Teaching"
+    url: /#teaching
+
+  - title: "Disclosure"
+    url: /#cve
