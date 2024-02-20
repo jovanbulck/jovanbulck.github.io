@@ -73,7 +73,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -82,6 +82,9 @@
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
+  }
+  a.nocolor {
+    color: $dark-gray;
   }
 
   a.nounderline {
@@ -105,6 +108,14 @@
   }
   h2 {
     font-variant: small-caps;
+  }
+
+  ul.compact-lst {
+    margin-top: 0em;
+  }
+
+  .compact-lst li {
+    margin-bottom: 0em;
   }
 
   .award-lst ul {
@@ -141,7 +152,7 @@
     font-variant: small-caps;
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: .2rem;
     border: 1px solid $primary-color;
     padding: 1.5px 8px;
   }

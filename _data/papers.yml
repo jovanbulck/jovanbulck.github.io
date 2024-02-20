@@ -16,7 +16,6 @@ pubs:
     slides: true
     github: "https://github.com/jovanbulck/sgx-step/"
     award: "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award"
-    website: "https://www.acsac.org/2023/program/artifacts_competition/"
     bibtex: "vanbulck2023sgxstep"
 
   - id: "usenix23-aexnotify"

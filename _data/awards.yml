@@ -1,53 +1,40 @@
 awards:
   - title: "Cybersecurity Artifacts Competition and Impact Award"
-    venue: "Annual Computer Security Applications Conference (ACSAC)"
+    venue: "ACSAC 2023"
+    for: "SGX-Step"
     year: 2023
     month: "December 7"
     url: "https://www.acsac.org/2023/program/artifacts_competition/"
-    quote: "[artifact with] demonstrated meaningful impact for the security and privacy research communities"
-    pdf: [["SGX-Step paper", "systex17-sgxstep"],["ACSAC'23 short paper", "acsac23-sgxstep"]]
-    slides: "acsac23-sgxstep-slides"
-    artifact: "https://github.com/jovanbulck/sgx-step/"
 
   - title: "Top Reviewer Award"
-    venue: "ACM Conference on Computer and Communications Security (CCS)"
+    venue: "ACM CCS 2023"
     month: "November 26"
     year: 2023
     url: "https://www.sigsac.org/ccs/CCS2023/"
   
   - title: "Best Reviewer Award"
-    venue: "ACM Conference on Computer and Communications Security (CCS)"
+    venue: "ACM CCS 2022"
     month: "November 7"
     year: 2022
     url: "https://www.sigsac.org/ccs/CCS2022/program/awards.html"
   
   - title: "ACM SIGSAC Doctoral Dissertation Award"
-    venue: "ACM Special Interest Group on Security, Audit and Control (SIGSAC)"
     month: "November 18"
     year: 2021
-    quote: "Outstanding PhD Thesis in Computer and Information Security"
+    for: "Outstanding PhD Thesis in Computer and Information Security"
     url: "https://www.sigsac.org/award/diss-awards.html"
-    pdf: [["PhD thesis", "phd-thesis"]]
     citation: "The committee was unanimous in recognizing the outstanding contributions made by Jo Van Bulck's dissertation in understanding the limitations in the security guarantees provided by current hardware-assisted isolated execution environments. The work described in the dissertation showed a wide variety of attacks against processor architectures ranging from low-end microprocessors with enclave support to widely deployed processor extensions like Intel SGX. The work has already had a significant impact both in academia as well as in industry, and has been widely recognized. It is no exaggeration to say that Dr. Van Bulck has contributed to launching a new research subfield in systems security."
-  
   - title: "FWO/IBM Innovation Award 2021"
-    venue: "Research Foundation - Flanders (FWO)"
+    for: '"an outstanding PhD thesis that presents an original contribution to informatics or its applications"'
     month: "November 16"
     year: 2021
-    quote: "an outstanding PhD thesis that presents an original contribution to informatics or its applications"
     url: "https://www.fwo.be/en/fellowships-funding/scientific-prizes/ibm-innovation-award/"
-    pdf: [["PhD thesis", "phd-thesis"]]
-    slides: "ibm21"
-    video: "https://www.youtube.com/watch?v=-N0Va_vWouw"
 
   - title: "ERCIM WG STM Best Ph.D. Thesis Award"
-    venue: "European Research Consortium for Informatics and Mathematics (ERCIM) Security and Trust Management Working Group"
+    for: "Best Ph.D. Thesis on Security and Trust Management"
     month: "October 8"
     year: 2021
     url: "https://hosting.services.iit.cnr.it/STM-WG/contentpage06.html"
-    quote: "Best Ph.D. Thesis on Security and Trust Management"
-    pdf: [["PhD thesis", "phd-thesis"]]
-    slides: "stm21"
 
   - title: "Postdoctoral Fellowship Junior"
     venue: "Research Foundation - Flanders (FWO)"
@@ -56,55 +43,43 @@ awards:
     year: 2021
 
   - title: "Distinguished Paper with Artifacts Award"
-    venue: "Annual Computer Security Applications Conference (ACSAC)"
+    venue: "ACSAC 2020"
+    for: "Faulty Point Unit"
     year: 2020
     month: "December 9"
     url: "https://twitter.com/ACSAC_Conf/status/1336701510265286658"
-    pdf: [["FPU paper", "acsac20-fpu"]]
-    artifact: "https://github.com/fritzalder/faulty-point-unit/"
 
-  - title: "CSAW Applied Research Competition Finalist"
+  - title: "Applied Research Competition Finalist"
     venue: "CSAW Europe"
+    for: "LVI"
     month: "November 6"
     year: 2020
-    quote: "top scholarly security research from the previous year"
     url: "https://43f60238-2232-4612-9aac-81bc9da2dd4e.filesusr.com/ugd/acbc49_13fe4df0d8ef4f469f9442420dfadc1a.pdf"
-    pdf: [["LVI paper", "oakland20-lvi"]]
-    slides: "csaw20"
-    video: "https://drive.google.com/file/d/1A5TpjcavwIcQvAcTMbNwiBe0bpCgpV5G/view?usp=sharing"
 
   - title: "Summa cum laude with the congratulations of the Examination Board"
-    venue: "KU Leuven"
     month: "September 14"
     year: 2020
-    quote: "[PhD thesis] of the highest international scientific level (at most 5% of doctorates)"
+    for: 'PhD thesis "of the highest international scientific level" (at most 5% of doctorates)'
     url: "https://eng.kuleuven.be/en/research/phd/criteria-for-awarding-the-grades"
-    pdf: [["PhD thesis", "phd-thesis"]]
-    slides: "phd-thesis-slides"
-    video: "https://youtu.be/NbXXXt0kITA"
 
   - title: "Nominated for Distinguished Paper Award"
-    venue: "Annual Computer Security Applications Conference (ACSAC)"
+    venue: "ACSAC 2017"
     year: 2017
+    for: "VulCAN"
     month: "December 6"
     url: "https://twitter.com/ACSAC_Conf/status/938413039145152512"
-    pdf: [["VulCAN paper", "acsac17-vulcan"]]
 
   - title: "Best Paper Award"
-    venue: "Workshop on System Software for Trusted Execution (SysTEX)"
+    venue: "SysTEX 2017"
+    for: "SGX-Step"
     month: "October 28"
     year: 2017
-    pdf: [["SGX-Step paper", "systex17-sgxstep"]]
-    slides: "systex17-sgxstep-slides"
 
   - title: "BELCLIV 2016 Master Thesis Award"
-    venue: "Belgische Club voor Informaticaveiligheid (BELCLIV)"
+    for: '"de beste masterthesis die een originele bijdrage levert tot de beveiliging van informatiesystemen"'
     year: 2017
     month: "April 21"
-    quote: "de beste masterthesis die een originele bijdrage levert tot de beveiliging van informatiesystemen"
     url: "http://www.clusib.be/wp/price/?lang=nl"
-    pdf: [["Msc thesis", "msc-thesis"]]
-    slides: "belcliv17"
 
   - title: "PhD Fellowship Fundamental Research"
     venue: "Research Foundation - Flanders (FWO)"
@@ -113,10 +88,7 @@ awards:
     year: 2016
 
   - title: "Vasco Data Security 2014-2015 Master Thesis Award"
-    venue: "Vasco Data Security (now OneSpan)"
+    for: '"een uitmuntende bijdrage aan de technologie voor authentisering van gebruikers of technologie voor informatiebeveiliging in het algemeen"'
     month: "July 3"
     year: 2015
     url: "https://eng.kuleuven.be/en/news-calendar/events-projects/masters-thesis-awards"
-    quote: "een uitmuntende bijdrage aan de technologie voor authentisering van gebruikers of technologie voor informatiebeveiliging in het algemeen"
-    pdf: [["Msc thesis", "msc-thesis"]]
-  

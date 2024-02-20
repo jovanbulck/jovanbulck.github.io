@@ -20,27 +20,37 @@
         <br>
         <em>{% if p.type %}{{p.type}} @{% endif %} {{p.venue}}</em>, {{p.location}}, {{p.month}}, {{p.year}}.
 
-        {% if p.website %}
-            <a href="{{p.website}}" class="nounderline">
-                <!--i class="fas fa-info-circle" title="Info"></i-->
-                <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae" title="Info"></i>
-            </a>
-        {% endif %}
-        {% if p.id %}
-            <a href="files/{{p.id}}.pdf" class="nounderline">
-                <i class="fab fa-slideshare" style="color:#cc7000;" title="Slides"></i>
-            </a>
-        {% endif %}
-        {% if p.recording %}
-            <a href="{{p.recording}}" class="nounderline">
-                <i class="fas fa-video" title="Recording"></i>
-            </a>
-        {% endif %}
-        {% if p.audio %}
-            <a href="{{p.audio}}" class="nounderline">
-                <i class="fas fa-music" title="Audio"></i>
-            </a>
-        {% endif %}
+        <div>
+            {% if p.website %}
+                <a href="{{p.website}}" class="nounderline">
+                    <button class="ref-btn">
+                        <!--i class="fas fa-info-circle" title="Info"></i-->
+                        <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae"></i> Info
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.id %}
+                <a href="files/{{p.id}}.pdf" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fab fa-slideshare" style="color:#cc7000;"></i> Slides
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.recording %}
+                <a href="{{p.recording}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fas fa-video"></i> Recording
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.audio %}
+                <a href="{{p.audio}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fas fa-music"></i> Audio
+                    </button>
+                </a>
+            {% endif %}
+        </div>
         </td>
     </tr>
 {% endfor %}

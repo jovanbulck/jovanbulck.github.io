@@ -26,65 +26,6 @@
         {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
         <br> <em>{{p.venue}}</em>, {% if p.month %}{{p.month}},{% endif %} {{p.year}}.
 
-        {% if p.website %}
-            <a href="{{p.website}}" class="nounderline">
-                <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae" title="Website"></i>
-            </a>
-        {% endif %}
-        {% if p.wiki %}
-            <a href="{{p.wiki}}" class="nounderline">
-                <i class="fab fa-wikipedia-w" style="color: black;" title="Wikipedia"></i>
-            </a>
-        {% endif %}
-        {% if p.id %}
-            <a href="files/{{p.id}}.pdf" class="nounderline">
-                <i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PDF"></i>
-            </a>
-        {% endif %}
-        {% if p.slides %}
-            <a href={% if p.slides == true %}"files/{{p.id}}-slides.pdf"{% else %}"{{p.slides}}"{% endif %} class="nounderline">
-                <i class="fab fa-slideshare" style="color:#cc7000;" title="Slides"></i>
-            </a>
-        {% endif %}
-        {% if p.poster %}
-            <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
-                <i class="fa fa-image" title="Poster"></i>
-            </a>
-        {% endif %}
-        {% if p.recording %}
-            <a href="{{p.recording}}" class="nounderline">
-                <i class="fas fa-video" title="Talk"></i>
-            </a>
-        {% endif %}
-        {% if p.demo %}
-            <a href="{{p.demo}}" class="nounderline">
-                <i class="fas fa-play-circle" style="color:#bb0000;" title="Demo"></i>
-            </a>
-        {% endif %}
-        {% if p.github %}
-            <a href="{{p.github}}" class="nounderline">
-                <i class="fab fa-github" style="color:#171516;" title="Code"></i>
-            </a>
-        {% endif %}
-        {% if p.arxiv %}
-            <a href="{{p.arxiv}}" class="nounderline">
-                <i class="fas fa-archive" style="color:gray;" title="Extended version (arXiv)"></i>
-            </a>
-        {% endif %}
-        {% if p.bibtex %}
-            {%- for r in refs -%}
-                {%- assign rk = p.bibtex | append: ',' %}
-                {%- if r contains rk -%}
-                    <a class="collapsible nounderline">
-                        <i class="fas fa-quote-right" title="Cite"></i>
-                    </a>
-                    <div class="content" style="display: none; font-size: .75em;">
-                        <pre style="white-space: pre-wrap;">@{{ r }}</pre>
-                    </div>
-                    {% break %}
-                {%- endif -%}
-            {%- endfor -%}
-        {% endif %}
         </div>
         {% if p.award %}
             <div>
@@ -134,6 +75,89 @@
             </span>
             </div>
         {% endif %}
+
+        <div>
+            {% if p.id %}
+                <a href="files/{{p.id}}.pdf" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fa fa-file-pdf-o" style="color:#bb0000;"></i> PDF
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.website %}
+                <a href="{{p.website}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae"></i> Website
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.wiki %}
+                <a href="{{p.wiki}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fab fa-wikipedia-w" style="color: black;"></i> Wikipedia
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.slides %}
+                <a href={% if p.slides == true %}"files/{{p.id}}-slides.pdf"{% else %}"{{p.slides}}"{% endif %} class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fab fa-slideshare" style="color:#cc7000;"></i> Slides
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.poster %}
+                <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fa fa-image"></i> Poster
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.recording %}
+                <a href="{{p.recording}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fas fa-video"></i> Talk
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.demo %}
+                <a href="{{p.demo}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fas fa-play-circle" style="color:#bb0000;"></i> Demo
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.github %}
+                <a href="{{p.github}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fab fa-github" style="color:#171516;"></i> GitHub
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.arxiv %}
+                <a href="{{p.arxiv}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fas fa-archive" style="color:gray;"></i> Extended version (arXiv)
+                    </button>
+                </a>
+            {% endif %}
+            {% if p.bibtex %}
+                {%- for r in refs -%}
+                    {%- assign rk = p.bibtex | append: ',' %}
+                    {%- if r contains rk -%}
+                        <a class="collapsible nounderline">
+                            <button class="ref-btn">
+                                <i class="fas fa-quote-left"></i> BibTeX
+                            </button>
+                        </a>
+                        <div class="content" style="display: none; font-size: .75em;">
+                            <pre style="white-space: pre-wrap;">@{{ r }}</pre>
+                        </div>
+                        {% break %}
+                    {%- endif -%}
+                {%- endfor -%}
+            {% endif %}
+        </div>
+
         </td>
     </tr>
 {% endfor %}

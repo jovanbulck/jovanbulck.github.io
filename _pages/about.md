@@ -75,28 +75,23 @@ at KU Leuven in September 2020.
 * <span style="font-weight: 500;">Tutorials:</span> SPACE 2018, DSN 2018.
 * <span style="font-weight: 500;">Teaching Assistant:</span> Operating Systems (2023-2021), Computer Architecture and System Software (2020-2018), Structuur en Organisatie van Systeemsoftware (2017-2015), Informatica Werktuigen (2018-2015), Data Structures and Algorithms (2018-2016).
 * <span style="font-weight: 500;">Co-supervised PhD Theses:</span>
-  <ul>
+  <ul class="compact-lst">
     {% assign phd = site.data.supervision.phd %}
     {% for p in phd %}
       <li>
         <span style="font-weight: 500;">{{p.start}} - {{p.end}}:</span>
-        {{p.name}}{% if p.title %}
+        <a href="{{p.home}}" class="nocolor">{{p.name}}</a>{% if p.title %}
           – <em>{{p.title}}</em>, KU Leuven.
             <a href="{{p.pdf}}" class="nounderline">
                 <i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PhD thesis"></i>
             </a>
         {% else %}.
         {% endif %}
-        {% if p.home %}
-            <a href="{{p.home}}" class="nounderline">
-                <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae" title="Homepage"></i>
-            </a>
-        {% endif %}
       </li>
     {% endfor %}
   </ul>
 * <span style="font-weight: 500;">Master Thesis Supervision:</span>
-  <ul>
+  <ul class="compact-lst">
     {% assign msc = site.data.supervision.msc | group_by: "year" %}
     {% for my in msc %}
       <li>

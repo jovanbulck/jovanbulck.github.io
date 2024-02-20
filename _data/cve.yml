@@ -11,21 +11,21 @@ cves:
         project: "Plundervolt"
         paper: "oakland20-plundervolt"
         intel-sa: "00289"
-      - cve: CVE-2018-12130
-        desc: "Microarchitectural Fill Buffer Data Sampling (MFBDS)"
-        project: "ZombieLoad"
-        paper: "ccs19-zombieload"
-        intel-sa: "00233"
-      - cve: CVE-2019-11135
-        desc: "TSX Asynchronous Abort (TAA)"
-        project: "ZombieLoad"
-        paper: "ccs19-zombieload"
-        intel-sa: "00270"
       - cve: CVE-2020-0549
         desc: "L1D Eviction Sampling"
         project: "ZombieLoad"
         paper: "ccs19-zombieload"
         intel-sa: "00329"
+      - cve: CVE-2019-11135
+        desc: "TSX Asynchronous Abort (TAA)"
+        project: "ZombieLoad"
+        paper: "ccs19-zombieload"
+        intel-sa: "00270"
+      - cve: CVE-2018-12130
+        desc: "Microarchitectural Fill Buffer Data Sampling (MFBDS)"
+        project: "ZombieLoad"
+        paper: "ccs19-zombieload"
+        intel-sa: "00233"
       - cve: CVE-2018-12126
         project: "Fallout"
         desc: "Microarchitectural Store Buffer Data Sampling (MSBDS)"
@@ -44,7 +44,7 @@ cves:
         project: "Pandora"
         paper: "oakland24-pandora"
         intel-sa: "01014"
-        patch: ['Intel DCAP 1.19', 'https://github.com/intel/SGXDataCenterAttestationPrimitives/commit/8a407331e0d38be89a64d9eac54ab764792fb490']
+        patch: ['Intel DCAP v1.19', 'https://github.com/intel/SGXDataCenterAttestationPrimitives/commit/8a407331e0d38be89a64d9eac54ab764792fb490']
       - cve: CVE-2023-37479
         project: "Pandora"
         desc: "Side-channel leakage via ABI poisoning in Microsoft Open Enclave SDK"
@@ -89,7 +89,7 @@ cves:
         project: "FPU"
         paper: "acsac20-fpu"
         intel-sa: "00336"
-        patch: ['Intel SGX SDK 2.8', 'https://github.com/intel/linux-sgx/commit/9ddec08fb98c1636ed3b1a77bbc4fa3520344ede']
+        patch: ['Intel SGX SDK v2.8', 'https://github.com/intel/linux-sgx/commit/9ddec08fb98c1636ed3b1a77bbc4fa3520344ede']
       - cve: CVE-2020-15107
         desc: "Floating-point corruption via ABI poisoning in Microsoft Open Enclave SDK"
         project: "FPU"
@@ -129,12 +129,12 @@ cves:
         project: "T2W"
         paper: "ccs19-tale"
         intel-sa: "00117"
-        patch: ['Intel SGX SDK 2.1.2', 'https://github.com/intel/linux-sgx/commit/ce032b0220e8b6cdb39f17a63b3b67caa73c26a1']
+        patch: ['Intel SGX SDK v2.1.2', 'https://github.com/intel/linux-sgx/commit/ce032b0220e8b6cdb39f17a63b3b67caa73c26a1']
   
   - type: "Cryptographic side channels"
     cves:
       - cve: CVE-2017-9526
-        project: "PTE"
+        project: "PTE-SGX"
         desc: "Secret-dependent control flow in Libgcrypt EdDSA signing"
         paper: "usenix17-pte"
         patch: ['Libgcrypt v1.7.7', 'https://github.com/gpg/libgcrypt/commit/5a22de904a0a366ae79f03ff1e13a1232a89e26b']
