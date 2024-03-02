@@ -1,6 +1,12 @@
 cves:
   - type: "CPU μ-arch"
     cves:
+      - cve: TI-PSIRT-2023-040180
+        desc: "MSP430 IP Encapsulation Write Vulnerability"
+        project: "IPE"
+        paper: "usenix24-ipe"
+        vendor: "Texas Instruments"
+        sa: "https://web.archive.org/web/20231030234254/https://www.ti.com/lit/an/swra792/swra792.pdf"
       - cve: CVE-2020-0551
         desc: "Load Value Injection (LVI)"
         project: "LVI"

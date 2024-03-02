@@ -1,4 +1,14 @@
 pubs:
+  - id: "usenix24-ipe"
+    title: "Intellectual Property Exposure: Subverting and Securing Intellectual Property Encapsulation in Texas Instruments Microcontrollers"
+    author: ['Marton Bognar', 'Cas Magnus', 'Frank Piessens', 'Jo Van Bulck']
+    venue: "33rd USENIX Security Symposium"
+    year: 2024
+    cve: "TI-PSIRT-2023-040180"
+    github: "https://github.com/martonbognar/ipe-exposure"
+    links: [['TI response','https://web.archive.org/web/20231030234254/https://www.ti.com/lit/an/swra792/swra792.pdf']]
+    bibtex: "bognar2024exposure"
+
   - id: "oakland24-pandora"
     title: "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes"
     author: ['Fritz Alder', 'Lesly-Ann Daniel', 'David Oswald', 'Frank Piessens', 'Jo Van Bulck']
