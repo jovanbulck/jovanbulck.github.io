@@ -26,5 +26,6 @@ group :jekyll_plugins do
   gem 'hawkins'
 end
 
+gem 'webrick'
 gem 'rake'
 gem 'html-proofer'
