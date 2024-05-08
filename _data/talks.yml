@@ -1,19 +1,38 @@
 talks:
+  - id: "kul24"
+    title: "Open-Source Prototyping for Systems Security Research"
+    author: ['Jo Van Bulck', 'Hans Winderix', 'Marton Bognar', 'Lesly-Ann Daniel', 'Daan Vanoverloop']
+    venue: "KU Leuven Open Science Day"
+    location: "Leuven, Belgium"
+    month: "May 6"
+    year: 2024
+    type: "Poster presentation"
+    website: "https://kuleuvenopenscienceday.pubpub.org/pub/o3gkxy8w/release/1"
+    poster: true
+
+  - id: "huawei24"
+    title: "On the Interplay between Attacks and New Defenses: The Story of SGX-Step and Transferable Insights for Other Architectures"
+    author: ['Jo Van Bulck']
+    venue: "Huawei - KU Leuven research collaboration workshop"
+    location: "Leuven, Belgium"
+    month: "March 6"
+    year: 2024
+    type: "Talk"
+    
   - id: "acsac23-sgxstep-slides"
     title: "SGX-Step: An Open-Source Framework for Precise Dissection and Practical Exploitation of Intel SGX Enclaves"
     author: ['Jo Van Bulck']
     venue: "40th Annual Computer Security Applications Conference (ACSAC)"
     location: "Austin, USA"
-    month: "December, 7"
+    month: "December 7"
     year: 2023
     type: 'Artifact competition talk'
-    slides: true
     website: "https://www.acsac.org/2023/program/artifacts_competition/"
 
   - ext-id: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23481"
     title: "Interrupt-Driven Attacks and Defenses for Microarchitectural Security"
     author: ['Jo Van Bulck']
-    month: 'November, 29'
+    month: 'November 29'
     year: 2023
     type: 'Talk'
     venue: 'Dagstuhl Seminar on Microarchitectural Attacks and Defenses (MAD)'
@@ -79,6 +98,14 @@ talks:
     recording: "https://video.fosdem.org/2023/K.4.601/cc_closing.mp4"
     website: "https://fosdem.org/2023/schedule/event/cc_closing/"
 
+  - title: "Towards Principled Symbolic Validation for Intel SGX Binaries"
+    author: ['Jo Van Bulck']
+    venue: "MSR Confidential Computing seminar"
+    month: "October 5"
+    year: 2022
+    type: "Invited talk"
+    location: "Online"
+
   - id: "graz22"
     title: "Privileged Side-Channel Attacks on Trusted Execution Environments"
     author: ['Jo Van Bulck']
@@ -99,7 +126,7 @@ talks:
     location: "Genoa, Italy"
     website: "https://silm-workshop.github.io/2022-program/"
 
-  - id: "oakland22-lvi-poster"
+  - id: "oakland22-lvi"
     title: "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection"
     author: ['Jo Van Bulck']
     venue: "43rd IEEE Symposium on Security and Privacy (S&P)"
@@ -108,6 +135,7 @@ talks:
     type: "Poster presentation"
     location: "San Francisco, USA"
     website: "https://www.ieee-security.org/TC/SP2022/program-posters-SP2021.html"
+    poster: true
 
   - id: "cybersec22"
     title: "Deepen the Defenses: A Case for Microarchitectural Isolation"
@@ -135,7 +163,7 @@ talks:
     venue: "5th Workshop on System Software for Trusted Execution (SysTEX)"
     year: 2022
     type: "Paper presentation"
-    month: "March, 1"
+    month: "March 1"
     location: "Lausanne, Switzerland"
     website: "https://systex22.github.io/"
 
@@ -262,7 +290,6 @@ talks:
     location: "Leuven, Belgium"
     month: "September 14"
     year: 2020
-    slides: true
     recording: "https://youtu.be/NbXXXt0kITA"
     website: "https://www.kuleuven.be/doctoraatsverdediging/fiches/3E15/3E150917.htm"
 
@@ -292,7 +319,7 @@ talks:
     author: ['Jo Van Bulck']
     venue: "41st IEEE Symposium on Security and Privacy (S&P)"
     year: 2020
-    month: "May, 18"
+    month: "May 18"
     type: "Paper presentation"
     location: "Online"
     website: "https://www.ieee-security.org/TC/SP2020/"
@@ -365,7 +392,7 @@ talks:
     venue: "26th ACM Conference on Computer and Communications Security (CCS)"
     year: 2019
     type: "Paper presentation"
-    month: "November, 14"
+    month: "November 14"
     location: "London, UK"
     recording: "https://dl.acm.org/doi/abs/10.1145/3319535.3363206"
     website: "https://ccs19.swenjacobs.com/"
@@ -467,7 +494,7 @@ talks:
     year: 2018
     type: "Paper presentation"
     location: "Toronto, Canada"
-    month: "October, 16"
+    month: "October 16"
     recording: "https://www.youtube.com/watch?v=njE9Vg8HOqk"
     website: "https://www.sigsac.org/ccs/CCS2018/program/"
 
@@ -488,7 +515,7 @@ talks:
     venue: "48th International Conference on Dependable Systems and Networks (DSN)"
     year: 2018
     type: "Tutorial"
-    month: "June, 25"
+    month: "June 25"
     location: "Luxembourg City, Luxembourg"
     website: "https://dsn2018.uni.lu/tutorials/"
 
@@ -517,7 +544,7 @@ talks:
     venue: "2nd Workshop on System Software for Trusted Execution (SysTEX)"
     year: 2017
     type: "Paper presentation"
-    month: "October, 28"
+    month: "October 28"
     location: "Shanghai, China"
     website: "https://systex17.ibr.cs.tu-bs.de/"
 

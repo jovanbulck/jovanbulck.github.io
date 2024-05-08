@@ -29,7 +29,13 @@
                     </button>
                 </a>
             {% endif %}
-            {% if p.id %}
+            {% if p.poster %}
+                <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fa fa-image" style="color:#cc7000;"></i> Poster
+                    </button>
+                </a>
+            {% elsif p.id %}
                 <a href="files/{{p.id}}.pdf" class="nounderline">
                     <button class="ref-btn">
                         <i class="fab fa-slideshare" style="color:#cc7000;"></i> Slides
