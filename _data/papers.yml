@@ -5,6 +5,7 @@ pubs:
     venue: "33rd USENIX Security Symposium"
     year: 2024
     cve: "TI-PSIRT-2023-040180"
+    badge: "Artifacts evaluated: Available, Functional, Reproduced"
     github: "https://github.com/martonbognar/ipe-exposure"
     links: [['TI response','https://web.archive.org/web/20231030234254/https://www.ti.com/lit/an/swra792/swra792.pdf']]
     bibtex: "bognar2024exposure"
