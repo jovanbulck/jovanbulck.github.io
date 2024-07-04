@@ -35,14 +35,23 @@
                         <i class="fa fa-image" style="color:#cc7000;"></i> Poster
                     </button>
                 </a>
-            {% elsif p.id %}
+            {% endif %}
+            {% if p.id %}
+                {% unless p.no-slides %}
                 <a href="files/{{p.id}}.pdf" class="nounderline">
                     <button class="ref-btn">
                         <i class="fab fa-slideshare" style="color:#cc7000;"></i> Slides
                     </button>
                 </a>
+                {% endunless %}
             {% endif %}
-            {% if p.recording %}
+            {% if p.short-slides %}
+                <a href="files/{{p.id}}-short.pdf" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fab fa-slideshare" style="color:#cc7000;"></i> Short Slides
+                    </button>
+                </a>
+            {% endif %}            {% if p.recording %}
                 <a href="{{p.recording}}" class="nounderline">
                     <button class="ref-btn">
                         <i class="fas fa-video"></i> Recording

@@ -1,4 +1,36 @@
 talks:
+  - id: "cosic24"
+    title: "Reflections on Trusting Trusted Execution: The Story of Microarchitectural Attacks and Defenses"
+    author: ['Jo Van Bulck']
+    venue: "COSIC Course on Cryptography and Cyber Security"
+    location: "Leuven, Belgium"
+    month: "July 4"
+    year: 2024
+    type: "Invited lecture"
+    website: "https://www.esat.kuleuven.be/cosic/events/cosic-course/"
+
+  - id: "ipas24"
+    title: "Opening Pandora's Box: Uncovering Pervasive Bugs in Intel SGX Runtimes with Truthful Symbolic Execution"
+    author: ['Jo Van Bulck']
+    venue: "Intel IPAS Tech Sharing"
+    month: "June 25"
+    year: 2024
+    type: "Invited talk"
+    location: "Online"
+
+  - id: "oakland24-pandora-slides"
+    title: "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes"
+    author: ['Jo Van Bulck']
+    venue: "45th IEEE Symposium on Security and Privacy (S&P)"
+    year: 2024
+    month: "May 22"
+    type: "Conference presentation"
+    location: "San Francisco, USA"
+    website: "https://www.ieee-security.org/TC/SP2024/"
+    poster: true
+    short-slides: true
+    recording: "https://www.youtube.com/watch?v=pdPBghjKBlc"
+
   - id: "kul24"
     title: "Open-Source Prototyping for Systems Security Research"
     author: ['Jo Van Bulck', 'Hans Winderix', 'Marton Bognar', 'Lesly-Ann Daniel', 'Daan Vanoverloop']
@@ -9,6 +41,7 @@ talks:
     type: "Poster presentation"
     website: "https://kuleuvenopenscienceday.pubpub.org/pub/o3gkxy8w/release/1"
     poster: true
+    no-slides: true
 
   - id: "huawei24"
     title: "On the Interplay between Attacks and New Defenses: The Story of SGX-Step and Transferable Insights for Other Architectures"
@@ -136,6 +169,7 @@ talks:
     location: "San Francisco, USA"
     website: "https://www.ieee-security.org/TC/SP2022/program-posters-SP2021.html"
     poster: true
+    no-slides: true
 
   - id: "cybersec22"
     title: "Deepen the Defenses: A Case for Microarchitectural Isolation"
