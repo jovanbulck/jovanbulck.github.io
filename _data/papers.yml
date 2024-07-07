@@ -19,6 +19,7 @@ pubs:
     github: "https://github.com/pandora-tee"
     slides: true
     poster: true
+    recording: "https://www.youtube.com/watch?v=pdPBghjKBlc"
     bibtex: "alder2024pandora"
 
   - id: "acsac23-sgxstep"

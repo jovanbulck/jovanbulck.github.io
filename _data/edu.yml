@@ -1,0 +1,49 @@
+courses:
+  - course: 'Operating Systems'
+    note: 'co-taught with Frank Piessens'
+    years: [2024, 2023]
+    id: [
+            ['G0Q35A', 6 ],
+            ['H04G1B', 3]
+        ]
+    lab: 'https://os.edu.distrinet-research.be/'
+    home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
+
+guest:
+  - venue: 'COSIC Course on Cryptography and Cyber Security'
+    years: [2024]
+
+  - venue: 'Graz Summer School'
+    years: [2022]
+
+  - venue: 'KUL Operating Systems'
+    years: [2022, 2021]
+
+  - venue: 'COSIC Hardware Security Course'
+    years: [2019]
+
+  - venue: 'KUL Computer Architecture and System Software'
+    years: [2018]
+
+tutorial:
+  - venue: 'SPACE'
+    year: 2018
+
+  - venue: 'DSN'
+    year: 2018
+
+ta:
+  - course: 'Operating Systems'
+    years: [2023, 2022, 2021]
+
+  - course: 'Computer Architecture and System Software'
+    years: [2020, 2019, 2018]
+
+  - course: 'Structuur en Organisatie van Systeemsoftware'
+    years: [2017, 2016, 2015]
+
+  - course: 'Informatica Werktuigen'
+    years: [2018, 2017, 2016, 2015]
+
+  - course: 'Data Structures and Algorithms'
+    years: [2018, 2017, 2016]

@@ -1,0 +1,50 @@
+{% include base_path %}
+
+{% assign service = site.data.service %}
+
+<ul>
+<li>
+    <span style="font-weight: 500;">Program Co-Chair:</span> 
+      {% for c in service.chair -%}
+            {% assign years = "" | split: "" -%}
+            {% for e in c.eds -%}
+              {%- assign years = years | push: e[0] -%}
+            {% endfor -%}
+            {{- c.long-name }} ({{- years | join: ", " -}})
+            {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+      {%- endfor %}
+      <div>
+        {% for c in service.chair -%}
+          {%- for e in c.eds -%}
+            <a href="{{ e[1] }}">
+              <button class="ref-btn">
+              {%- if c.ico %}
+                  <img src="images/fosdem.ico" style="height:1em;">
+              {%- else %}
+                  <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae"></i>
+              {%- endif %}
+              {{ c.id }} {{ e[0] -}}
+              </button>
+            </a>
+          {%- endfor -%}
+        {%- endfor -%}
+      </div>
+</li>
+<li>
+    <span style="font-weight: 500;">Technical Program Committee:</span>
+    {% for c in service.pc %}
+        {{ c.id }} ({{ c.years | join: ", " }})
+        {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+    {% endfor %}
+</li>
+<li>
+    <span style="font-weight: 500;">Journal Reviewer:</span>
+    {% for c in service.journal %}
+        {{ c.id }} ({{ c.years | join: ", " }})
+        {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+    {% endfor %}
+</li>
+<li>
+    <span style="font-weight: 500;">Subreviewer:</span> {% for c in service.sub %} {{ c.id }} ({{ c.years | join: ", " }}){% if forloop.last %}.{% else %}, {% endif %}{% endfor %}
+</li>
+</ul>

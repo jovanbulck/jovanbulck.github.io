@@ -1,0 +1,107 @@
+{% include base_path %}
+
+{% assign edu = site.data.edu %}
+
+<ul>
+<li>
+    <span style="font-weight: 500;">Lecturer:</span> 
+      {% for c in edu.courses -%}
+        {{- c.course }} {{ c.years | join: "-" }}
+        {% if c.note -%} ({{- c.note -}}) {%-  endif -%}
+        {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+        <div>
+          {% for i in c.id -%}
+              <a href="https://onderwijsaanbod.kuleuven.be/{{- c.years[1] -}}/syllabi/n/{{- i[0] -}}N.htm">
+                <button class="ref-btn">
+                    <i class="fas fa-info-circle" style="color:#35798e"></i>
+                    B-KUL-{{- i[0] }} - {{ i[1] }} ECTS
+                </button>
+              </a>
+          {%- endfor -%}
+          {% if c.lab %}
+              <a href="{{- c.lab -}}">
+                <button class="ref-btn">
+                    <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae"></i>
+                    Lab sessions
+                </button>
+              </a>
+          {% endif %}
+          {% if c.home %}
+              <a href="{{- c.home -}}">
+                <button class="ref-btn">
+                    <i class="fab fa-github" style="color:#171516;"></i>
+                    Homeworks
+                </button>
+              </a>
+           {% endif %}
+        </div>
+      {%- endfor %}
+</li>
+<li>
+    <span style="font-weight: 500;">Guest Lectures:</span>
+    {% for c in edu.guest %}
+        {{ c.venue }} ({{ c.years | join: ", " }})
+        {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+    {% endfor %}
+</li>
+<li>
+    <span style="font-weight: 500;">Tutorials:</span>
+    {% for c in edu.tutorial %}
+        {{ c.venue }} {{ c.year }}
+        {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+    {% endfor %}
+</li>
+<li>
+    <span style="font-weight: 500;">Teaching Assistant:</span>
+    {% for c in edu.ta %}
+        {{ c.course }} ({{- c.years.first -}}-{{- c.years.last -}})
+        {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+    {% endfor %}
+</li>
+<li>
+    <span style="font-weight: 500;">Co-supervised PhD Theses:</span>
+      <ul class="compact-lst">
+        {% assign phd = site.data.supervision.phd %}
+        {% for p in phd %}
+          <li>
+            <span style="font-weight: 500;">{{p.start}} - {{p.end}}:</span>
+            <a href="{{p.home}}" class="nocolor">{{p.name}}</a>{% if p.title %}
+              – <em>{{p.title}}</em>, KU Leuven.
+                <a href="{{p.pdf}}" class="nounderline">
+                    <i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PhD thesis"></i>
+                </a>
+            {% else %}.
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+</li>
+<li>
+    <span style="font-weight: 500;">Master Thesis Supervision:</span>
+      <ul class="compact-lst">
+        {% assign msc = site.data.supervision.msc | group_by: "year" %}
+        {% for my in msc %}
+          <li>
+            <span style="font-weight: 500;">{{my.items[0].year}}:</span>
+            {% for m in my.items %}
+              {{m.name}}{% if forloop.last == true %}.{% else %},{% endif %}
+            {% endfor %}
+          </li>
+        {% endfor %}
+      </ul>
+</li>
+<li>
+    <span style="font-weight: 500;">Bachelor Honours Students:</span>
+      <ul class="compact-lst">
+        {% assign bsc = site.data.supervision.bsc | group_by: "year" %}
+        {% for by in bsc %}
+          <li>
+            <span style="font-weight: 500;">{{by.items[0].year}}:</span>
+            {% for b in by.items %}
+              {{b.name}}{% if forloop.last == true %}.{% else %},{% endif %}
+            {% endfor %}
+          </li>
+        {% endfor %}
+      </ul>
+</li>
+</ul>

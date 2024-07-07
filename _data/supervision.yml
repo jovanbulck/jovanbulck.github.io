@@ -12,6 +12,12 @@ phd:
     pdf: "https://falder.org/files/PhD-Fritz-Alder.pdf"
 
 msc:
+  - name: "Gert-Jan Goossens"
+    year: 2024
+
+  - name: "Zidan Bortels"
+    year: 2024
+
   - name: "Cas Magnus"
     year: 2023
 
@@ -56,8 +62,9 @@ msc:
   - name: "Jago Gyselinck"
     year: 2018
 
-  - name: "Michiel Van Beirendonck"
+  - name: "Alexandru Madalin Ghenea"
     year: 2017
 
-  - name: "Alexandru Madalin Ghenea"
+bsc:
+  - name: "Michiel Van Beirendonck"
     year: 2017
