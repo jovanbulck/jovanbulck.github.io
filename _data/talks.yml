@@ -1,4 +1,14 @@
 talks:
+  - id: "systex24"
+    title: "Opening and Welcome"
+    author: ['Jo Van Bulck', 'Nuno Santos']
+    type: "Talk"
+    venue: "7th Workshop on System Software for Trusted Execution (SysTEX 2024)"
+    location: "Vienna, Austria"
+    month: "July 8"
+    year: 2024
+    website: "https://systex24.github.io/"
+
   - id: "cosic24"
     title: "Reflections on Trusting Trusted Execution: The Story of Microarchitectural Attacks and Defenses"
     author: ['Jo Van Bulck']
