@@ -37,7 +37,7 @@ talks:
     type: "Conference presentation"
     location: "San Francisco, USA"
     website: "https://www.ieee-security.org/TC/SP2024/"
-    poster: true
+    poster: "files/oakland24-pandora-poster.pdf"
     short-slides: true
     recording: "https://www.youtube.com/watch?v=pdPBghjKBlc"
 
