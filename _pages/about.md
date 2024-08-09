@@ -22,7 +22,7 @@ My research explores microarchitectural security limitations along the
 hardware-software boundary, with a particular attention for privileged
 side-channel attacks in trusted execution environments.
 I obtained my PhD entitled ["Microarchitectural Side-Channel Attacks for Privileged
-Software Adversaries"](https://jovanbulck.github.io/files/phd-thesis.pdf)
+Software Adversaries"](https://vanbulck.net/files/phd-thesis.pdf)
 at KU Leuven in September 2020.
 
 <a name="pubs"></a>
