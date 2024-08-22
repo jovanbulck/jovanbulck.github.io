@@ -1,4 +1,13 @@
 talks:
+  - id: "ccc24"
+    title: "Certified Confidential Computing: Principled Symbolic Validation for Enclave Shielding Runtimes"
+    author: ['Jo Van Bulck']
+    venue: "Confidential Computing Consortium Technical Advisory Council"
+    month: "August 22"
+    year: 2024
+    type: "Invited talk"
+    location: "Online"
+
   - id: "systex24"
     title: "Opening and Welcome"
     author: ['Jo Van Bulck', 'Nuno Santos']
