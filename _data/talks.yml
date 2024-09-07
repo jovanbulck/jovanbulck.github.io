@@ -1,4 +1,14 @@
 talks:
+  - id: "pavetrust24"
+    title: "Beyond the Surface: Validation Challenges and Opportunities for Confidential Computing"
+    author: ['Jo Van Bulck']
+    venue: "4th Program Analysis and Verification on Trusted Platforms (PAVeTrust) Workshop"
+    month: "September, 9"
+    year: 2024
+    type: "Keynote"
+    location: "Milano, Italy"
+    website: "https://pavetrust.github.io/"
+
   - id: "ccc24"
     title: "Certified Confidential Computing: Principled Symbolic Validation for Enclave Shielding Runtimes"
     author: ['Jo Van Bulck']
