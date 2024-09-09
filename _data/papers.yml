@@ -1,4 +1,11 @@
 pubs:
+  - id: "pavetrust24-sancusv"
+    title: "Exceptions Prove the Rule: Investigating and Resolving Residual Side Channels in Provably Secure Interrupt Handling"
+    author: [ 'Matteo Busi', 'Pierpaolo Degano', 'Riccardo Focardi', 'Letterio Galletta', 'Flaminia Luccio', 'Frank Piessens', 'Jo Van Bulck' ]
+    venue: "4th Workshop on Program Analysis and Verification on Trusted Platforms (PAVeTrust)"
+    year: 2024
+    bibtex: "busi2024exceptions"
+
   - id: "usenix24-ipe"
     title: "Intellectual Property Exposure: Subverting and Securing Intellectual Property Encapsulation in Texas Instruments Microcontrollers"
     author: ['Marton Bognar', 'Cas Magnus', 'Frank Piessens', 'Jo Van Bulck']
