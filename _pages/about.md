@@ -15,15 +15,11 @@ redirect_from:
 
 # About me
 
-I am a postdoctoral researcher in the 
-[DistriNet](https://distrinet.cs.kuleuven.be/)
-lab at [KU Leuven](https://www.kuleuven.be/english/), Belgium.
-My research explores microarchitectural security limitations along the
-hardware-software boundary, with a particular attention for privileged
-side-channel attacks in trusted execution environments.
-I obtained my PhD entitled ["Microarchitectural Side-Channel Attacks for Privileged
-Software Adversaries"](https://vanbulck.net/files/phd-thesis.pdf)
-at KU Leuven in September 2020.
+I am a professor in the [DistriNet](https://distrinet.cs.kuleuven.be/) lab at
+the Department of Computer Science of [KU Leuven](https://www.kuleuven.be/english/), Belgium.
+My research explores attacks and defenses at the hardware-software boundary,
+with particular attention to privileged side channels in trusted execution
+environments.
 
 <a name="pubs"></a>
 # Publications
