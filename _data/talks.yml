@@ -1,4 +1,15 @@
 talks:
+  - ext-id: "https://newbooksnetwork.com/impact-through-beautiful-ideas-in-excellent-communication"
+    title: "Impact through Beautiful Ideas in Excellent Communication: An interview with Jo Van Bulck"
+    author: ['Daniel Shea', 'Jo Van Bulck']
+    month: "September 25"
+    year: 2024
+    type: "Podcast"
+    venue: "Scholarly Communication"
+    location: "Online"
+    website: "https://newbooksnetwork.com/impact-through-beautiful-ideas-in-excellent-communication"
+    audio: "https://traffic.megaphone.fm/NBNK9766694058.mp3"
+
   - id: "pavetrust24"
     title: "Beyond the Surface: Validation Challenges and Opportunities for Confidential Computing"
     author: ['Jo Van Bulck']
