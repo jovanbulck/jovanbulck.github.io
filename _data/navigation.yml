@@ -15,5 +15,8 @@ main:
   - title: "Teaching"
     url: /#teaching
 
+  - title: "FOSS"
+    url: /#foss
+
   - title: "Disclosure"
     url: /#cve

@@ -1,0 +1,40 @@
+foss:
+  - type: "Maintainer"
+    star: true
+    repos:
+      - title: "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control"
+        url: "https://github.com/jovanbulck/sgx-step"
+        role: "Founder, maintainer, and core developer"
+        paper: "systex2017sgxstep"
+        label: "SGX-Step"
+
+      - title: "Bare-SGX: Minimal SGX Enclave Development on Bare-Metal Linux Platforms"
+        url: "https://github.com/jovanbulck/bare-sgx"
+        role: "Founder, maintainer, and core developer"
+      
+      - title: "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes"
+        url: "https://github.com/pandora-tee/pandora"
+        role: "Founder, maintainer, and co-developer"
+        paper: "oakland24pandora"
+        label: "Pandora"
+
+      - title: "Sancus: A Lightweight Trusted Execution Environment for Secure IoT Devices"
+        url: "https://github.com/sancus-tee/sancus-core"
+        role: "Maintainer and co-developer"
+        paper: "tops17-sancus"
+        label: "Sancus"
+
+  - type: "Contributor"
+    star: false
+    repos:
+      - title: "Intel SGX SDK"
+        role: "Contributed to AEX-Notify runtime; various low-level security fixes"
+        url: "https://github.com/intel/linux-sgx/"
+
+      - title: "Microsoft Open Enclave"
+        role: "Contributed various low-level security fixes"
+        url: "https://github.com/openenclave/openenclave/security"
+
+      - title: "Linux kernel"
+        role: "Contributed various security and reliability fixes in the SGX selftest framework"
+        url: "https://github.com/search?q=repo:torvalds/linux+jo+van+bulck&type=commits"

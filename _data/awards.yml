@@ -1,7 +1,8 @@
 awards:
   - title: "Cybersecurity Artifacts Competition and Impact Award"
     venue: "ACSAC 2023"
-    for: "SGX-Step"
+    paper: "acsac23-sgxstep"
+    label: "SGX-Step paper"
     year: 2023
     month: "December 7"
     url: "https://www.acsac.org/2023/program/artifacts_competition/"
@@ -21,17 +22,24 @@ awards:
   - title: "ACM SIGSAC Doctoral Dissertation Award"
     month: "November 18"
     year: 2021
-    for: "Outstanding PhD Thesis in Computer and Information Security"
+    paper: "phd-thesis"
+    label: "PhD thesis"
+    for: '"Outstanding PhD Thesis in Computer and Information Security"'
     url: "https://www.sigsac.org/award/diss-awards.html"
     citation: "The committee was unanimous in recognizing the outstanding contributions made by Jo Van Bulck's dissertation in understanding the limitations in the security guarantees provided by current hardware-assisted isolated execution environments. The work described in the dissertation showed a wide variety of attacks against processor architectures ranging from low-end microprocessors with enclave support to widely deployed processor extensions like Intel SGX. The work has already had a significant impact both in academia as well as in industry, and has been widely recognized. It is no exaggeration to say that Dr. Van Bulck has contributed to launching a new research subfield in systems security."
+  
   - title: "FWO/IBM Innovation Award 2021"
+    paper: "phd-thesis"
+    label: "PhD thesis"
     for: '"an outstanding PhD thesis that presents an original contribution to informatics or its applications"'
     month: "November 16"
     year: 2021
     url: "https://www.fwo.be/en/fellowships-funding/scientific-prizes/ibm-innovation-award/"
 
   - title: "ERCIM WG STM Best Ph.D. Thesis Award"
-    for: "Best Ph.D. Thesis on Security and Trust Management"
+    paper: "phd-thesis"
+    label: "PhD thesis"
+    for: '"Best Ph.D. Thesis on Security and Trust Management"'
     month: "October 8"
     year: 2021
     url: "https://hosting.services.iit.cnr.it/STM-WG/contentpage06.html"
@@ -44,40 +52,64 @@ awards:
 
   - title: "Distinguished Paper with Artifacts Award"
     venue: "ACSAC 2020"
-    for: "Faulty Point Unit"
+    paper: "acsac20-fpu"
+    label: "FPU paper"
     year: 2020
     month: "December 9"
     url: "https://twitter.com/ACSAC_Conf/status/1336701510265286658"
 
   - title: "Applied Research Competition Finalist"
     venue: "CSAW Europe"
-    for: "LVI"
+    paper: "oakland20lvi"
+    label: "LVI paper"
     month: "November 6"
     year: 2020
     url: "https://43f60238-2232-4612-9aac-81bc9da2dd4e.filesusr.com/ugd/acbc49_13fe4df0d8ef4f469f9442420dfadc1a.pdf"
 
   - title: "Summa cum laude with the congratulations of the Examination Board"
     month: "September 14"
+    paper: "phd-thesis"
+    label: "PhD thesis"
     year: 2020
     for: 'PhD thesis "of the highest international scientific level" (at most 5% of doctorates)'
     url: "https://eng.kuleuven.be/en/research/phd/criteria-for-awarding-the-grades"
 
+  - title: "Top Picks from the 2018 Computer Architecture Conferences"
+    venue: "IEEE Micro"
+    paper: "micro19-foreshadow"
+    label: "Foreshadow paper"
+    year: 2019
+    month: "April 5"
+    url: "https://ieeexplore.ieee.org/document/8709946"
+
+  - title: "Applied Research Competition First Place"
+    venue: "CSAW"
+    paper: "usenix18foreshadow"
+    label: "Foreshadow paper"
+    month: "November 11"
+    year: 2018
+    url: "https://research.ibm.com/haifa/ccoe/events/nov11-CSAW2018.shtml"
+
   - title: "Nominated for Distinguished Paper Award"
     venue: "ACSAC 2017"
     year: 2017
-    for: "VulCAN"
+    paper: "acsac17vulcan"
+    label: "VulCAN paper"
     month: "December 6"
     url: "https://twitter.com/ACSAC_Conf/status/938413039145152512"
 
   - title: "Best Paper Award"
     venue: "SysTEX 2017"
-    for: "SGX-Step"
+    paper: "systex17sgxstep"
+    label: "SGX-Step paper"
     month: "October 28"
     year: 2017
 
   - title: "BELCLIV 2016 Master Thesis Award"
     for: '"de beste masterthesis die een originele bijdrage levert tot de beveiliging van informatiesystemen"'
     year: 2017
+    paper: "msc-thesis"
+    label: "Msc thesis"
     month: "April 21"
     url: "http://www.clusib.be/wp/price/?lang=nl"
 
@@ -90,5 +122,7 @@ awards:
   - title: "Vasco Data Security 2014-2015 Master Thesis Award"
     for: '"een uitmuntende bijdrage aan de technologie voor authentisering van gebruikers of technologie voor informatiebeveiliging in het algemeen"'
     month: "July 3"
+    paper: "msc-thesis"
+    label: "Msc thesis"
     year: 2015
     url: "https://eng.kuleuven.be/en/news-calendar/events-projects/masters-thesis-awards"

@@ -140,7 +140,7 @@ cves:
   - type: "Cryptographic side channels"
     cves:
       - cve: CVE-2017-9526
-        project: "PTE-SGX"
+        project: "SGX-PTE"
         desc: "Secret-dependent control flow in Libgcrypt EdDSA signing"
         paper: "usenix17-pte"
         patch: ['Libgcrypt v1.7.7', 'https://github.com/gpg/libgcrypt/commit/5a22de904a0a366ae79f03ff1e13a1232a89e26b']

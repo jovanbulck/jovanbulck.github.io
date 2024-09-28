@@ -1,0 +1,48 @@
+{% include base_path %}
+
+{% assign foss-types = site.data.foss.foss %}
+
+<table>
+<tbody>
+{% for ft in foss-types  %}
+{% for p in ft.repos  %}
+    <tr>
+        {% if forloop.first == true %}
+            <td style="vertical-align: top;"><b>{{ft.type}}</b></td>
+        {% else %}
+            <td></td>
+        {% endif %}
+        <td>
+            <i class="fas fa-code"></i>
+            <span style="font-weight: 500;"><a class="pub-title" href="{{p.url}}">{{p.title}}</a></span>
+            <br>
+            <em>{{p.role}}.</em>
+            <div>
+                <a href="{{p.url}}">
+                    <button class="ref-btn">
+                        <i class="fa fa-github"></i> GitHub
+                    </button>
+                </a>
+                {% if p.paper %}
+                <a href="files/{{p.paper}}.pdf">
+                    <button class="ref-btn">
+                        <i class="fa fa-file-pdf-o" style="color:#bb0000;"></i> {{p.label}} paper
+                    </button>
+                </a>
+                {% endif %}
+                {% if ft.star %}
+                    {% assign url_parts = {{p.url}} | split: "/" %}
+                    {% assign username = url_parts[3] %}
+                    {% assign repo = url_parts[4] %}
+                    <a href="{{p.url}}">
+                    <!-- https://github.com/primer/octicons/blob/main/icons/star-16.svg -->
+                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{username}}/{{repo}}?style=social&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBkPSJNOCAuMjVhLjc1Ljc1IDAgMCAxIC42NzMuNDE4bDEuODgyIDMuODE1IDQuMjEuNjEyYS43NS43NSAwIDAgMSAuNDE2IDEuMjc5bC0zLjA0NiAyLjk3LjcxOSA0LjE5MmEuNzUxLjc1MSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOThhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOTRMLjgxOCA2LjM3NGEuNzUuNzUgMCAwIDEgLjQxNi0xLjI4bDQuMjEtLjYxMUw3LjMyNy42NjhBLjc1Ljc1IDAgMCAxIDggLjI1Wm0wIDIuNDQ1TDYuNjE1IDUuNWEuNzUuNzUgMCAwIDEtLjU2NC40MWwtMy4wOTcuNDUgMi4yNCAyLjE4NGEuNzUuNzUgMCAwIDEgLjIxNi42NjRsLS41MjggMy4wODQgMi43NjktMS40NTZhLjc1Ljc1IDAgMCAxIC42OTggMGwyLjc3IDEuNDU2LS41My0zLjA4NGEuNzUuNzUgMCAwIDEgLjIxNi0uNjY0bDIuMjQtMi4xODMtMy4wOTYtLjQ1YS43NS43NSAwIDAgMS0uNTY0LS40MUw4IDIuNjk0WiIvPjwvc3ZnPg==">
+                    </a>
+                {% endif %}
+            </div>
+        </td>
+    </tr>
+{% endfor %}
+{% endfor %}
+</tbody>
+</table>

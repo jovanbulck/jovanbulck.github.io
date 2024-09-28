@@ -1,20 +1,49 @@
 {% include base_path %}
 
 {% assign years = site.data.awards.awards | group_by: "year" %}
-<ul class="compact-lst">
+<table>
 {% for y in years %}
 {% for p in y.items %}
-    <li>
-        <a href="{{p.url}}">{{p.title}}</a>{%if p.venue %} at {{p.venue}}{% endif %}{%if p.for %} for <em>{{p.for}}</em>{% endif %}, {{p.month}}, {{p.year}}.
-        {% if p.citation %}
-        <a class="collapsible nounderline">
-                <i class="fas fa-quote-left" title="Citation"></i>
-        </a>
-        <div class="content" style="display: none; font-size: .95em; color:gray;">
-            <em>"{{ p.citation }}"</em>
-        </div>
-        {% endif %}
-    </li>
+    <tr>
+    {% if forloop.first == true %}
+        <td style="vertical-align: top;"><b>{{y.name}}</b></td>
+    {% else %}
+        <td></td>
+    {% endif %}
+        <td>
+            <i class="fas fa-star" style="color:DimGray;"></i>
+            <span style="font-weight: 500;"><a class="pub-title" href="{{p.url}}">{{p.title}}</a></span>
+            <span style="font-size:0.9em;">
+                {%if p.for %}<br><em>for {{p.for}}, </em>{% endif %}
+                <br>
+                {%if p.venue %}{{p.venue}}, {% endif %} {{p.month}}, {{p.year}}.
+            </span>
+            <div>
+                <a href="{{p.url}}" class="nounderline">
+                    <button class="ref-btn">
+                        <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae"></i> Info
+                    </button>
+                </a>
+                {% if p.paper %}
+                    <a href="files/{{p.paper}}.pdf">
+                        <button class="ref-btn">
+                            <i class="fa fa-file-pdf-o" style="color:#bb0000;"></i> {{p.label}}
+                        </button>
+                    </a>
+                {% endif %}
+                {% if p.citation %}
+                    <a class="collapsible nounderline">
+                        <button class="ref-btn">
+                            <i class="fas fa-quote-left" title="Citation"></i> Citation
+                        </button>
+                    </a>
+                    <div class="content" style="display: none; font-size: .95em; color:gray;">
+                        <em>"{{ p.citation }}"</em>
+                    </div>
+                {% endif %}
+            </div>
+        </td>
+    </tr>
 {% endfor %}
 {% endfor %}
-</ul>
+</table>

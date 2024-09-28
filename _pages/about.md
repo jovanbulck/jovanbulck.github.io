@@ -46,6 +46,11 @@ environments.
 
 {% include fmt-edu.html %}
 
+<a name="foss"></a>
+# Selected Open-Source Contributions
+
+{% include fmt-foss.html %}
+
 <a name="cve"></a>
 # Vulnerability Disclosures
 
