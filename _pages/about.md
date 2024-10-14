@@ -32,7 +32,7 @@ environments.
 {% include fmt-talk.html %}
 
 <a name="awards"></a>
-# Awards
+# Awards and Recognitions
 
 {% include fmt-award.html %}
 

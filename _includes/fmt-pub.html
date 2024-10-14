@@ -18,7 +18,7 @@
         {% endif %}
         <td>
         <div>
-        <i class="fa fa-file-pdf-o" ></i>
+        <i class="far fa-file-pdf"></i>
         <b>
             <a class="pub-title" href={% if p.id %}"files/{{p.id}}.pdf"{% else %}"{{p.ext-id}}"{% endif %}>{{p.title}}</a>
         </b>
@@ -80,14 +80,14 @@
             {% if p.id %}
                 <a href="files/{{p.id}}.pdf" class="nounderline">
                     <button class="ref-btn">
-                        <i class="fa fa-file-pdf-o" style="color:#bb0000;"></i> PDF
+                        <i class="far fa-file-pdf" style="color:#bb0000;"></i> PDF
                     </button>
                 </a>
             {% endif %}
             {% if p.website %}
                 <a href="{{p.website}}" class="nounderline">
                     <button class="ref-btn">
-                        <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae"></i> Website
+                        <i class="fas fa-globe-europe" aria-hidden="true" style="color:#3793ae"></i> Website
                     </button>
                 </a>
             {% endif %}
@@ -108,7 +108,7 @@
             {% if p.poster %}
                 <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
                     <button class="ref-btn">
-                        <i class="fa fa-image"></i> Poster
+                        <i class="far fa-image"></i> Poster
                     </button>
                 </a>
             {% endif %}

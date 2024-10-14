@@ -25,14 +25,14 @@
                 <a href="{{p.website}}" class="nounderline">
                     <button class="ref-btn">
                         <!--i class="fas fa-info-circle" title="Info"></i-->
-                        <i class="fa fa-globe" aria-hidden="true" style="color:#3793ae"></i> Info
+                        <i class="fas fa-globe-europe" aria-hidden="true" style="color:#3793ae"></i> Info
                     </button>
                 </a>
             {% endif %}
             {% if p.poster %}
                 <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
                     <button class="ref-btn">
-                        <i class="fa fa-image" style="color:#cc7000;"></i> Poster
+                        <i class="far fa-image" style="color:#cc7000;"></i> Poster
                     </button>
                 </a>
             {% endif %}
