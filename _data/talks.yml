@@ -1,4 +1,22 @@
 talks:
+  - id: "cybersec24"
+    title: "Attacks and Defenses for Trusted Execution Environments"
+    author: ['Jo Van Bulck']
+    venue: "KU Leuven Seminar in Cybersecurity"
+    month: "November 15"
+    year: 2024
+    type: "Guest lecture"
+    location: "Leuven, Belgium"
+
+  - id: "cmu24"
+    title: "Attacks and Defenses for Trusted Execution Environments"
+    author: ['Jo Van Bulck']
+    venue: "CMU Advanced Topics in Hardware Security"
+    month: "November 14"
+    year: 2024
+    type: "Guest lecture"
+    location: "online"
+
   - ext-id: "https://newbooksnetwork.com/impact-through-beautiful-ideas-in-excellent-communication"
     title: "Impact through Beautiful Ideas in Excellent Communication: An interview with Jo Van Bulck"
     author: ['Daniel Shea', 'Jo Van Bulck']

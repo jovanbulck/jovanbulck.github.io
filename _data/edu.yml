@@ -10,6 +10,12 @@ courses:
     home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
 
 guest:
+  - venue: 'Carnegie Mellon University Advanced Topics in Hardware Security'
+    years: [2024]
+
+  - venue: 'KUL Seminar in Cybersecurity'
+    years: [2024]
+
   - venue: 'COSIC Course on Cryptography and Cyber Security'
     years: [2024]
 
