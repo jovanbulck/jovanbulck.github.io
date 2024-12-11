@@ -1,4 +1,16 @@
 pubs:
+  - id: "oakland25-badram"
+    title: "BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments"
+    author: [ 'Jesse De Meulemeester', 'Luca Wilke', 'David Oswald' , 'Thomas Eisenbarth', 'Ingrid Verbauwhede', ' Jo Van Bulck' ]
+    venue: "46th IEEE Symposium on Security and Privacy (S&P)"
+    year: 2025
+    cve: "CVE-2024-21944"
+    github: "https://github.com/badramattack/badram"
+    bibtex: "demeulemeester24-badram"
+    website: "https://badram.eu/"
+    demo: "https://youtu.be/zhDACoigQ9M"
+    links: [['AMD response','https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3015.html']]
+    
   - id: "pavetrust24-sancusv"
     title: "Exceptions Prove the Rule: Investigating and Resolving Residual Side Channels in Provably Secure Interrupt Handling"
     author: [ 'Matteo Busi', 'Pierpaolo Degano', 'Riccardo Focardi', 'Letterio Galletta', 'Flaminia Luccio', 'Frank Piessens', 'Jo Van Bulck' ]

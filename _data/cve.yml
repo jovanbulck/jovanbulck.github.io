@@ -1,6 +1,13 @@
 cves:
   - type: "CPU μ-arch"
     cves:
+      - cve: CVE-2024-21944
+        desc: "Undermining Integrity Features of AMD SEV-SNP with Memory Aliasing"
+        project: "BadRAM"
+        paper: "oakland25-badram"
+        vendor: "AMD"
+        sa: "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3015.html"
+
       - cve: TI-PSIRT-2023-040180
         desc: "MSP430 IP Encapsulation Write Vulnerability"
         project: "IPE"

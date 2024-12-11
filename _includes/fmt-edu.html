@@ -11,7 +11,7 @@
         {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
         <div>
           {% for i in c.id -%}
-              <a href="https://onderwijsaanbod.kuleuven.be/{{- c.years[1] -}}/syllabi/n/{{- i[0] -}}N.htm">
+              <a href="https://onderwijsaanbod.kuleuven.be/{{- c.years[0] -}}/syllabi/n/{{- i[0] -}}N.htm">
                 <button class="ref-btn">
                     <i class="fas fa-info-circle" style="color:#35798e"></i>
                     B-KUL-{{- i[0] }} - {{ i[1] }} ECTS

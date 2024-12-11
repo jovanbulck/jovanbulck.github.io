@@ -8,6 +8,7 @@ chair:
     long-name: 'FOSDEM Open-Source Confidential Computing Devroom'
     ico: 'images/fosdem.ico'
     eds: [
+            [2025, 'https://fosdem.org/2025/schedule/track/confidential/'],
             [2024, 'https://fosdem.org/2024/schedule/track/confidential-computing/'],
             [2023, 'https://archive.fosdem.org/2023/schedule/track/confidential_computing/'],
             [2022, 'https://archive.fosdem.org/2022/schedule/track/hardware_aided_trusted_computing/'],
@@ -17,7 +18,7 @@ chair:
 
 pc:
   - id: 'USENIX Security'
-    years: [ 2024 ]
+    years: [ 2025, 2024 ]
 
   - id: 'ACM CCS'
     years: [ 2023, 2022 ]
@@ -31,8 +32,11 @@ pc:
   - id: 'SysTEX'
     years: [ 2023, 2022 ]
 
+  - id: 'uASC'
+    years: [ 2025 ]
+  
   - id: 'PAVeTrust'
-    years: [ 2023, 2022, 2021 ]
+    years: [ 2024, 2023, 2022, 2021 ]
 
 journal:
   - id: 'Computers & Security'
