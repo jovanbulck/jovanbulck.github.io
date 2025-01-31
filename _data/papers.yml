@@ -1,4 +1,13 @@
 pubs:
+  - id: "usenix25-tlblur"
+    title: "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms"
+    author: [ 'Daan Vanoverloop', 'Andres Sanchez', 'Flavio Toffalini', 'Frank Piessens', 'Mathias Payer', 'Jo Van Bulck' ]
+    venue: "34th USENIX Security Symposium"
+    year: 2025
+    badge: "Artifacts evaluated: Available"
+    github: "https://github.com/TLBlur-SGX"
+    bibtex: "vanoverloop2025tlblur"
+
   - id: "oakland25-badram"
     title: "BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments"
     author: [ 'Jesse De Meulemeester', 'Luca Wilke', 'David Oswald' , 'Thomas Eisenbarth', 'Ingrid Verbauwhede', ' Jo Van Bulck' ]
