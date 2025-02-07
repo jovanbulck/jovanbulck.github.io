@@ -47,4 +47,11 @@
 <li>
     <span style="font-weight: 500;">Subreviewer:</span> {% for c in service.sub %} {{ c.id }} ({{ c.years | join: ", " }}){% if forloop.last %}.{% else %}, {% endif %}{% endfor %}
 </li>
+<li>
+  <span style="font-weight: 500;">Artifact Evaluation:</span>
+  {% for c in service.ae %}
+      {{ c.id }}
+      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+  {% endfor %}
+</li>
 </ul>

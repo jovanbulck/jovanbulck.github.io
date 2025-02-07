@@ -15,6 +15,8 @@ chair:
             [2021, 'https://archive.fosdem.org/2021/schedule/track/hardware_aided_trusted_computing/'],
             [2020, 'https://archive.fosdem.org/2020/schedule/track/hardware_aided_trusted_computing/']
          ]
+ae:
+  - id: 'SysTEX 2025 (Artifact Evaluation Chair)'
 
 pc:
   - id: 'USENIX Security'
@@ -30,7 +32,7 @@ pc:
     years: [ 2024 ]
 
   - id: 'SysTEX'
-    years: [ 2023, 2022 ]
+    years: [ 2025, 2023, 2022 ]
 
   - id: 'uASC'
     years: [ 2025 ]

@@ -1,4 +1,13 @@
 talks:
+  - ext-id: "https://github.com/confidential-containers"
+    title: "BadRAM: Breaching Processor Security via Rogue Memory Modules"
+    author: ['Jo Van Bulck']
+    venue: "Kata containers confidential computing use case meeting"
+    month: "January 16"
+    year: 2025
+    type: "Invited talk"
+    location: "online"
+
   - id: "cybersec24"
     title: "Attacks and Defenses for Trusted Execution Environments"
     author: ['Jo Van Bulck']
