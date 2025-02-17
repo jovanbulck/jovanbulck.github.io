@@ -1,4 +1,13 @@
 talks:
+  - id: "inaugural25"
+    title: "Trust for Our Time: Confidential Computing in Untrusted Environments"
+    author: ['Jo Van Bulck']
+    venue: "KU Leuven, Dept. of Computer Science"
+    month: "February 14"
+    year: 2025
+    type: "Inaugural lecture"
+    location: "Leuven, Belgium"
+
   - ext-id: "https://github.com/confidential-containers"
     title: "BadRAM: Breaching Processor Security via Rogue Memory Modules"
     author: ['Jo Van Bulck']
