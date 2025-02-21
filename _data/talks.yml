@@ -1,4 +1,14 @@
 talks:
+  - id: "ruhrsec25-ipe"
+    title: "Breaking and Securing Memory Isolation in Texas Instruments Microcontrollers"
+    author: ['Marton Bognar', 'Jo Van Bulck']
+    venue: "RuhrSec IT Security Conference"
+    month: "February 21"
+    year: 2025
+    type: "Talk"
+    location: "Bochum, Germany"
+    url: "https://www.ruhrsec.de/2025"
+
   - id: "inaugural25"
     title: "Trust for Our Time: Confidential Computing in Untrusted Environments"
     author: ['Jo Van Bulck']
