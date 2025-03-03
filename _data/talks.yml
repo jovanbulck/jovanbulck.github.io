@@ -1,4 +1,13 @@
 talks:
+  - id: "intelspr25-tlblur"
+    title: "TLBlur: The Art of Obscuring SGX Page Accesses Across Space and Time"
+    author: ['Daan Vanoverloop', 'Jo Van Bulck']
+    venue: "Intel Tech Talk"
+    month: "March 3"
+    year: 2025
+    type: "Invited Talk"
+    location: "Online"
+
   - id: "ruhrsec25-ipe"
     title: "Breaking and Securing Memory Isolation in Texas Instruments Microcontrollers"
     author: ['Marton Bognar', 'Jo Van Bulck']
