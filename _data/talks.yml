@@ -1,4 +1,22 @@
 talks:
+  - id: "drads25-rebuttals"
+    title: "Dealing with Reviewer Feedback and Rebuttals?"
+    author: ['Jo Van Bulck']
+    type: "Panel discussion"
+    venue: "DRADS DistriNet Workshop"
+    location: "Oostduinkerke, Belgium"
+    month: "March 11"
+    year: 2025
+
+  - id: "drads25-keynote"
+    title: "Fortress or Facade: Strengthening the Future of Confidential Computing"
+    author: ['Jo Van Bulck']
+    type: "Keynote"
+    venue: "DRADS DistriNet Workshop"
+    location: "Oostduinkerke, Belgium"
+    month: "March 10"
+    year: 2025
+
   - id: "intelspr25-tlblur"
     title: "TLBlur: The Art of Obscuring SGX Page Accesses Across Space and Time"
     author: ['Daan Vanoverloop', 'Jo Van Bulck']
