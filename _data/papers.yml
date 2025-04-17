@@ -1,10 +1,18 @@
 pubs:
+  - id: "systex25-pandora-sancus"
+    title: "Principled Symbolic Validation of Enclaves on Low-End Microcontrollers"
+    author: ['Gert-Jan Goossens', 'Jo Van Bulck']
+    venue: "8th Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2025
+    github: "https://github.com/pandora-tee/"
+    bibtex: "goossens2025principled"
+
   - id: "usenix25-tlblur"
     title: "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms"
     author: [ 'Daan Vanoverloop', 'Andres Sanchez', 'Flavio Toffalini', 'Frank Piessens', 'Mathias Payer', 'Jo Van Bulck' ]
     venue: "34th USENIX Security Symposium"
     year: 2025
-    badge: "Artifacts evaluated: Available"
+    badge: "Artifacts evaluated: Available, Functional, Reproduced"
     github: "https://github.com/TLBlur-SGX"
     bibtex: "vanoverloop2025tlblur"
 
