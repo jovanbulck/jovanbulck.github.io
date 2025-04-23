@@ -1,4 +1,12 @@
 pubs:
+  - id: "systex25-wait"
+    title: "Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels"
+    author: ['Ruben Van Dijck', 'Marton Bognar', 'Jo Van Bulck']
+    venue: "8th Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2025
+    github: "https://github.com/dnet-tee/wait-a-cycle"
+    bibtex: "vandijck2025wait"
+    
   - id: "systex25-pandora-sancus"
     title: "Principled Symbolic Validation of Enclaves on Low-End Microcontrollers"
     author: ['Gert-Jan Goossens', 'Jo Van Bulck']
