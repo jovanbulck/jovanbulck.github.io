@@ -1,4 +1,12 @@
 pubs:
+  - id: "eurosp25-openipe"
+    title: "openIPE: An Extensible Memory Isolation Framework for Microcontrollers"
+    author: ['Marton Bognar', 'Jo Van Bulck']
+    venue: "10th IEEE European Symposium on Security and Privacy (EuroS&P)"
+    year: 2025
+    github: "https://github.com/martonbognar/openipe"
+    bibtex: "bognar25openipe"
+
   - id: "systex25-wait"
     title: "Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels"
     author: ['Ruben Van Dijck', 'Marton Bognar', 'Jo Van Bulck']
