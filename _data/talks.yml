@@ -1,4 +1,13 @@
 talks:
+  - id: "ghent25"
+    title: "<s>Secure</s> Trusted Software and Hacking"
+    author: ['Jo Van Bulck']
+    venue: "Master Industrial Engineering"
+    month: "May 21"
+    year: 2025
+    type: "Guest lecture"
+    location: "Ghent, Belgium"
+
   - id: "kul25-artifinder"
     title: "Automatic Discovery of Artifacts in Cybersecurity Literature"
     author: ['Marton Bognar', 'Arthur Bols', 'Jo Van Bulck']

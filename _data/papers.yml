@@ -1,4 +1,16 @@
 pubs:
+  - title: "Confusing Value with Enumeration: Studying the Use of CVEs in Academia"
+    author: ['Moritz Schloegel', 'Daniel Klischies', 'Simon Koch', 'David Klein', 'Lukas Gerlach', 'Malte Wessels', 'Leon Trampert', 'Martin Johns', 'Mathy Vanhoef', 'Michael Schwarz', 'Thorsten Holz', 'Jo Van Bulck']
+    venue: "34th USENIX Security Symposium"
+    year: 2025
+    bibtex: "schloegel2025confusing"
+
+  - title: "SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution"
+    author: ['Daniel Weber', 'Lukas Gerlach', 'Leon Trampert', 'Youheng Lü', 'Jo Van Bulck', 'Michael Schwarz']
+    venue: "34th USENIX Security Symposium"
+    year: 2025
+    bibtex: "weber2025scase"
+
   - id: "eurosp25-openipe"
     title: "openIPE: An Extensible Memory Isolation Framework for Microcontrollers"
     author: ['Marton Bognar', 'Jo Van Bulck']
@@ -12,6 +24,7 @@ pubs:
     author: ['Ruben Van Dijck', 'Marton Bognar', 'Jo Van Bulck']
     venue: "8th Workshop on System Software for Trusted Execution (SysTEX)"
     year: 2025
+    badge: "Artifacts evaluated: Available, Functional, Reusable"
     github: "https://github.com/dnet-tee/wait-a-cycle"
     bibtex: "vandijck2025wait"
     
@@ -20,7 +33,8 @@ pubs:
     author: ['Gert-Jan Goossens', 'Jo Van Bulck']
     venue: "8th Workshop on System Software for Trusted Execution (SysTEX)"
     year: 2025
-    github: "https://github.com/pandora-tee/"
+    badge: "Artifacts evaluated: Available, Functional, Reusable"
+    github: "https://github.com/pandora-tee/pandora-examples/tree/main/sancus"
     bibtex: "goossens2025principled"
 
   - id: "usenix25-tlblur"
