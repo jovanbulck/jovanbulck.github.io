@@ -1,7 +1,7 @@
 courses:
   - course: 'Operating Systems'
     note: 'co-taught with Frank Piessens'
-    years: [2024, 2023]
+    years: [2025, 2024, 2023]
     id: [
             ['G0Q35A', 6 ],
             ['H04G1B', 3]
@@ -10,6 +10,9 @@ courses:
     home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
 
 guest:
+  - venue: 'KUL Ghent Course on Secure Software and Hacking'
+    years: [2025]
+
   - venue: 'Carnegie Mellon University Advanced Topics in Hardware Security'
     years: [2024]
 

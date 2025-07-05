@@ -1,8 +1,14 @@
 phd:
+  - name: "Antonis Louka"
+    start: 2025
+    end: "current"
+    home: "https://distrinet.cs.kuleuven.be/people/AntonisLouka"
+
   - name: "Márton Bognár"
     start: 2020
-    end: "current"
+    end: 2025
     home: "https://mici.hu/"
+    title: "Security Arms Race at the Hardware-Software Boundary"
 
   - name: "Fritz Alder"
     start: 2019
@@ -12,6 +18,24 @@ phd:
     pdf: "https://falder.org/files/PhD-Fritz-Alder.pdf"
 
 msc:
+  - name: "Dries Vanspauwen"
+    year: 2025
+
+  - name: "Pieter-Jan Sterkens"
+    year: 2025
+
+  - name: "Jan Brosens"
+    year: 2025
+
+  - name: "Arne Putzeys"
+    year: 2025
+
+  - name: "Ruben Van Dijck"
+    year: 2025
+
+  - name: "Kobe Sauwen"
+    year: 2025
+
   - name: "Gert-Jan Goossens"
     year: 2024
 
@@ -66,6 +90,9 @@ msc:
     year: 2017
 
 bsc:
+  - name: "Victor Bullynck"
+    year: 2025
+
   - name: "Jip Helsen"
     year: 2024
     

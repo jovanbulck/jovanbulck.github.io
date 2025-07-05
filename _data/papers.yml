@@ -1,7 +1,11 @@
 pubs:
-  - title: "Confusing Value with Enumeration: Studying the Use of CVEs in Academia"
+  - id: "usenix25-cve"
+    title: "Confusing Value with Enumeration: Studying the Use of CVEs in Academia"
     author: ['Moritz Schloegel', 'Daniel Klischies', 'Simon Koch', 'David Klein', 'Lukas Gerlach', 'Malte Wessels', 'Leon Trampert', 'Martin Johns', 'Mathy Vanhoef', 'Michael Schwarz', 'Thorsten Holz', 'Jo Van Bulck']
     venue: "34th USENIX Security Symposium"
+    badge: "Artifacts evaluated: Available"
+    github: "https://github.com/mu00d8/cves_in_academia"
+
     year: 2025
     bibtex: "schloegel2025confusing"
 
@@ -18,6 +22,9 @@ pubs:
     year: 2025
     github: "https://github.com/martonbognar/openipe"
     bibtex: "bognar25openipe"
+    award: "EuroS&P 2025 Distinguished Paper Award"
+    slides: true
+    poster: true
 
   - id: "systex25-wait"
     title: "Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels"
@@ -26,7 +33,9 @@ pubs:
     year: 2025
     badge: "Artifacts evaluated: Available, Functional, Reusable"
     github: "https://github.com/dnet-tee/wait-a-cycle"
+    award: "SysTEX 2025 Best Paper with Artifacts Award"
     bibtex: "vandijck2025wait"
+    slides: true
     
   - id: "systex25-pandora-sancus"
     title: "Principled Symbolic Validation of Enclaves on Low-End Microcontrollers"
@@ -36,6 +45,7 @@ pubs:
     badge: "Artifacts evaluated: Available, Functional, Reusable"
     github: "https://github.com/pandora-tee/pandora-examples/tree/main/sancus"
     bibtex: "goossens2025principled"
+    slides: true
 
   - id: "usenix25-tlblur"
     title: "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms"
@@ -57,6 +67,7 @@ pubs:
     website: "https://badram.eu/"
     demo: "https://youtu.be/zhDACoigQ9M"
     links: [['AMD response','https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3015.html']]
+    poster: true
     
   - id: "pavetrust24-sancusv"
     title: "Exceptions Prove the Rule: Investigating and Resolving Residual Side Channels in Provably Secure Interrupt Handling"

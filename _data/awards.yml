@@ -1,4 +1,20 @@
 awards:
+  - title: "Best Paper with Artifacts Award"
+    venue: "SysTEX 2025"
+    paper: "systex25-wait"
+    label: "Wait a Cycle paper"
+    year: 2025
+    month: "July 4"
+    url: "https://systex-workshop.github.io/2025/"
+
+  - title: "Distinguished Paper Award"
+    venue: "EuroS&P 2025"
+    paper: "eurosp25-openipe"
+    label: "openIPE paper"
+    year: 2025
+    month: "July 1"
+    url: "https://eurosp2025.ieee-security.org/"
+
   - title: "Cybersecurity Artifacts Competition and Impact Award"
     venue: "ACSAC 2023"
     paper: "acsac23-sgxstep"
