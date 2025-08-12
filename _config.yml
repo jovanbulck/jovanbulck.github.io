@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jo Van Bulck"
-  avatar           : "jo.jpg"
+  avatar           : "jo_avatar.jpg"
   bio              : "Prof @KU_Leuven | Trusted Computing & Side-Channel Attacks | #IntelSGX #Foreshadow #ZombieLoad #LVI #SGXStep #AEXNotify"
   location         : "Leuven, Belgium"
   employer         :
