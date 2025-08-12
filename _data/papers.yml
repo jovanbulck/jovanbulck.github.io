@@ -5,7 +5,6 @@ pubs:
     venue: "34th USENIX Security Symposium"
     badge: "Artifacts evaluated: Available"
     github: "https://github.com/mu00d8/cves_in_academia"
-
     year: 2025
     bibtex: "schloegel2025confusing"
 
@@ -14,6 +13,7 @@ pubs:
     author: ['Daniel Weber', 'Lukas Gerlach', 'Leon Trampert', 'Youheng Lü', 'Jo Van Bulck', 'Michael Schwarz']
     venue: "34th USENIX Security Symposium"
     year: 2025
+    badge: "Artifacts evaluated: Available, Functional, Reproduced"
     github: "https://github.com/cispa/scase"
     bibtex: "weber2025scase"
 
