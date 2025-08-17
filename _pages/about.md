@@ -21,37 +21,37 @@ My research explores attacks and defenses at the hardware-software boundary,
 with particular attention to privileged side channels in trusted execution
 environments.
 
-<a name="pubs"></a>
+<a name="pubs" id="pubs"></a>
 # Publications
 
 {% include fmt-pub.html %}
 
-<a name="talks"></a>
+<a name="talks" id="talks"></a>
 # Talks
 
 {% include fmt-talk.html %}
 
-<a name="awards"></a>
+<a name="awards" id="awards"></a>
 # Awards and Recognitions
 
 {% include fmt-award.html %}
 
-<a name="service"></a>
+<a name="service" id="service"></a>
 # Academic Service
 
 {% include fmt-service.html %}
 
-<a name="teaching"></a>
+<a name="edu" id="edu"></a>
 # Teaching
 
 {% include fmt-edu.html %}
 
-<a name="foss"></a>
+<a name="foss" id="foss"></a>
 # Selected Open-Source Contributions
 
 {% include fmt-foss.html %}
 
-<a name="cve"></a>
+<a name="cve" id="cve"></a>
 # Vulnerability Disclosures
 
 {% include fmt-cve.html %}

@@ -13,7 +13,7 @@
             <td></td>
         {% endif %}
         <td>
-            <i class="fas fa-code"></i>
+            <i class="fas fa-code" style="color: var(--global-masthead-link-color-hover);"></i>
             <span style="font-weight: 500;"><a class="pub-title" href="{{p.url}}">{{p.title}}</a></span>
             <br>
             <em>{{p.role}}.</em>
@@ -26,7 +26,7 @@
                 {% if p.paper %}
                 <a href="files/{{p.paper}}.pdf">
                     <button class="ref-btn">
-                        <i class="far fa-file-pdf" style="color:#bb0000;"></i> {{p.label}} paper
+                        <i class="far fa-file-pdf" style="color: var(--global-pdf-color);"></i> {{p.label}} paper
                     </button>
                 </a>
                 {% endif %}

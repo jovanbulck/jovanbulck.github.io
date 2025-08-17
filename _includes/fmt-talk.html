@@ -11,7 +11,7 @@
             <td></td>
         {% endif %}
         <td>
-        <i class="fas fa-chalkboard-teacher" style="color:DimGray;"></i>
+        <i class="fas fa-chalkboard-teacher" style="color: var(--global-masthead-link-color-hover);"></i>
         <b>
             <a class="pub-title" href={% if p.id %}"files/{{p.id}}.pdf"{% else %}"{{p.ext-id}}"{% endif %}>{{p.title}}</a>
         </b>
@@ -25,14 +25,14 @@
                 <a href="{{p.website}}" class="nounderline">
                     <button class="ref-btn">
                         <!--i class="fas fa-info-circle" title="Info"></i-->
-                        <i class="fas fa-globe-europe" aria-hidden="true" style="color:#3793ae"></i> Info
+                        <i class="fas fa-globe-europe" aria-hidden="true" style="color: var(--global-link-color)"></i> Info
                     </button>
                 </a>
             {% endif %}
             {% if p.poster %}
                 <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
                     <button class="ref-btn">
-                        <i class="far fa-image" style="color:#cc7000;"></i> Poster
+                        <i class="far fa-image"></i> Poster
                     </button>
                 </a>
             {% endif %}
@@ -40,7 +40,7 @@
                 {% unless p.no-slides %}
                 <a href="files/{{p.id}}.pdf" class="nounderline">
                     <button class="ref-btn">
-                        <i class="fab fa-slideshare" style="color:#cc7000;"></i> Slides
+                        <i class="fab fa-slideshare" style="color: var(--global-alert-color);"></i> Slides
                     </button>
                 </a>
                 {% endunless %}
@@ -48,7 +48,7 @@
             {% if p.short-slides %}
                 <a href="files/{{p.id}}-short.pdf" class="nounderline">
                     <button class="ref-btn">
-                        <i class="fab fa-slideshare" style="color:#cc7000;"></i> Short Slides
+                        <i class="fab fa-slideshare" style="color: var(--global-alert-color);"></i> Short Slides
                     </button>
                 </a>
             {% endif %}            {% if p.recording %}

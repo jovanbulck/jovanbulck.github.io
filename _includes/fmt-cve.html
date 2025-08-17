@@ -17,22 +17,22 @@
             <td></td>
         {% endif %}
         <td>
-            <i class="fas fa-bug"></i>
+            <i class="fas fa-bug" style="color: var(--global-masthead-link-color-hover);"></i>
             <span style="font-weight: 500;"><a class="pub-title" href="https://nvd.nist.gov/vuln/detail/{{c.cve}}">{{c.cve}}</a></span>
             – {{c.desc}}.
             <div>
                 <!--<a href="https://nvd.nist.gov/vuln/detail/{{c.cve}}"><button class="ref-btn"><i class="fas fa-info-circle" style="color:#35798e"></i> NIST</button></a>-->
                 {% if c.intel-sa %}
-                    <a href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-{{c.intel-sa}}.html"><button class="ref-btn"><i class="fas fa-shield-alt" style="color:orange;"></i> Intel SA-{{c.intel-sa}}</button></a>
+                    <a href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-{{c.intel-sa}}.html"><button class="ref-btn"><i class="fas fa-shield-alt" style="color: var(--global-alert-color);"></i> Intel SA-{{c.intel-sa}}</button></a>
                 {% endif %}
                 {% if c.sa %}
-                    <a href="{{c.sa}}"><button class="ref-btn"><i class="fas fa-shield-alt" style="color:orange;"></i> {{c.vendor}} SA</button></a> 
+                    <a href="{{c.sa}}"><button class="ref-btn"><i class="fas fa-shield-alt" style="color: var(--global-alert-color);"></i> {{c.vendor}} SA</button></a> 
                 {% endif %}
                 {% if c.patch %}
-                    <a href="{{c.patch[1]}}"><button class="ref-btn"><i class="fab fa-github" style="color:#171516;"></i> Patch {{c.patch[0]}}</button></a> 
+                    <a href="{{c.patch[1]}}"><button class="ref-btn"><i class="fab fa-github"></i> Patch {{c.patch[0]}}</button></a> 
                 {% endif %}
                 {% if c.paper %}
-                    <a href="files/{{c.paper}}.pdf"><button class="ref-btn"><i class="far fa-file-pdf" style="color:#bb0000;"></i> {{c.project}} paper</button></a>
+                    <a href="files/{{c.paper}}.pdf"><button class="ref-btn"><i class="far fa-file-pdf" style="color: var(--global-pdf-color);"></i> {{c.project}} paper</button></a>
                 {% endif %}
             </div>
         </td>

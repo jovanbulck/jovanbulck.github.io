@@ -13,7 +13,7 @@
           {% for i in c.id -%}
               <a href="https://onderwijsaanbod.kuleuven.be/{{- c.years[0] -}}/syllabi/n/{{- i[0] -}}N.htm">
                 <button class="ref-btn">
-                    <i class="fas fa-info-circle" style="color:#35798e"></i>
+                    <i class="fas fa-info-circle" style="color: var(--global-link-color)"></i>
                     B-KUL-{{- i[0] }} - {{ i[1] }} ECTS
                 </button>
               </a>
@@ -21,7 +21,7 @@
           {% if c.lab %}
               <a href="{{- c.lab -}}">
                 <button class="ref-btn">
-                    <i class="fas fa-globe-europe" aria-hidden="true" style="color:#3793ae"></i>
+                    <i class="fas fa-globe-europe" aria-hidden="true" style="color: var(--global-link-color)"></i>
                     Lab sessions
                 </button>
               </a>
@@ -29,7 +29,7 @@
           {% if c.home %}
               <a href="{{- c.home -}}">
                 <button class="ref-btn">
-                    <i class="fab fa-github" style="color:#171516;"></i>
+                    <i class="fab fa-github"></i>
                     Homeworks
                 </button>
               </a>
@@ -68,7 +68,7 @@
             <a href="{{p.home}}" class="nocolor">{{p.name}}</a>{% if p.title %}
               – <em>{{p.title}}</em>, KU Leuven.
                 <a href="{{p.pdf}}" class="nounderline">
-                    <i class="far fa-file-pdf" style="color:#bb0000;" title="PhD thesis"></i>
+                    <i class="far fa-file-pdf" style="color: var(--global-pdf-color);" title="PhD thesis"></i>
                 </a>
             {% else %}.
             {% endif %}

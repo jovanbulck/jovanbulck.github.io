@@ -11,7 +11,7 @@
         <td></td>
     {% endif %}
         <td>
-            <i class="fas fa-star" style="color:DimGray;"></i>
+            <i class="fas fa-star" style="color: var(--global-masthead-link-color-hover);"></i>
             <span style="font-weight: 500;"><a class="pub-title" href="{{p.url}}">{{p.title}}</a></span>
             <span style="font-size:0.9em;">
                 {%if p.for %}<br><em>for {{p.for}}, </em>{% endif %}
@@ -21,13 +21,13 @@
             <div>
                 <a href="{{p.url}}" class="nounderline">
                     <button class="ref-btn">
-                        <i class="fas fa-globe-europe" aria-hidden="true" style="color:#3793ae"></i> Info
+                        <i class="fas fa-globe-europe" aria-hidden="true" style="color: var(--global-link-color)"></i> Info
                     </button>
                 </a>
                 {% if p.paper %}
                     <a href="files/{{p.paper}}.pdf">
                         <button class="ref-btn">
-                            <i class="far fa-file-pdf" style="color:#bb0000;"></i> {{p.label}}
+                            <i class="far fa-file-pdf" style="color: var(--global-pdf-color);"></i> {{p.label}}
                         </button>
                     </a>
                 {% endif %}
@@ -37,7 +37,7 @@
                             <i class="fas fa-quote-left" title="Citation"></i> Citation
                         </button>
                     </a>
-                    <div class="content" style="display: none; font-size: .95em; color:gray;">
+                    <div class="content" style="display: none; font-size: .95em; color: var(--global-text-color);">
                         <em>"{{ p.citation }}"</em>
                     </div>
                 {% endif %}
