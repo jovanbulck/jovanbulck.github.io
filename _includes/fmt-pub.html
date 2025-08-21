@@ -149,8 +149,12 @@
                                 <i class="fas fa-quote-left"></i> BibTeX
                             </button>
                         </a>
-                        <div class="content" style="display: none; font-size: .75em;">
-                            <pre style="white-space: pre-wrap;">@{{ r }}</pre>
+                        <div class="content bibtex" style="display: none;">
+                            <button class="copy-btn" onclick="copyToClipboard(this)">
+                                <i class="fas fa-copy"></i>
+                                <span class="tooltip">Copied!</span>
+                            </button>
+                            <pre class="lst">@{{ r }}</pre>
                         </div>
                         {% break %}
                     {%- endif -%}

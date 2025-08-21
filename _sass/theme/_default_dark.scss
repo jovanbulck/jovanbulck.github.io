@@ -56,4 +56,6 @@ html[data-theme="dark"] {
     --global-btn-bg-color-hover         : #fafafa;
     --global-pdf-color                  : #ff3333;
     --global-alert-color                : orange;
+    --global-cpy-bg-color               : #{$darker-gray};
+    --global-cpy-bg-color-hover         : #{$light-gray};
 }

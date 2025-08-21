@@ -48,6 +48,7 @@
   font-size: $type-size-4;
 }
 
+
 .page__content {
 
   h2 {
@@ -102,7 +103,77 @@
       }
     }
   }
-  
+
+  div.bibtex {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    padding: 1em;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    background-color: var(--global-code-background-color);
+    color: var(--global-code-text-color);
+    box-shadow: $box-shadow;
+    font-size: .75em;
+
+    .copy-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0.5em;
+      font-size: 1.2em;
+      background-color:  var(--global-cpy-bg-color);
+      color:  var(--global-masthead-link-color);
+      border: none;
+      outline: none;
+      line-height: 1;
+      text-transform: none;
+    }
+
+    .copy-btn:hover {
+      background-color:  var(--global-cpy-bg-color-hover);
+      color:  var(--global-masthead-link-color-hover);
+    }
+
+    .tooltip {
+      visibility: hidden;
+      width: 90px;
+      background-color: #555;
+      color: #fff;
+      font-size: .9em;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+        
+      /* Position the tooltip text */
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -45px;
+        
+      /* Fade in tooltip */
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    /* Tooltip arrow */
+    .tooltip::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+
+    .lst {
+      white-space: pre-wrap;
+  }
+  }
+
   h1 {
     font-variant: small-caps;
   }

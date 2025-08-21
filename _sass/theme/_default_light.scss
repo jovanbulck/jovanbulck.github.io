@@ -8,6 +8,7 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $light-md-gray              : mix(#fff, $gray, 70%);
+$light-sm-gray              : mix(#fff, $gray, 80%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 /* Color codes used for the site */
@@ -50,4 +51,6 @@ $sidebar-screen-min-width   : 1024px;
     --global-btn-bg-color-hover         : #{$light-md-gray};
     --global-pdf-color                  : #bb0000;
     --global-alert-color                : #cc7000;
+    --global-cpy-bg-color               : #{$light-sm-gray};
+    --global-cpy-bg-color-hover         : #{$light-gray};
 }
