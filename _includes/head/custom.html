@@ -34,25 +34,4 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<script>
-function copyToClipboard(button) {
-    const codeBlock = button.nextElementSibling; // Get the <pre> element
-    const code = codeBlock.innerText; // Get the text inside <pre>
-    const tooltip = button.querySelector('.tooltip'); // Get the tooltip element
-
-    navigator.clipboard.writeText(code).then(() => {
-        tooltip.style.visibility = 'visible';
-        tooltip.style.opacity = '1'; // Fade in
-
-        // Reset tooltip after 2 seconds
-        setTimeout(() => {
-            tooltip.style.visibility = 'hidden';
-            tooltip.style.opacity = '0';
-        }, 2000);
-    }).catch(err => {
-        console.error('Failed to copy: ', err);
-    });
-}
-</script>
-
 <!-- end custom head snippets -->
