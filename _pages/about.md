@@ -22,8 +22,6 @@ with particular attention to privileged side channels in trusted execution
 environments.
 
 <a name="pubs" id="pubs"></a>
-# Publications
-
 {% include fmt-pub.html %}
 
 <a name="talks" id="talks"></a>

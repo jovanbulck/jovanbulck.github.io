@@ -8,6 +8,10 @@ pubs:
     github: "https://github.com/mu00d8/cves_in_academia"
     year: 2025
     bibtex: "schloegel2025confusing"
+    topic: "meta-science"
+    tldr: |
+      This paper analyzes the use of <abbr title="Common Vulnerabilities and Exposures">CVE</abbr> identifiers in A* security papers through quantitative analysis, qualitative review, and a user study. 
+      We highlight an increasing trend in CVE inclusion, widespread misconceptions about the CVE ecosystem, and advise caution against using CVEs as proxies for real-world impact beyond mere identification.
 
   - id: "usenix25-scase"
     title: "SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution"
@@ -17,7 +21,11 @@ pubs:
     badge: "Artifacts evaluated: Available, Functional, Reproduced"
     github: "https://github.com/cispa/scase"
     bibtex: "weber2025scase"
-
+    topic: "attack symbolic-execution side-channel intel-sgx sgx-step"
+    tldr: |
+      Side-channel-assisted symbolic execution (SCASE) is a novel methodology for automated key extraction from opaque binaries using concrete side-channel traces to effectively prune the symbolic-execution search space.
+      We demonstrate SCASE's effectiveness and ability to combat state explosion using page-access traces extracted with <a href="#systex17-sgxstep">SGX-Step</a>, recovering OpenSSL cryptographic keys and other inputs.
+      
   - id: "eurosp25-openipe"
     title: "openIPE: An Extensible Memory Isolation Framework for Microcontrollers"
     author: ['Marton Bognar', 'Jo Van Bulck']
@@ -28,7 +36,12 @@ pubs:
     award: "EuroS&P 2025 Distinguished Paper Award"
     slides: true
     poster: true
-
+    logo: true
+    topic: "defense side-channel symbolic-execution interface-shielding mcu"
+    tldr: |
+      OpenIPE is an open research platform for enhancing memory isolation in low-end microcontrollers.
+      We introduce minimal hardware extensions, compatible with Texas Instruments' proprietary <abbr title="Intellectual Property Encapsulation">IPE</abbr> specification and resistant against our earlier <a href="#usenix24-ipe">IP Exposure</a> attacks, alongside a versatile firmware layer enabling rapid prototyping of advanced hardware-software co-design security features.
+  
   - id: "systex25-wait"
     title: "Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels"
     author: ['Ruben Van Dijck', 'Marton Bognar', 'Jo Van Bulck']
@@ -39,6 +52,7 @@ pubs:
     award: "SysTEX 2025 Best Paper with Artifacts Award"
     bibtex: "vandijck2025wait"
     slides: true
+    topic: "attack side-channel mcu"
     
   - id: "systex25-pandora-sancus"
     title: "Principled Symbolic Validation of Enclaves on Low-End Microcontrollers"
@@ -49,6 +63,7 @@ pubs:
     github: "https://github.com/pandora-tee/pandora-examples/tree/main/sancus"
     bibtex: "goossens2025principled"
     slides: true
+    topic: "defense mcu symbolic-execution interface-shielding"
 
   - id: "usenix25-tlblur"
     title: "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms"
@@ -58,6 +73,10 @@ pubs:
     badge: "Artifacts evaluated: Available, Functional, Reproduced"
     github: "https://github.com/TLBlur-SGX"
     bibtex: "vanoverloop2025tlblur"
+    logo: true
+    topic: "defense side-channel intel-sgx sgx-step"
+    tldr: |
+      TLBlur is a compiler-assisted mitigation for Intel SGX that uses the <a href="#usenix23-aexnotify">AEX-Notify</a> hardware extension to transparently limit, i.e., "blur", the bandwidth of controlled-channel attacks to the set of recently accessed pages.
 
   - id: "oakland25-badram"
     title: "BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments"
@@ -71,13 +90,19 @@ pubs:
     demo: "https://youtu.be/zhDACoigQ9M"
     links: [['AMD response','https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3015.html']]
     poster: true
-    
+    logo: true
+    topic: "attack side-channel amd-sev"
+    tldr: |
+      BadRAM is a novel attack technique which modifies DRAM <abbr title="Serial Presence Detect">SPD</abbr> metadata to create aliases in the physical address space and effectively bypass processor-level access restrictions.
+      Using this powerful aliasing primitive, we dismantle trust in the AMD SEV-SNP ecosystem by replaying critical attestation reports.
+
   - id: "pavetrust24-sancusv"
     title: "Exceptions Prove the Rule: Investigating and Resolving Residual Side Channels in Provably Secure Interrupt Handling"
     author: [ 'Matteo Busi', 'Pierpaolo Degano', 'Riccardo Focardi', 'Letterio Galletta', 'Flaminia Luccio', 'Frank Piessens', 'Jo Van Bulck' ]
     venue: "4th Workshop on Program Analysis and Verification on Trusted Platforms (PAVeTrust)"
     year: 2024
     bibtex: "busi2024exceptions"
+    topic: "defense side-channel mcu"
 
   - id: "usenix24-ipe"
     title: "Intellectual Property Exposure: Subverting and Securing Intellectual Property Encapsulation in Texas Instruments Microcontrollers"
@@ -89,6 +114,7 @@ pubs:
     github: "https://github.com/martonbognar/ipe-exposure"
     links: [['TI response','https://web.archive.org/web/20231030234254/https://www.ti.com/lit/an/swra792/swra792.pdf']]
     bibtex: "bognar2024exposure"
+    topic: "attack defense side-channel mcu"
 
   - id: "oakland24-pandora"
     title: "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes"
@@ -99,8 +125,10 @@ pubs:
     github: "https://github.com/pandora-tee"
     slides: true
     poster: true
+    logo: true
     recording: "https://www.youtube.com/watch?v=pdPBghjKBlc"
     bibtex: "alder2024pandora"
+    topic: "defense intel-sgx symbolic-execution interface-shielding"
 
   - id: "acsac23-sgxstep"
     title: "SGX-Step: An Open-Source Framework for Precise Dissection and Practical Exploitation of Intel SGX Enclaves"
@@ -108,9 +136,12 @@ pubs:
     venue: "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award Finalist Short Paper"
     year: 2023
     slides: true
+    logo: "systex17-sgxstep"
+    logo-alt: "systex17-sgxstep"
     github: "https://github.com/jovanbulck/sgx-step/"
     award: "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award"
     bibtex: "vanbulck2023sgxstep"
+    topic: "attack side-channel intel-sgx sgx-step"
 
   - id: "usenix23-aexnotify"
     title: "AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves"
@@ -124,6 +155,7 @@ pubs:
     github: "https://github.com/intel/linux-sgx/blob/master/sdk/trts/linux/trts_mitigation.S"
     links: [['Intel ISA extension','https://www.intel.com/content/www/us/en/content-details/736463/white-paper-asynchronous-enclave-exit-notify-and-the-edeccssa-user-leaf-function.html']]
     bibtex: "constable2023aexnotify"
+    topic: "defense side-channel intel-sgx sgx-step"
 
   - id: "eurosp23-microprofiler"
     title: "MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling"
@@ -132,6 +164,7 @@ pubs:
     bibtex: "bognar2023microprofiler"
     github: "https://github.com/martonbognar/microprofiler/"
     year: 2023
+    topic: "defense side-channel mcu"
 
   - id: "systex23-time"
     title: "About Time: On the Challenges of Temporal Guarantees in Untrusted Environments"
@@ -139,6 +172,7 @@ pubs:
     venue: "6th Workshop on System Software for Trusted Execution (SysTEX)"
     bibtex: "alder2023about"
     year: 2023
+    topic: "defense intel-sgx interface-shielding"
 
   - id: "systex22-abi"
     title: "A Case for Unified ABI Shielding in Intel SGX Runtimes"
@@ -149,6 +183,7 @@ pubs:
     slides: true
     cve: "Patched in Enarx v0.2.1"
     bibtex: "vanbulck2022abi"
+    topic: "defense intel-sgx interface-shielding"
 
   - id: "oakland22-gap"
     title: "Mind the Gap: Studying the Insecurity of Provably Secure Embedded Trusted Execution Architectures"
@@ -157,6 +192,7 @@ pubs:
     year: 2022
     github: "https://github.com/martonbognar/gap-attacks"
     bibtex: "bognar2022gap"
+    topic: "defense side-channel mcu"
 
   - id: "dtrap22-fpu"
     title: "Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments"
@@ -164,6 +200,7 @@ pubs:
     venue: "ACM Digital Threats: Research and Practice (DTRAP)"
     year: 2022
     bibtex: "alder2022fpu"
+    topic: "attack side-channel intel-sgx interface-shielding"
 
   - id: "ccs21-aion"
     title: "Aion: Enabling Open Systems through Strong Availability Guarantees for Enclaves"
@@ -174,13 +211,15 @@ pubs:
     bibtex: "alder2021aion"
     slides: "https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs21-slides.pdf"
     recording: "https://youtu.be/E_SbvA-txnQ"
+    topic: "defense mcu"
 
-  - ext-id: "https://dl.acm.org/doi/abs/10.1145/3470534"
+  - id: "toplas21-irq"
     title: "Securing Interruptible Enclaved Execution on Small Microprocessors"
     author: ['Matteo Busi', 'Job Noorman', 'Jo Van Bulck', 'Letterio Galletta', 'Pierpaolo Degano', 'Jan Tobias Mühlberg', 'Frank Piessens']
     venue: "ACM Transactions on Programming Languages and Systems (TOPLAS)"
     year: 2021
     bibtex: "busi2021securing"
+    topic: "defense side-channel mcu"
 
   - id: "comnet21-robust"
     title: "Robust Authentication for Automotive Control Networks through Covert Channels"
@@ -189,7 +228,8 @@ pubs:
     year: 2021
     github: "https://github.com/Stienvdh/vulcan/tree/iat-nonce"
     bibtex: "vanderhalle2021robust"
-
+    topic: "defense side-channel mcu"
+    
   - id: "acsac20-fpu"
     title: "Faulty Point Unit: ABI Poisoning Attacks on Intel SGX"
     author: ['Fritz Alder', 'Jo Van Bulck', 'David Oswald', 'Frank Piessens']
@@ -203,6 +243,7 @@ pubs:
     recording: "https://www.youtube.com/watch?v=SBLRt2yPL3I"
     slides: true
     poster: "files/eurosp21-fpu-poster.pdf"
+    topic: "attack side-channel intel-sgx interface-shielding"
 
   - id: "phd-thesis"
     title: "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
@@ -215,6 +256,7 @@ pubs:
     bibtex: "vanbulck2020phd"
     award: "ACM SIGSAC Doctoral Dissertation Award 2021, ERCIM STM PhD Award 2021, FWO/IBM Innovation Award 2021"
     poster: true
+    topic: "attack side-channel transient-execution intel-sgx sgx-step"
 
   - id: "usenix20-copycat"
     title: "CopyCat: Controlled Instruction-Level Attacks on Enclaves"
@@ -224,6 +266,7 @@ pubs:
     year: 2020
     recording: "https://youtu.be/MXbWsxdVg-o"
     bibtex: "moghimi2020copycat"
+    topic: "attack side-channel intel-sgx sgx-step"
 
   - id: "csf20-irq"
     title: "Provably Secure Isolation for Interruptible Enclaved Execution on Small Microprocessors"
@@ -233,6 +276,7 @@ pubs:
     arxiv: "https://arxiv.org/abs/2001.10881"
     year: 2020
     bibtex: "busi2020provably"
+    topic: "defense side-channel mcu"
 
   - id: "sp20-plundervoltmagazine"
     title: "Plundervolt: How a Little Bit of Undervolting Can Create a Lot of Trouble"
@@ -241,6 +285,7 @@ pubs:
     venue: "IEEE Security & Privacy Magazine Special Issue on Hardware-Assisted Security"
     year: 2020
     bibtex: "murdock2020plundervoltmagazine"
+    topic: "attack side-channel intel-sgx sgx-step"
 
   - id: "oakland20-lvi"
     title: "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection"
@@ -250,6 +295,7 @@ pubs:
     year: 2020
     cve: "CVE-2020-0551"
     slides: true
+    logo: true
     website: "https://lviattack.eu/"
     github: "https://github.com/jovanbulck/sgx-step/tree/master/app/lvi"
     recording: "https://youtu.be/99kVz-YGi6Y"
@@ -258,6 +304,7 @@ pubs:
     links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/load-value-injection']]
     bibtex: "vanbulck2020lvi"
     poster: "files/oakland22-lvi-poster.pdf"
+    topic: "attack transient-execution intel-sgx sgx-step"
 
   - id: "oakland20-plundervolt"
     title: "Plundervolt: Software-Based Fault Injection Attacks Against Intel SGX"
@@ -265,6 +312,8 @@ pubs:
              'Daniel Gruss', 'Frank Piessens']
     venue: "41st IEEE Symposium on Security and Privacy (S&P)"
     year: 2020
+    logo: true
+    logo-alt: true
     cve: "CVE-2019-11157"
     website: "https://plundervolt.com/"
     github: "https://github.com/KitMurdock/plundervolt"
@@ -272,6 +321,7 @@ pubs:
     demo: "https://youtu.be/FXPnzkHz3q0?list=PL0pRF4xvoD0n5MV4cPdF-AvrvRGQVYa-q"
     links: [['Intel response','https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html']]
     bibtex: "murdock2020plundervolt"
+    topic: "attack side-channel intel-sgx sgx-step"
 
   - id: "ccs19-tale"
     title: "A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes"
@@ -280,10 +330,12 @@ pubs:
     year: 2019
     cve: "CVE-2018-3626, CVE-2019-14565, CVE-2019-0876, CVE-2019-1369, CVE-2019-1370"
     slides: true
+    logo: true
     github: "https://github.com/jovanbulck/0xbadc0de"
     recording: "https://dl.acm.org/doi/abs/10.1145/3319535.3363206"
     links: [['Intel response','https://software.intel.com/sites/default/files/managed/e1/ec/180309_SGX_SDK_Developer_Guidance_Edger8r.pdf']]
     bibtex: "vanbulck2019tale"
+    topic: "attack side-channel intel-sgx sgx-step interface-shielding"
 
   - id: "ccs19-zombieload"
     title: "ZombieLoad: Cross-Privilege-Boundary Data Sampling"
@@ -291,6 +343,8 @@ pubs:
             'Jo Van Bulck', 'Julian Stecklina', 'Thomas Prescher', 'Daniel Gruss']
     venue: "26th ACM Conference on Computer and Communications Security (CCS)"
     year: 2019
+    logo: true
+    logo-alt: true
     cve: "CVE-2018-12130, CVE-2019-11135, CVE-2020-0549"
     github: "https://github.com/IAIK/ZombieLoad"
     website: "https://zombieloadattack.com/"
@@ -298,6 +352,7 @@ pubs:
     wiki: "https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling"
     links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/microarchitectural-data-sampling']]
     bibtex: "schwarz2019zombieload"
+    topic: "attack transient-execution intel-sgx sgx-step"
 
   - id: "ccs19-fallout"
     title: "Fallout: Leaking Data on Meltdown-Resistant CPUs"
@@ -306,10 +361,12 @@ pubs:
     venue: "26th ACM Conference on Computer and Communications Security (CCS)"
     year: 2019
     cve: "CVE-2018-12126"
+    logo: true
     website: "https://mdsattacks.com/"
     wiki: "https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling"
     links: [['Intel response','https://software.intel.com/security-software-guidance/software-guidance/microarchitectural-data-sampling']]
     bibtex: "canella2019fallout"
+    topic: "attack transient-execution"
 
   - id: "usenix19-transientsok"
     title: "A Systematic Evaluation of Transient Execution Attacks and Defenses"
@@ -322,6 +379,7 @@ pubs:
     links: [['Intel response','https://software.intel.com/security-software-guidance/insights/more-information-transient-execution-findings'],
             ['AMD response','https://www.amd.com/en/support/kb/faq/pa-220']]
     bibtex: "canella2019systematic"
+    topic: "attack transient-execution"
 
   - id: "micro19-foreshadow"
     title: "Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow"
@@ -330,6 +388,7 @@ pubs:
     venue: "IEEE Micro Top Picks from the 2018 Computer Architecture Conferences"
     year: 2019
     bibtex: "vanbulck2019breaking"
+    topic: "attack transient-execution intel-sgx sgx-step"
 
   - id: "space18-tutorial"
     title: "Tutorial: Uncovering and Mitigating Side-Channel Leakage in Intel SGX Enclaves"
@@ -339,6 +398,7 @@ pubs:
     github: "https://github.com/jovanbulck/sgx-tutorial-space18"
     slides: true
     bibtex: "vanbulck2018tutorial"
+    topic: "attack side-channel intel-sgx sgx-step"
 
   - id: "ccs18-nemesis"
     title: "Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic"
@@ -346,9 +406,11 @@ pubs:
     venue: "25th ACM Conference on Computer and Communications Security (CCS)"
     year: 2018
     slides: true
+    logo: true
     github: "https://github.com/jovanbulck/nemesis"
     recording: "https://www.youtube.com/watch?v=njE9Vg8HOqk"
     bibtex: "vanbulck2018nemesis"
+    topic: "attack side-channel mcu intel-sgx sgx-step"
 
   - id: "foreshadow-ng"
     title: "Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution"
@@ -356,11 +418,14 @@ pubs:
               'Frank Piessens', 'Mark Silberstein', 'Raoul Strackx', 'Thomas Wenisch', 'Yuval Yarom']
     venue: "Technical report"
     year: 2018
+    logo: "usenix18-foreshadow"
+    logo-alt: "usenix18-foreshadow"
     website: "https://foreshadowattack.eu/"
     cve: "CVE-2018-3620, CVE-2018-3646"
     wiki: "https://en.wikipedia.org/wiki/Foreshadow_(security_vulnerability)"
     links: [['Intel response','https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/intel-analysis-l1-terminal-fault.html']]
     bibtex: "weisse2018foreshadowNG"
+    topic: "attack transient-execution intel-sgx sgx-step"
 
   - id: "usenix18-foreshadow"
     title: "Foreshadow: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution"
@@ -370,12 +435,15 @@ pubs:
     year: 2018
     cve: "CVE-2018-3615"
     slides: true
+    logo: true
+    logo-alt: true
     website: "https://foreshadowattack.eu/"
     recording: "https://www.youtube.com/watch?v=fEV6eA9o21o"
     demo: "https://youtu.be/8ZF6kX6z7pM"
     wiki: "https://en.wikipedia.org/wiki/Foreshadow_(security_vulnerability)"
     links: [['Intel response','https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/intel-analysis-l1-terminal-fault.html']]
     bibtex: "vanbulck2018foreshadow"
+    topic: "attack transient-execution intel-sgx sgx-step"
 
   - id: "dsn18-tutorial"
     title: "Tutorial: Building Distributed Enclave Applications with Sancus and SGX"
@@ -386,6 +454,7 @@ pubs:
     github: "https://github.com/sancus-tee/tutorial-dsn18"
     website: "https://distrinet.cs.kuleuven.be/software/sancus/tutorial.php"
     bibtex: "muehlber2018tutorial"
+    topic: "defense mcu intel-sgx"
 
   - id: "login18-reflections"
     title: "Reflections on Post-Meltdown Trusted Computing: A Case for Open Security Processors"
@@ -393,6 +462,7 @@ pubs:
     venue: ";login: the USENIX magazine vol.43 no.3"
     year: 2018
     bibtex: "muelberg2018reflections"
+    topic: "meta-science"
 
   - id: "essos18-offlimits"
     title: "Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution"
@@ -402,6 +472,7 @@ pubs:
     github: "https://distrinet.cs.kuleuven.be/software/off-limits/"
     badge: "Artifacts evaluated"
     bibtex: "gyselinck2018off"
+    topic: "attack side-channel intel-sgx sgx-step"
 
   - id: "acsac17-vulcan"
     title: "VulCAN: Efficient Component Authentication and Software Isolation for Automotive Control Networks"
@@ -414,6 +485,7 @@ pubs:
     award: "Nominated for ACSAC 2017 distinguished paper award"
     badge: "Artifacts evaluated"
     bibtex: "vanbulck2017vulcan"
+    topic: "defense mcu"
 
   - id: "systex17-sgxstep"
     title: "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control"
@@ -421,9 +493,12 @@ pubs:
     venue: "2nd Workshop on System Software for Trusted Execution (SysTEX)"
     year: 2017
     slides: true
+    logo: true
+    logo-alt: true
     github: "https://github.com/jovanbulck/sgx-step/"
     award: "SysTEX 2017 best paper award, ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award"
     bibtex: "vanbulck2017sgxstep"
+    topic: "attack side-channel intel-sgx sgx-step"
 
   - id: "usenix17-pte"
     title: "Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution"
@@ -435,6 +510,7 @@ pubs:
     github: "https://github.com/jovanbulck/sgx-pte"
     recording: "https://www.youtube.com/watch?v=bi1fs0b7GdI"
     bibtex: "vanbulck2017telling"
+    topic: "attack side-channel intel-sgx"
 
   - id: "tops17-sancus"
     title: "Sancus 2.0: A Low-Cost Security Architecture for IoT Devices"
@@ -442,9 +518,11 @@ pubs:
              'Bart Preneel', 'Ingrid Verbauwhede', 'Johannes Götzfried', 'Tilo Müller', 'Felix Freiling']
     venue: "ACM Transactions on Privacy and Security (TOPS)"
     year: 2017
+    logo: true
     github: "https://github.com/sancus-tee"
     website: "https://distrinet.cs.kuleuven.be/software/sancus/"
     bibtex: "noorman2017sancus"
+    topic: "defense mcu"
 
   - id: "wistp16-has"
     title: "Implementation of a High Assurance Smart Meter using Protected Module Architectures"
@@ -453,6 +531,7 @@ pubs:
     year: 2016
     github: "https://distrinet.cs.kuleuven.be/software/sancus/wistp16/"
     bibtex: "muehlber2016implementation"
+    topic: "defense mcu"
 
   - id: "mass16-rtpma"
     title: "Towards Availability and Real-Time Guarantees for Protected Module Architectures"
@@ -461,6 +540,7 @@ pubs:
     year: 2016
     slides: true
     bibtex: "vanbulck2016towards"
+    topic: "defense mcu"
 
   - id: "wistp15-sfs"
     title: "Secure Resource Sharing for Embedded Protected Module Architectures"
@@ -471,6 +551,7 @@ pubs:
     website: "https://distrinet.cs.kuleuven.be/software/sancus/wistp15/"
     slides: true
     bibtex: "vanbulck2015secure"
+    topic: "defense mcu"
 
   - id: "msc-thesis"
     title: "Secure Resource Sharing for Embedded Protected Module Architectures"
@@ -481,3 +562,4 @@ pubs:
     github: "https://github.com/jovanbulck/thesis-src/"
     award: "VASCO thesis award 2015, BELCLIV thesis award 2016"
     bibtex: "vanbulck2015thesis"
+    topic: "defense mcu interface-shielding"

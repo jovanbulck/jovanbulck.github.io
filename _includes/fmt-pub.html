@@ -7,20 +7,35 @@
 {% assign refs = reffile | split: '@' %}
 
 {% assign years = site.data.papers.pubs | group_by: "year" %}
+{% assign topics =  site.data.papers.pubs | map: "topic" | compact | join: " " | split: " " | uniq | sort %}
+
+<div class="flex-h-container">
+    <h1 id="publications">Publications</h1>
+    <div class="filter-container">
+        <i class="fas fa-filter"></i>
+        <select id="filter-dropdown" onchange="filterPapersByTopic(this.value)">
+            <option value="">Filter by topic</option>
+            {% for t in topics %}
+                <option value="{{t}}">{{t}}</option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
+
 <table>
 {% for y in years %}
 {% for p in y.items %}
-    <tr>
-        {% if forloop.first == true %}
-            <td style="vertical-align: top;"><b>{{y.name}}</b></td>
-        {% else %}
-            <td></td>
-        {% endif %}
+    <tr id="{{p.id}}">
+        <td style="vertical-align: top; font-weight: bold;" class="year">
+            {% if forloop.first == true %}
+                {{y.name}}
+            {% endif %}
+        </td>
         <td>
         <div>
         <i class="far fa-file-pdf"></i>
         <b>
-            <a class="pub-title" href={% if p.id %}"files/{{p.id}}.pdf"{% else %}"{{p.ext-id}}"{% endif %}>{{p.title}}</a>
+            <a class="pub-title" href="files/{{p.id}}.pdf">{{p.title}}</a>
         </b>
         <br>
         {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
@@ -77,13 +92,11 @@
         {% endif %}
 
         <div>
-            {% if p.id %}
-                <a href="files/{{p.id}}.pdf" class="nounderline">
-                    <button class="ref-btn">
-                        <i class="far fa-file-pdf" style="color: var(--global-pdf-color);"></i> PDF
-                    </button>
-                </a>
-            {% endif %}
+            <a href="files/{{p.id}}.pdf" class="nounderline">
+                <button class="ref-btn">
+                    <i class="far fa-file-pdf" style="color: var(--global-pdf-color);"></i> PDF
+                </button>
+            </a>
             {% if p.website %}
                 <a href="{{p.website}}" class="nounderline">
                     <button class="ref-btn">
@@ -108,7 +121,7 @@
             {% if p.poster %}
                 <a href={% if p.poster == true %}"files/{{p.id}}-poster.pdf"{% else %}"{{p.poster}}"{% endif %} class="nounderline">
                     <button class="ref-btn">
-                        <i class="far fa-image"></i> Poster
+                        <i class="far fa-map"></i> Poster
                     </button>
                 </a>
             {% endif %}
@@ -140,16 +153,29 @@
                     </button>
                 </a>
             {% endif %}
+            {% if p.logo %}
+                <button class="ref-btn" onclick='toggleCollapse("logo-{{p.id}}")'>
+                    <i class="fab fa-font-awesome-flag"></i> Logo
+                </button>
+            {% endif %}
+            {% if p.bibtex %}
+                <button class="ref-btn" onclick='toggleCollapse("bibtex-{{p.id}}")'>
+                    <i class="fas fa-quote-left"></i> BibTeX
+                </button>
+            {% endif %}
+            {% if p.tldr %}
+                <button class="ref-btn" onclick='toggleCollapse("tldr-{{p.id}}")'>
+                    <i class="fas fa-share"></i> TL;DR
+                </button>
+            {% endif %}
+        </div>
+
+        <div class="collapsible-panel">
             {% if p.bibtex %}
                 {%- for r in refs -%}
                     {%- assign rk = p.bibtex | append: ',' %}
                     {%- if r contains rk -%}
-                        <a class="collapsible nounderline">
-                            <button class="ref-btn">
-                                <i class="fas fa-quote-left"></i> BibTeX
-                            </button>
-                        </a>
-                        <div class="content bibtex" style="display: none;">
+                        <div class="collapsible-content bibtex bibtex-{{p.id}}">
                             <button class="copy-btn" onclick="copyToClipboard(this)">
                                 <i class="fas fa-copy"></i>
                                 <span class="tooltip">Copied!</span>
@@ -160,8 +186,55 @@
                     {%- endif -%}
                 {%- endfor -%}
             {% endif %}
-        </div>
 
+            {% if p.logo %}
+                <div class="collapsible-min-content logo-{{p.id}}">
+                    <table class="bordered-table">
+                        <tr>
+                            <td>
+                                <img style="height: 50px; width: auto;" src="files/{% if p.logo == true %}{{p.id}}{% else %}{{p.logo}}{% endif %}-logo.svg">
+                            </td>
+                            <td>
+                                <a href="files/{% if p.logo == true %}{{p.id}}{% else %}{{p.logo}}{% endif %}-logo.svg"><i class="fa fa-download"></i> SVG</a> /
+                                <a href="files/{% if p.logo == true %}{{p.id}}{% else %}{{p.logo}}{% endif %}-logo.png"><i class="fa fa-download"></i> PNG</a>
+                            </td>
+                        </tr>
+                        {% if p.logo-alt %}
+                            <tr>
+                                <td>
+                                    <img style="height: 50px; width: auto;" src="files/{% if p.logo-alt == true %}{{p.id}}{% else %}{{p.logo-alt}}{% endif %}-logo-alt.svg">
+                                </td>
+                                <td>
+                                    <a href="files/{% if p.logo-alt == true %}{{p.id}}{% else %}{{p.logo-alt}}{% endif %}-logo-alt.svg"><i class="fa fa-download"></i> SVG</a> /
+                                    <a href="files/{% if p.logo-alt == true %}{{p.id}}{% else %}{{p.logo-alt}}{% endif %}-logo-alt.png"><i class="fa fa-download"></i> PNG</a>
+                                </td>
+                            </tr>
+                        {% endif %}
+                    </table>
+                </div>
+            {% endif %}
+
+            {% if p.tldr %}
+                <div class="collapsible-content tldr-{{p.id}}">
+                    <div class="flex-container">
+                        {% if p.logo %} 
+                            <img style="height: 80px; width: auto;" src="files/{% if p.logo == true %}{{p.id}}{% else %}{{p.logo}}{% endif %}-logo.svg">
+                        {% endif %}
+                        <p style="flex: 3 0 75%; margin: 0;">{{ p.tldr }}</p>
+                    </div>
+                    
+                    {% if p.topic %}
+                        <p style="margin-top: 15px;">
+                        <i class="fas fa-tags"></i> <b>Topics:</b>
+                        {% assign topics = p.topic | split: " " %}
+                        {% for t in topics %}
+                            <a href="#pubs" onclick="filterPapersByTopic('{{t}}')">{{t}}{% unless forloop.last %},{% endunless %}</a>
+                        {% endfor %}
+                        </p>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
         </td>
     </tr>
 {% endfor %}

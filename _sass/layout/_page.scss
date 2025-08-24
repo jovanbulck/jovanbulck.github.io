@@ -104,8 +104,41 @@
     }
   }
 
-  div.bibtex {
-    position: relative;
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .flex-h-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .filter-container {
+    margin-top: .25em;
+    font-size: .75em;
+    select {
+      color: var(--global-code-text-color);
+    }
+  }
+
+  .collapsible-panel {
+    font-size: .9em;
+  }
+
+  .collapsible-min-content {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    display: none;
+  }
+
+  .collapsible-content {
     margin-top: 1em;
     margin-bottom: .5em;
     padding: 1em;
@@ -114,6 +147,11 @@
     background-color: var(--global-code-background-color);
     color: var(--global-code-text-color);
     box-shadow: $box-shadow;
+    display: none;
+  }
+
+  .bibtex {
+    position: relative;
     font-size: .75em;
 
     .copy-btn {
@@ -171,7 +209,22 @@
 
     .lst {
       white-space: pre-wrap;
+    }
   }
+
+  .bordered-table {
+      border-collapse: collapse;
+      width: auto;
+      margin: 0 auto;
+      text-align: center;
+      background-color: white;
+      color: var(--global-code-text-color);
+  }
+
+  .bordered-table th, .bordered-table td {
+      border: 1px solid var(--global-dark-border-color);
+      padding: 1em;
+      text-align: center;
   }
 
   h1 {
@@ -225,10 +278,28 @@
     text-decoration: none;
     border-radius: .2rem;
     border: 1px solid var(--global-text-color-light);
-    padding: 1.5px 8px
+    padding: 1.5px 8px;
   }
 
   .ref-btn:hover {
+    background-color: var(--global-btn-bg-color-hover);
+    color: var(--global-btn-text-color-hover);
+    text-decoration: none;
+  }
+
+  .topic-btn {
+    background-color: var(--global-bg-color);
+    color: var(--global-btn-text-color);
+    font-size: $type-size-6;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .8rem;
+    border: 1px solid var(--global-text-color-light);
+    padding: 1.5px 8px;
+  }
+
+  .topic-btn:hover {
     background-color: var(--global-btn-bg-color-hover);
     color: var(--global-btn-text-color-hover);
     text-decoration: none;

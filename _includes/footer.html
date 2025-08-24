@@ -24,22 +24,21 @@
   Site last updated {{ "now" | date: '%Y-%m-%d' }}
 </div>
 
-<!-- https://www.w3schools.com/howto/howto_js_collapsible.asp -->
 <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
-        }
-      });
-    } 
+function toggleCollapse(id) {
+  var div = id ? document.querySelector("." + id) : null;
+  var cur = div ? div.style.display : null;
+
+  Array.from(document.getElementsByClassName('collapsible-panel')).forEach(panel => {
+    Array.from(panel.children).forEach(content => {
+    content.style.display = "none"
+    });
+  });
+
+  if (cur && cur !== "block") {
+    div.style.display = "block";
+  }
+}
 </script>
 
 <script>
@@ -60,4 +59,41 @@ function copyToClipboard(button) {
         console.error('Failed to copy: ', err);
     });
 }
+</script>
+
+<script>
+    var paper_topics = [
+        {% for p in site.data.papers.pubs %}
+            {
+                id: "{{ p.id }}",
+                topics: "{{ p.topic }}",
+                year: {{ p.year }}
+            }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    ];
+
+    function filterPapersByTopic(topic) {
+        var years_seen = {};
+
+        paper_topics.forEach(function(item) {
+            var row = document.getElementById(item.id);
+            if (row) {
+                if (item.topics.includes(topic)) {
+                    row.style.display = "";
+                    var yearCol = row.querySelector('.year');
+                    if (!years_seen[item.year]) {
+                      yearCol.innerText = item.year;
+                      years_seen[item.year] = true;
+                    }
+                    else {
+                      yearCol.innerText = "";
+                    }
+                } else {
+                    row.style.display = "none";
+                }
+            }
+        });
+        document.getElementById("filter-dropdown").value = topic;
+        toggleCollapse();
+    }
 </script>

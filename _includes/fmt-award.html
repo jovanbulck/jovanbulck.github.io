@@ -32,16 +32,18 @@
                     </a>
                 {% endif %}
                 {% if p.citation %}
-                    <a class="collapsible nounderline">
-                        <button class="ref-btn">
-                            <i class="fas fa-quote-left" title="Citation"></i> Citation
-                        </button>
-                    </a>
-                    <div class="content" style="display: none; font-size: .95em; color: var(--global-text-color);">
-                        <em>"{{ p.citation }}"</em>
-                    </div>
+                    <button class="ref-btn" onclick='toggleCollapse("citation-{{p.id}}")'>
+                        <i class="fas fa-quote-left" title="Citation"></i> Citation
+                    </button>
                 {% endif %}
             </div>
+            {% if p.citation %}
+            <div class="collapsible-panel">
+                <div class="collapsible-content citation-{{p.id}}">
+                    <em>"{{ p.citation }}"</em>
+                </div>
+            </div>
+            {% endif %}
         </td>
     </tr>
 {% endfor %}
