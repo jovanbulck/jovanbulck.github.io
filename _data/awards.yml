@@ -1,4 +1,18 @@
 awards:
+  - title: "Distinguished Paper Award"
+    venue: "USENIX Security 2025"
+    paper: "usenix25-cve"
+    label: "CVE paper"
+    month: "August 13"
+    year: 2025
+    url: "https://www.usenix.org/sites/default/files/sec25_message_addendum.pdf"
+
+  - title: "Distinguished Reviewer Award"
+    venue: "USENIX Security 2025"
+    month: "August 13"
+    year: 2025
+    url: "https://www.usenix.org/sites/default/files/sec25_message.pdf"
+  
   - title: "Best Paper with Artifacts Award"
     venue: "SysTEX 2025"
     paper: "systex25-wait"

@@ -3,6 +3,7 @@ pubs:
     title: "Confusing Value with Enumeration: Studying the Use of CVEs in Academia"
     author: ['Moritz Schloegel', 'Daniel Klischies', 'Simon Koch', 'David Klein', 'Lukas Gerlach', 'Malte Wessels', 'Leon Trampert', 'Martin Johns', 'Mathy Vanhoef', 'Michael Schwarz', 'Thorsten Holz', 'Jo Van Bulck']
     venue: "34th USENIX Security Symposium"
+    award: "USENIX Security 2025 Distinguished Paper Award"
     badge: "Artifacts evaluated: Available"
     github: "https://github.com/mu00d8/cves_in_academia"
     year: 2025
