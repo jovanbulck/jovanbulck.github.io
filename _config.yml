@@ -13,7 +13,7 @@ title                    : "Jo Van Bulck"
 title_separator          : "-"
 name                     : &name "Jo Van Bulck"
 description              : &description "personal description"
-url                      : "https://vanbulck.net/" #https://jovanbulck.github.io/" #"http://127.0.0.1:4000/" #
+url                      : "https://vanbulck.net" #https://jovanbulck.github.io/" #"http://127.0.0.1:4000/" #
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jovanbulck/jovanbulck.github.io"
 
