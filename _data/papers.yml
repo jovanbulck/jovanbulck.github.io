@@ -398,7 +398,7 @@ pubs:
     github: "https://github.com/jovanbulck/sgx-tutorial-space18"
     slides: true
     bibtex: "vanbulck2018tutorial"
-    topic: "attack side-channel intel-sgx sgx-step"
+    topic: "attack side-channel intel-sgx"
 
   - id: "ccs18-nemesis"
     title: "Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic"

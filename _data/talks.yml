@@ -1,4 +1,14 @@
 talks:
+  - id: "graz25"
+    title: "Trust Under Siege: Exploiting and Mitigating Interface-Based Attacks on TEEs"
+    author: ['Jo Van Bulck']
+    year: 2025
+    month: "September 4"
+    venue: "Graz Security Week 2025"
+    type: "Invited lecture"
+    location: "Graz, Austria"
+    website: "https://securityweek.at/program/"
+
   - id: "systex25-pandora-sancus-slides"
     title: "Principled Symbolic Validation of Enclaves on Low-End Microcontrollers"
     author: ['Jo Van Bulck']
