@@ -54,4 +54,18 @@
       {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
   {% endfor %}
 </li>
+<li>
+  <span style="font-weight: 500;">Steering Committee:</span>
+  {% for c in service.steering %}
+      {{c.long}} (<a href="{{c.url}}">{{ c.id }}</a>)
+      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+  {% endfor %}
+</li>
+<li>
+  <span style="font-weight: 500;">Project Grant Reviewer:</span>
+  {% for c in service.grant %}
+      {{ c.id }} ({{ c.years | join: ", " }})
+      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+  {% endfor %}
+</li>
 </ul>

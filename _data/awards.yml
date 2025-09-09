@@ -90,7 +90,7 @@ awards:
 
   - title: "Applied Research Competition Finalist"
     venue: "CSAW Europe"
-    paper: "oakland20lvi"
+    paper: "oakland20-lvi"
     label: "LVI paper"
     month: "November 6"
     year: 2020
@@ -114,7 +114,7 @@ awards:
 
   - title: "Applied Research Competition First Place"
     venue: "CSAW"
-    paper: "usenix18foreshadow"
+    paper: "usenix18-foreshadow"
     label: "Foreshadow paper"
     month: "November 11"
     year: 2018
@@ -123,14 +123,14 @@ awards:
   - title: "Nominated for Distinguished Paper Award"
     venue: "ACSAC 2017"
     year: 2017
-    paper: "acsac17vulcan"
+    paper: "acsac17-vulcan"
     label: "VulCAN paper"
     month: "December 6"
     url: "https://twitter.com/ACSAC_Conf/status/938413039145152512"
 
   - title: "Best Paper Award"
     venue: "SysTEX 2017"
-    paper: "systex17sgxstep"
+    paper: "systex17-sgxstep"
     label: "SGX-Step paper"
     month: "October 28"
     year: 2017

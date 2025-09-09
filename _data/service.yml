@@ -18,6 +18,18 @@ chair:
 ae:
   - id: 'SysTEX 2025 (Artifact Evaluation Chair)'
 
+steering:
+  - id: 'uASC'
+    long: 'Microarchitecture Security Conference'
+    url: 'https://uasc.cc/'
+
+grant:
+  - id: 'Swedish Research Council'
+    years: [ 2025 ]
+  
+  - id: 'ERC'
+    years: [ 2021 ]
+
 pc:
   - id: 'USENIX Security'
     years: [ 2026, 2025, 2024 ]

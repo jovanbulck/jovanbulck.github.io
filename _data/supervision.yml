@@ -18,6 +18,12 @@ phd:
     pdf: "https://falder.org/files/PhD-Fritz-Alder.pdf"
 
 msc:
+  - name: "Merlijn Verstraete"
+    year: 2025
+  
+  - name: "Alexander Croes"
+    year: 2025
+  
   - name: "Dries Vanspauwen"
     year: 2025
 

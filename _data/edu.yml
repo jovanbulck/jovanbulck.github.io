@@ -10,20 +10,20 @@ courses:
     home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
 
 guest:
-  - venue: 'KUL Ghent Course on Secure Software and Hacking'
-    years: [2025]
-
+  - venue: 'Graz Summer School'
+    years: [2022, 2025]
+  
   - venue: 'Carnegie Mellon University Advanced Topics in Hardware Security'
     years: [2024]
+
+  - venue: 'KUL Ghent Course on Secure Software and Hacking'
+    years: [2025]
 
   - venue: 'KUL Seminar in Cybersecurity'
     years: [2024]
 
   - venue: 'COSIC Course on Cryptography and Cyber Security'
     years: [2024]
-
-  - venue: 'Graz Summer School'
-    years: [2022]
 
   - venue: 'KUL Operating Systems'
     years: [2022, 2021]

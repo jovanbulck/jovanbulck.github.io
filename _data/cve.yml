@@ -52,12 +52,14 @@ cves:
 
   - type: "Intel SGX runtimes"
     cves:
+      - cve: CVE-2025-32004
+        desc: "Insufficient bool sanitization in Intel SGX SDK Edger8r"
+        intel-sa: "01383"
       - cve: CVE-2024-34776
         desc: "Memory-safety vulnerabilities in AEX-Notify runtime"
         project: "Intel SGX SDK"
         intel-sa: "01188"
         patch: ['Intel SGX SDK v2.24', 'https://github.com/intel/linux-sgx/commit/a53adeaab7a8176fabb415bfcdf6d29fe4060678#diff-0904707cea16d3fd1065e16873d3c0b1cb85f93b750bf93203cb877d4cd124b8']
-
       - cve: CVE-2023-42776
         desc: "Interface sanitization vulnerabilities in Intel SGX DCAP Platform Launch Enclave for Windows"
         project: "Pandora"

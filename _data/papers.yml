@@ -74,6 +74,8 @@ pubs:
     github: "https://github.com/TLBlur-SGX"
     bibtex: "vanoverloop2025tlblur"
     logo: true
+    slides: true
+    poster: true
     topic: "defense side-channel intel-sgx sgx-step"
     tldr: |
       TLBlur is a compiler-assisted mitigation for Intel SGX that uses the <a href="#usenix23-aexnotify">AEX-Notify</a> hardware extension to transparently limit, i.e., "blur", the bandwidth of controlled-channel attacks to the set of recently accessed pages.

@@ -5,7 +5,7 @@ foss:
       - title: "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control"
         url: "https://github.com/jovanbulck/sgx-step"
         role: "Founder, maintainer, and core developer"
-        paper: "systex2017sgxstep"
+        paper: "systex2017-sgxstep"
         label: "SGX-Step"
 
       - title: "Bare-SGX: Minimal SGX Enclave Development on Bare-Metal Linux Platforms"
@@ -15,7 +15,7 @@ foss:
       - title: "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes"
         url: "https://github.com/pandora-tee/pandora"
         role: "Founder, maintainer, and co-developer"
-        paper: "oakland24pandora"
+        paper: "oakland24-pandora"
         label: "Pandora"
 
       - title: "Sancus: A Lightweight Trusted Execution Environment for Secure IoT Devices"
