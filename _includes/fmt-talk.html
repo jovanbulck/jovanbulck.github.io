@@ -16,9 +16,11 @@
             <a class="pub-title" href={% if p.id %}"files/{{p.id}}.pdf"{% else %}"{{p.ext-id}}"{% endif %}>{{p.title}}</a>
         </b>
         <br>
-        {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
-        <br>
-        <em>{% if p.type %}{{p.type}} @{% endif %} {{p.venue}}</em>, {{p.location}}, {{p.month}}, {{p.year}}.
+        <span class="pub-info">
+            {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
+            <br>
+            <em>{% if p.type %}{{p.type}} @{% endif %} {{p.venue}}</em>, {{p.location}}, {{p.month}}, {{p.year}}.
+        </span>
 
         <div>
             {% if p.website %}

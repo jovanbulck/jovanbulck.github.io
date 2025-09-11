@@ -5,7 +5,7 @@ foss:
       - title: "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control"
         url: "https://github.com/jovanbulck/sgx-step"
         role: "Founder, maintainer, and core developer"
-        paper: "systex2017-sgxstep"
+        paper: "systex17-sgxstep"
         label: "SGX-Step"
 
       - title: "Bare-SGX: Minimal SGX Enclave Development on Bare-Metal Linux Platforms"

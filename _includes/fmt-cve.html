@@ -19,7 +19,10 @@
         <td>
             <i class="fas fa-bug" style="color: var(--global-masthead-link-color-hover);"></i>
             <span style="font-weight: 500;"><a class="pub-title" href="https://nvd.nist.gov/vuln/detail/{{c.cve}}">{{c.cve}}</a></span>
-            – {{c.desc}}.
+            <br>
+            <span class="pub-info">
+                {{c.desc}}.
+            </span>
             <div>
                 <!--<a href="https://nvd.nist.gov/vuln/detail/{{c.cve}}"><button class="ref-btn"><i class="fas fa-info-circle" style="color:#35798e"></i> NIST</button></a>-->
                 {% if c.intel-sa %}

@@ -33,64 +33,38 @@
         </td>
         <td>
         <div>
-        <i class="far fa-file-pdf"></i>
-        <b>
-            <a class="pub-title" href="files/{{p.id}}.pdf">{{p.title}}</a>
-        </b>
-        <br>
-        {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
-        <br> <em>{{p.venue}}</em>, {% if p.month %}{{p.month}},{% endif %} {{p.year}}.
-
+            <i class="far fa-file-pdf"></i>
+            <b>
+                <a class="pub-title" href="files/{{p.id}}.pdf">{{p.title}}</a>
+            </b>
+            <br>
+            <span class="pub-info">
+                {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
+                <br> <em>{{p.venue}}</em>, {% if p.month %}{{p.month}},{% endif %} {{p.year}}.
+            </span>
         </div>
-        {% if p.award %}
-            <div>
-            <span style="font-size:0.75em; color: var(--global-text-color-light);">
+
+        <div class="pub-details">
+            {% if p.award %}
                 <i class="fas fa-star" style="color:#DAA520;"></i>
                 {{p.award}}
-            </span>
-            {% unless p.cve or p.links or p.badge %}
-            </div>
-            {% endunless %}
-        {% endif %}
-        {% if p.cve %}
-            {% unless p.award %}
-                <div>
-            {% endunless %}
-            <span style="font-size:0.75em; color: var(--global-text-color-light);">
+            {% endif %}
+            {% if p.cve %}
                 <i class="fas fa-bug"></i>
                 {{p.cve}}
-            </span>
-            {% unless p.links or p.badge %}
-                </div>
-            {% endunless %}
-        {% endif %}
-        {% if p.links %}
-            {% unless p.award or p.cve %}
-                <div>
-            {% endunless %}
-
-            <span style="font-size:0.75em; color: var(--global-text-color-light);">
+            {% endif %}
+            {% if p.links %}
                 <i class="fas fa-info-circle"></i>
                 {% for l in p.links %}
                     <a style="color: var(--global-text-color-light);" href="{{ l[1] }}">{{ l[0] }}</a>{% unless forloop.last == true %},{% endunless %}
                 {% endfor %}
-            </span>
-            {% unless p.badge %}
-            </div>
-            {% endunless %}
-        {% endif %}
-        {% if p.badge %}
-            {% unless p.award or p.cve or p.links %}
-                <div>
-            {% endunless %}
-
-            <span style="font-size:0.75em; color: var(--global-text-color-light);">
+            {% endif %}
+            {% if p.badge %}
                 <i class="fas fa-certificate" style="color:#8C0046;"></i>
-                {{ p.badge }}
-            </span>
-            </div>
-        {% endif %}
-
+                    {{ p.badge }}
+            {% endif %}
+        </div>
+        
         <div>
             <a href="files/{{p.id}}.pdf" class="nounderline">
                 <button class="ref-btn">
@@ -163,7 +137,7 @@
                     <i class="fas fa-quote-left"></i> BibTeX
                 </button>
             {% endif %}
-            {% if p.tldr %}
+            {% if p.tldr or true %}
                 <button class="ref-btn" onclick='toggleCollapse("tldr-{{p.id}}")'>
                     <i class="fas fa-share"></i> TL;DR
                 </button>
@@ -214,24 +188,66 @@
                 </div>
             {% endif %}
 
-            {% if p.tldr %}
+            {% if p.tldr or true %}
                 <div class="collapsible-content tldr-{{p.id}}">
                     <div class="flex-container">
                         {% if p.logo %} 
-                            <img style="height: 80px; width: auto;" src="files/{% if p.logo == true %}{{p.id}}{% else %}{{p.logo}}{% endif %}-logo.svg">
+                            <img style="height: 50px; width: auto;" src="files/{% if p.logo == true %}{{p.id}}{% else %}{{p.logo}}{% endif %}-logo.svg">
                         {% endif %}
                         <p style="flex: 3 0 75%; margin: 0;">{{ p.tldr }}</p>
                     </div>
                     
-                    {% if p.topic %}
-                        <p style="margin-top: 15px;">
-                        <i class="fas fa-tags"></i> <b>Topics:</b>
-                        {% assign topics = p.topic | split: " " %}
-                        {% for t in topics %}
-                            <a href="#pubs" onclick="filterPapersByTopic('{{t}}')">{{t}}{% unless forloop.last %},{% endunless %}</a>
-                        {% endfor %}
-                        </p>
-                    {% endif %}
+                    <table class="booktabs">
+                        
+                        {% if p.topic %}
+                            <tr>
+                            <td>
+                                <i class="fas fa-tags"></i>
+                            </td>
+                            <td style="width: 100%;">
+                                <b>Topics:</b>
+                                {% assign topics = p.topic | split: " " %}
+                                {% for t in topics %}
+                                    <a href="#pubs" onclick="filterPapersByTopic('{{t}}')">{{t}}{% unless forloop.last %},{% endunless %}</a>
+                                {% endfor %}
+                            </td>
+                            </tr>
+                        {% endif %}
+
+                        {% if p.prev %}
+                            <tr>
+                            <td>
+                                <i class="fas fa-backward"></i>
+                            </td>
+                            <td>
+                                <b>Prior work:</b>
+                                {% assign prev_keys = p.prev | split: " " %}
+                                {% for pk in prev_keys %}
+                                    {% assign prev = site.data.papers.pubs | where: "id", pk | first %}
+                                    <a href="#{{ prev.id }}">{{ prev.short }}</a>
+                                    <span style="font-size: .85em;">({{prev.year}})</span>{% unless forloop.last %},{% endunless %}
+                                {% endfor %}
+                            </td>
+                            </tr>
+                        {% endif %}
+
+                        {% assign next_keys = site.data.papers.pubs | where_exp: "po", "po.prev contains p.id" | map: "id" | reverse %}
+                        {% if next_keys != empty %}
+                        <tr>
+                            <td>
+                                <i class="fas fa-forward"></i>
+                            </td>
+                            <td>
+                                <b>Follow-up work:</b>
+                                {% for nk in next_keys %}
+                                    {% assign next = site.data.papers.pubs | where: "id", nk | first %}
+                                    <a href="#{{ next.id }}">{{ next.short }}</a>
+                                    <span style="font-size: .85em;">({{next.year}})</span>{% unless forloop.last %},{% endunless %}
+                                {% endfor %}
+                            </td>
+                        </tr>
+                        {% endif %}
+                    </table>
                 </div>
             {% endif %}
         </div>

@@ -13,7 +13,7 @@
         <td>
             <i class="fas fa-star" style="color: var(--global-masthead-link-color-hover);"></i>
             <span style="font-weight: 500;"><a class="pub-title" href="{{p.url}}">{{p.title}}</a></span>
-            <span style="font-size:0.9em;">
+            <span class="pub-info">
                 {%if p.for %}<br><em>for {{p.for}}, </em>{% endif %}
                 <br>
                 {%if p.venue %}{{p.venue}}, {% endif %} {{p.month}}, {{p.year}}.

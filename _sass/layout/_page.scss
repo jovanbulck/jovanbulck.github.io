@@ -104,6 +104,15 @@
     }
   }
 
+  .pub-info {
+      font-size:0.9em;
+  }
+
+  .pub-details {
+      font-size:0.75em;
+      color: var(--global-text-color-light);
+  }
+
   .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -141,7 +150,9 @@
   .collapsible-content {
     margin-top: 1em;
     margin-bottom: .5em;
-    padding: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     border: 1px solid var(--global-border-color);
     border-radius: $border-radius;
     background-color: var(--global-code-background-color);
@@ -212,6 +223,18 @@
     }
   }
 
+  .booktabs {
+      //border-top: 1px solid var(--global-dark-border-color);
+      //border-bottom: 1px solid var(--global-dark-border-color);
+      margin-top: 1em;
+  }
+
+  .booktabs td {
+      padding: 0.1em;
+      border-bottom: none;
+      vertical-align: top;
+  }
+
   .bordered-table {
       border-collapse: collapse;
       width: auto;
@@ -272,12 +295,12 @@
   .ref-btn {
     background-color: var(--global-bg-color);
     color: var(--global-btn-text-color);
-    font-size: $type-size-6;
+    font-size: .75em;
     font-variant: small-caps;
     text-align: center;
     text-decoration: none;
     border-radius: .2rem;
-    border: 1px solid var(--global-text-color-light);
+    border: 1px solid var(--global-btn-border-color);
     padding: 1.5px 8px;
   }
 
