@@ -1,7 +1,7 @@
 courses:
   - course: 'Operating Systems'
     note: 'co-taught with Frank Piessens'
-    years: [2025, 2024, 2023]
+    years: [2026, 2025, 2024, 2023]
     id: [
             ['G0Q35A', 6 ],
             ['H04G1B', 3]
@@ -11,7 +11,7 @@ courses:
 
 guest:
   - venue: 'Graz Summer School'
-    years: [2022, 2025]
+    years: [2025, 2022]
   
   - venue: 'Carnegie Mellon University Advanced Topics in Hardware Security'
     years: [2024]

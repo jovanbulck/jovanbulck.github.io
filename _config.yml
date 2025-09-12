@@ -25,7 +25,7 @@ author:
   avatar           : "jo_avatar.jpg"
   name             : "Jo Van Bulck"
   pronouns         : # example: "she/her"  
-  bio              : "Prof @KU_Leuven | Trusted Computing & Side-Channel Attacks | #IntelSGX #Foreshadow #ZombieLoad #LVI #SGXStep #AEXNotify"
+  bio              : "Prof @KU_Leuven | Trusted Computing & Side-Channel Attacks | #IntelSGX #Foreshadow #ZombieLoad #LVI #SGXStep #AEXNotify #BadRAM"
   location         : "Leuven, Belgium"
   employer         : 
   uri              : # URL

@@ -58,7 +58,7 @@ pubs:
     topic: "attack side-channel mcu"
     prev: "tops17-sancus acsac17-vulcan oakland22-gap"
     tldr: |
-      Systematic study of timing channels in low-end research TEEs, finding non-constant-time library functions, compilers, and hardware-level cryptography.
+      Systematic study of timing channels in low-end research TEEs, finding non-constant-time behavior in library functions, compilers, and cryptographic hardware.
     
   - id: "systex25-pandora-sancus"
     short: "Pandora-Sancus"
@@ -73,7 +73,7 @@ pubs:
     topic: "defense mcu symbolic-execution interface-shielding"
     prev: "tops17-sancus ccs19-tale oakland24-pandora"
     tldr: |
-      Extends our earlier <a href="#oakland24-pandora">Pandora-SGX</a> symbolic-execution tool with a hardware abstraction layer to validate enclave software on low-end microcontrollers.
+      Extension to our earlier <a href="#oakland24-pandora">Pandora-SGX</a> symbolic-execution tool, including a hardware abstraction layer to validate enclave software on low-end microcontrollers.
 
   - id: "usenix25-tlblur"
     short: "TLBlur"
@@ -90,7 +90,7 @@ pubs:
     topic: "defense side-channel intel-sgx"
     prev: "systex17-sgxstep usenix23-aexnotify"
     tldr: |
-      Compiler-assisted mitigation for Intel SGX that uses the <a href="#usenix23-aexnotify">AEX-Notify</a> hardware extension to transparently limit, i.e., "blur", the bandwidth of controlled-channel attacks to the set of recently accessed pages.
+      Compiler-assisted mitigation for Intel SGX that uses the <a href="#usenix23-aexnotify">AEX-Notify</a> hardware extension to transparently "blur" the bandwidth of controlled-channel attacks to the set of recently accessed pages.
 
   - id: "oakland25-badram"
     short: "BadRAM"
@@ -108,7 +108,7 @@ pubs:
     logo: true
     topic: "attack side-channel amd-sev"
     tldr: |
-      Breaks AMD SEV-SNP by modifying DRAM <abbr title="Serial Presence Detect">SPD</abbr> metadata to create aliases in the physical address space and bypass processor-level access control.
+      Novel attack primitive that breaks AMD SEV-SNP by modifying DRAM <abbr title="Serial Presence Detect">SPD</abbr> metadata to create aliases in the physical address space.
 
   - id: "pavetrust24-sancusv"
     short: "Sancus-V Exceptions"
@@ -120,7 +120,7 @@ pubs:
     topic: "defense side-channel mcu"
     prev: "oakland22-gap csf20-irq"
     tldr: |
-      Uncovers and fixes a subtle flaw in how the formal model for <a href="#csf20-irq">Sancus-V</a> handles memory-access exceptions vs. interrupts.
+      Analysis and mitigation of a subtle flaw in how the formal model for <a href="#csf20-irq">Sancus-V</a> handles memory-access exceptions vs. interrupts.
 
   - id: "usenix24-ipe"
     title: "Intellectual Property Exposure: Subverting and Securing Intellectual Property Encapsulation in Texas Instruments Microcontrollers"
@@ -154,7 +154,7 @@ pubs:
     topic: "defense intel-sgx symbolic-execution interface-shielding"
     prev: "ccs19-tale acsac20-fpu systex22-abi"
     tldr: |
-      Extends the <a href="https://angr.io/">angr</a> symbolic-execution tool to truthfully load generic Intel SGX binaries and principally detect varied interface-sanitization vulnerabilities in heterogenous SGX runtimes.
+      Truthful symbolic-execution tool, based on <a href="https://angr.io/">angr</a>, to autonomously detect varied interface-sanitization vulnerabilities in heterogenous SGX runtimes.
 
   - id: "acsac23-sgxstep"
     short: "SGX-Step Impact Award"
@@ -251,7 +251,7 @@ pubs:
     topic: "attack side-channel intel-sgx interface-shielding"
     prev: "acsac20-fpu"
     tldr: |
-      Journal version of the <a href="#acsac20-fpu">FPU-SGX</a> paper, where we extend the attack to RISC-V TEEs.
+      Journal version of the <a href="#acsac20-fpu">FPU-SGX</a> paper, including extension to RISC-V TEEs.
 
   - id: "ccs21-aion"
     short: "Aion"
@@ -291,7 +291,7 @@ pubs:
     topic: "defense side-channel mcu"
     prev: "acsac17-vulcan"
     tldr: |
-      Extension of the <a href="#acsac17-vulcan">VulCAN</a> authentication protocol, with transparent nonce syncrhonization via timing covert channels.
+      Extension of the <a href="#acsac17-vulcan">VulCAN</a> authentication protocol, with transparent nonce synchronization via timing covert channels.
     
   - id: "acsac20-fpu"
     short: "SGX-FPU"
@@ -341,7 +341,7 @@ pubs:
     topic: "attack side-channel intel-sgx"
     prev: "systex17-sgxstep"
     tldr: |
-      Key extraction via deterministic, instruction-granular page-access traces with <a href="#systex17-sgxstep">SGX-Step</a>.
+      Single-trace key extraction attacks via instruction-granular page-access traces with <a href="#systex17-sgxstep">SGX-Step</a>.
 
   - id: "csf20-irq"
     short: "Sancus-V"
@@ -412,7 +412,7 @@ pubs:
     topic: "attack side-channel intel-sgx"
     prev: "systex17-sgxstep"
     tldr: |
-      Faults Intel SGX enclave computations by carefully undervolting the CPU via an undocumented privileged software interface.
+      Fault attack on Intel SGX enclave computations by carefully undervolting the CPU via an undocumented privileged software interface.
 
   - id: "ccs19-tale"
     short: "T2W"
@@ -451,7 +451,7 @@ pubs:
     topic: "attack transient-execution intel-sgx"
     prev: "systex17-sgxstep usenix18-foreshadow usenix19-transientsok"
     tldr: |
-      Meltdown-type attack exploting incorrect transient forwarding from line-fill buffers following faults or microcode assists on affected Intel CPUs.
+      Meltdown-type attack exploiting incorrect transient forwarding from line-fill buffers following faults or microcode assists on affected Intel CPUs.
 
   - id: "ccs19-fallout"
     short: "Fallout"
@@ -469,7 +469,7 @@ pubs:
     topic: "attack transient-execution"
     prev: "usenix18-foreshadow usenix19-transientsok"
     tldr: |
-      Meltdown-type attack and TLB timing side channel exploting incorrect transient forwarding from store buffers following faults or microcode assists on affected Intel CPUs.
+      Meltdown-type attack and TLB timing side channel exploiting incorrect transient forwarding from store buffers following faults or microcode assists on affected Intel CPUs.
 
   - id: "usenix19-transientsok"
     short: "Transient SoK"
@@ -569,7 +569,7 @@ pubs:
     topic: "attack transient-execution intel-sgx"
     prev: "usenix17-pte systex17-sgxstep"
     tldr: |
-      Novel Meltdown-type attack <em>(aka L1 Terminal Fault - L1TF)</em> that breaks Intel SGX by exploting incorrect transient forwarding from the L1D cache following faulting loads from unmapped pages on affected Intel CPUs.
+      Novel Meltdown-type attack <em>(aka L1 Terminal Fault - L1TF)</em> that breaks Intel SGX by exploiting incorrect transient forwarding from the L1D cache following faulting loads from unmapped pages on affected Intel CPUs.
 
   - id: "dsn18-tutorial"
     short: "Sancus-SGX"
@@ -587,13 +587,14 @@ pubs:
       Writeup of an interactive tutorial on building secure networked applications using the <a href="#acsac17-vulcan">VulCAN</a> authentication protocol with endpoints in Intel SGX and embedded <a href="#tops17-sancus">Sancus</a> enclaves.
 
   - id: "login18-reflections"
-    short: "Post-Meltdown Reflections"
+    short: "Reflections"
     title: "Reflections on Post-Meltdown Trusted Computing: A Case for Open Security Processors"
     author: ['Jan Tobias Mühlberg', 'Jo Van Bulck']
     venue: ";login: the USENIX magazine vol.43 no.3"
     year: 2018
     bibtex: "muelberg2018reflections"
-    topic: "meta-science tops17-sancus"
+    topic: "meta-science"
+    prev: "tops17-sancus"
     tldr: |
       Opinion article on open-source security architectures with principled and inspectable hardware-software co-design.
 
@@ -609,7 +610,7 @@ pubs:
     topic: "attack side-channel intel-sgx"
     prev: "systex17-sgxstep"
     tldr: |
-      Novel side-channel attack using x86 segmentation to leak fine-grained data- and control-flow from 32-bit Intel SGX enclaves.
+      Novel side-channel attack using the x86 segmentation unit to leak fine-grained data- and control-flow from 32-bit Intel SGX enclaves.
 
   - id: "acsac17-vulcan"
     short: "VulCAN"
