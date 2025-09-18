@@ -1,4 +1,29 @@
 pubs:
+  - id: "uasc26-wemu"
+    short: "WeMu"
+    title: "WeMu: Effective and Scalable Emulation of Microarchitectural Weird Machines"
+    author: ['Dries Vanspauwen', 'Lesly-Ann Daniel', 'Jo Van Bulck']
+    venue: "2nd Microarchitecture Security Conference (uASC)"
+    github: "https://github.com/driesvanspauwen/wemu/tree/uasc26-artifact"
+    year: 2026
+    bibtex: "vanspauwen2026wemu"
+    topic: "transient-execution side-channel defense"
+    tldr: |
+      Minimal Unicorn/QEMU extensions enabling accurate and efficient emulation of hidden computations in <em>microarchitectural weird machines</em>.
+  
+  - id: "raid25-sgx-dnn"
+    short: "SGX-DNN"
+    title: "Activation Functions Considered Harmful: Recovering Neural Network Weights through Controlled Channels"
+    author: ['Jesse Spielman', 'David Oswald', 'Mark Ryan', 'Jo Van Bulck']
+    venue: "28th International Symposium on Research in Attacks, Intrusions and Defenses (RAID)"
+    github: "https://github.com/heavyimage/afch_paper"
+    year: 2025
+    bibtex: "spielman2025activation"
+    topic: "intel-sgx side-channel attack"
+    prev: "systex17-sgxstep usenix20-copycat"
+    tldr: |
+      Partial recovery of weights and biases from enclaved neural networks using instruction-granular page-access traces extracted with <a href="#systex17-sgxstep">SGX-Step</a>.
+
   - id: "usenix25-cve"
     short: "CVE"
     title: "Confusing Value with Enumeration: Studying the Use of CVEs in Academia"
