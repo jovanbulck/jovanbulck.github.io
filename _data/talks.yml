@@ -1,4 +1,13 @@
 talks:
+  - id: "eth25"
+    title: "Cracks in the Shield: Understanding and Mitigating Side-Channel Threats to Confidential Computing"
+    author: ['Jo Van Bulck']
+    year: 2025
+    month: "September 22"
+    venue: "ETH"
+    type: "Invited presentation"
+    location: "Zurich, Switzerland"
+
   - id: "graz25"
     title: "Trust Under Siege: Exploiting and Mitigating Interface-Based Attacks on TEEs"
     author: ['Jo Van Bulck']
