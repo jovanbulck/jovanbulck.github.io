@@ -1,4 +1,20 @@
 pubs:
+  - id: "oakland26-batteringram"
+    short: "Battering RAM"
+    title: "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing"
+    author: [ 'Jesse De Meulemeester', 'David Oswald' , 'Ingrid Verbauwhede', ' Jo Van Bulck' ]
+    venue: "47th IEEE Symposium on Security and Privacy (S&P)"
+    year: 2026
+    github: "https://github.com/batteringramattack/batteringram"
+    bibtex: "demeulemeester26batteringram"
+    website: "https://batteringram.eu/"
+    links: [['Intel response', 'https://www.intel.com/content/www/us/en/developer/articles/news/more-information-encrypted-memory-frameworks.html'], ['AMD response','https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3024.html']]
+    logo: true
+    topic: "attack side-channel intel-sgx amd-sev"
+    prev: "oakland25-badram"
+    tldr: |
+      Novel attack primitive that breaks Intel Scalable SGX and AMD SEV-SNP with a low-cost DDR4 interposer to create aliases in the physical address space.
+  
   - id: "uasc26-wemu"
     short: "WeMu"
     title: "WeMu: Effective and Scalable Emulation of Microarchitectural Weird Machines"
@@ -125,7 +141,7 @@ pubs:
     year: 2025
     cve: "CVE-2024-21944"
     github: "https://github.com/badramattack/badram"
-    bibtex: "demeulemeester24-badram"
+    bibtex: "demeulemeester25badram"
     website: "https://badram.eu/"
     demo: "https://youtu.be/zhDACoigQ9M"
     links: [['AMD response','https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3015.html']]

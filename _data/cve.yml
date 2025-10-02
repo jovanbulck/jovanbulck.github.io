@@ -1,6 +1,20 @@
 cves:
   - type: "CPU μ-arch"
     cves:
+      - cve: AMD-SB-3024
+        desc: "SEV-SNP Physical Memory Aliasing"
+        project: "Battering RAM"
+        paper: "oakland26-batteringram"
+        vendor: "AMD"
+        sa: "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3024.html"
+      
+      - cve: Intel-865767
+        desc: "Physical DDR4 interposer attacks on Intel Scalable SGX"
+        project: "Battering RAM"
+        paper: "oakland26-batteringram"
+        vendor: "Intel"
+        sa: "https://www.intel.com/content/www/us/en/developer/articles/news/more-information-encrypted-memory-frameworks.html"
+        
       - cve: CVE-2024-21944
         desc: "Undermining Integrity Features of AMD SEV-SNP with Memory Aliasing"
         project: "BadRAM"
