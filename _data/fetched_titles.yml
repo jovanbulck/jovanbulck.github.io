@@ -1,0 +1,132 @@
+https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/: Intel’s
+  SGX blown wide open by, you guessed it, a speculative execution attack
+https://arstechnica.com/gadgets/2018/11/spectre-meltdown-researchers-unveil-7-more-speculative-execution-attacks/: Spectre,
+  Meltdown researchers unveil 7 more speculative execution attacks
+https://arstechnica.com/gadgets/2019/05/new-speculative-execution-bug-leaks-data-from-intel-chips-internal-buffers/: New
+  speculative execution bug leaks data from Intel chips’ internal buffers
+? https://arstechnica.com/information-technology/2019/12/scientists-pluck-crypto-keys-from-intels-sgx-by-tweaking-cpu-voltage/
+: Intel’s SGX coughs up crypto keys when scientists tweak CPU voltage
+https://arstechnica.com/information-technology/2020/03/hackers-can-steal-secret-data-stored-in-intels-sgx-secure-enclave/: Intel
+  SGX is vulnerable to an unfixable flaw that can steal crypto keys and more
+? https://arstechnica.com/information-technology/2024/12/new-badram-attack-neuters-security-assurances-in-amd-epyc-processors/
+: AMD’s trusted execution environment blown wide open by new BadRAM attack
+? https://arstechnica.com/security/2025/09/intel-and-amd-trusted-enclaves-the-backbone-of-network-security-fall-to-physical-attacks/
+: Intel and AMD trusted enclaves, a foundation for network security, fall to physical
+  attacks
+https://datanews.knack.be/nieuws/alweer-ernstig-beveiligingsprobleem-in-intel-processoren-ontdekt/: Alweer
+  ernstig beveiligingsprobleem in Intel-processoren ontdekt
+https://datanews.knack.be/nieuws/ku-leuven-ontdekt-nieuwe-kwetsbaarheid-in-intel-chips/: KU
+  Leuven ontdekt nieuwe kwetsbaarheid in Intel-chips
+https://datanews.knack.be/nieuws/ku-leuven-ontdekt-veiligheidslek-in-intel-core-processors/: KU
+  Leuven ontdekt veiligheidslek in Intel Core processors
+https://datanews.knack.be/nieuws/security/kwetsbaarheden/ku-leuven-legt-kwetsbaarheden-in-amd-processoren-bloot/: KU
+  Leuven legt kwetsbaarheden in AMD-processoren bloot
+? https://datanews.knack.be/nieuws/security/kwetsbaarheden/onderzoekers-kuleuven-kunnen-geavanceerde-cloudbeveiliging-intel-en-amd-hacken/
+: Onderzoekers KULeuven hacken geavanceerde cloudbeveiliging Intel en AMD
+? https://fortune.com/2019/05/15/zombieload-flaw-lets-hackers-crack-almost-every-intel-chip-back-to-2011-why-is-it-being-downplayed/
+: Intel 'Zombieload' Chip Flaw Lets Hackers Steal Secrets
+https://nieuws.kuleuven.be/en/content/2018/modern-security-technology-in-intel-processors-not-watertight: Modern
+  security technology in Intel processors not watertight
+https://nieuws.kuleuven.be/en/content/2019/computer-scientists-discover-a-critical-vulnerability-in-intel-processors: Computer
+  scientists discover a critical vulnerability in Intel processors
+https://nieuws.kuleuven.be/en/content/2019/plundervolt-exposes-vulnerability-in-security-technology-of-intel-processors: Plundervolt
+  exposes vulnerability in security technology of Intel processors
+https://nieuws.kuleuven.be/en/content/2020/intel-processors-are-still-vulnerable-to-attack: Intel
+  processors are still vulnerable to attack
+https://nieuws.kuleuven.be/en/content/2024/vulnerability-in-cloud-server-security-badram: International
+  research team uncovers vulnerability in cloud server security
+https://nieuws.kuleuven.be/en/content/2025/kuleuven-research-cosic-distrinet-exposes-fundamental-hardware-flaw: KU
+  Leuven research exposes fundamental hardware flaw in highly protected cloud servers
+https://techcrunch.com/2019/12/10/plundervolt-attack-breaches-chip-security-with-a-shock-to-the-system/: '''Plundervolt''
+  attack breaches chip security with a shock to the system'
+https://techcrunch.com/2020/03/10/new-flaw-in-intel-chips-lets-attackers-slip-their-own-data-into-secure-enclave/: New
+  flaw in Intel chips lets attackers slip their own data into secure enclave
+https://thehackernews.com/2018/08/foreshadow-intel-processor-vulnerability.html: Foreshadow
+  Attacks — 3 New Intel CPU Side-Channel Flaws Discovered
+https://thehackernews.com/2019/12/intel-sgx-voltage-attack.html: New PlunderVolt Attack
+  Targets Intel SGX Enclaves by Tweaking CPU Voltage
+https://thehackernews.com/2020/03/intel-load-value-injection.html: 'LVI Attacks: New
+  Intel CPU Vulnerability Puts Data Centers At Risk'
+https://thehackernews.com/2025/10/50-battering-ram-attack-breaks-intel.html: New $50
+  Battering RAM Attack Breaks Intel and AMD Cloud Security Protections
+https://tweakers.net/nieuws/164464/lvi-kwetsbaarheid-in-intel-cpus-treft-sgx-en-is-niet-op-te-lossen-met-microcode.html: LVI-kwetsbaarheid
+  in Intel-cpu's treft SGX en is niet op te lossen met microcode
+https://www.bbc.com/news/technology-45191697: '''Foreshadow'' attack affects Intel
+  chips'
+https://www.bbc.com/news/technology-48278400: Intel Zombieload bug fix to slow data
+  centre computers
+https://www.demorgen.be/nieuws/lek-in-beveiliging-processoren-van-intel-ontdekt-door-onderzoekers-ku-leuven~b363d832/: Lek
+  in beveiliging processoren van Intel ontdekt door onderzoekers KU Leuven
+https://www.heise.de/en/news/BadRAM-Historical-side-channel-undermines-confidential-computing-in-the-cloud-10194591.html: 'BadRAM:
+  Historical side channel undermines confidential computing in the cloud'
+https://www.hln.be/internet/hardwaremodule-van-nog-geen-50-euro-omzeilt-meest-geavanceerde-cloudbeveiliging~ac84a94a/: Hardwaremodule
+  van nog geen 50 euro omzeilt meest geavanceerde cloudbeveiliging
+https://www.pcworld.com/article/402420/foreshadow-l1tf-is-a-speculative-execution-exploit-targeting-intel-core-chips.html: Foreshadow
+  L1TF attacks Intel CPUs with Spectre-like tactics
+https://www.phoronix.com/news/Intel-AEX-Notify-Linux: Intel AEX Notify Support Prepped
+  For Linux To Help Enhance SGX Enclave Security
+https://www.phoronix.com/search/Load+Value+Injection: Load Value Injection
+https://www.redhat.com/en/blog/understanding-l1-terminal-fault-aka-foreshadow-what-you-need-know: 'Understanding
+  L1 Terminal Fault aka Foreshadow: What you need to know'
+? https://www.robtv.be/nieuws/onderzoekers-ku-leuven-hacken-beveiligingstechnologie-bedrijven-moeten-bewust-zijn-van-de-kwetsbaarheid-204262
+: 'Onderzoekers KU Leuven hacken beveiligingstechnologie: "Bedrijven moeten bewust
+  zijn van de kwetsbaarheid"'
+https://www.securityweek.com/badram-attack-uses-10-equipment-to-break-amd-processor-protections/: BadRAM
+  Attack Uses $10 Equipment to Break AMD Processor Protections
+https://www.securityweek.com/battering-ram-attack-breaks-intel-and-amd-security-tech-with-50-device/: Battering
+  RAM Attack Breaks Intel and AMD Security Tech With $50 Device
+https://www.securityweek.com/foreshadowl1tf-what-you-need-know: 'Foreshadow/L1TF:
+  What You Need to Know'
+https://www.securityweek.com/load-value-injection-intel-cpus-vulnerable-reverse-meltdown-attack/: 'Load
+  Value Injection: Intel CPUs Vulnerable to Reverse Meltdown Attack'
+https://www.securityweek.com/new-class-data-leaking-vulnerabilities-impact-intel-cpus/: New
+  Class of Vulnerabilities Leak Data From Intel Chips
+https://www.securityweek.com/plundervolt-attack-uses-voltage-steal-data-intel-chips/: Plundervolt
+  Attack Uses Voltage to Steal Data From Intel Chips
+https://www.securityweek.com/researchers-disclose-7-new-meltdown-spectre-attacks/: Researchers
+  Disclose 7 New Meltdown, Spectre Attacks
+https://www.standaard.be/economie/hackers-raken-in-hart-van-intel-processor/41035590.html: Hackers
+  raken in hart van Intel-processor
+https://www.theregister.com/2018/08/15/foreshadow_sgx_software_attestations_collateral_damage/: 'Foreshadow
+  and Intel SGX software attestation: ''The whole trust model collapses'''
+https://www.theregister.com/2020/03/10/lvi_intel_cpu_attack/: Meltdown The Sequel
+  strikes Intel chips – and full mitigation against data-meddling LVI flaw will slash
+  performance
+https://www.theregister.com/2024/12/10/amd_secure_vm_tech_undone/: AMD secure VM tech
+  undone by DRAM meddling
+https://www.theverge.com/2019/5/14/18623708/zombieload-attack-intel-processors-speculative-execution: ZombieLoad
+  attack lets hackers steal data from Intel chips
+https://www.tijd.be/ondernemen/halfgeleiders/leuvense-onderzoekers-kraken-beveiliging-amd-chips/10578094: Leuvense
+  onderzoekers kraken beveiliging AMD-chips
+? https://www.tijd.be/ondernemen/technologie/leuvense-onderzoekers-kraken-beveiligde-servers-van-techreuzen-met-amper-50-euro/10629054.html
+: Leuvense onderzoekers kraken beveiligde servers van techreuzen met amper 50 euro
+? https://www.tijd.be/tech-media/technologie/technologie/Onderzoekers-KU-Leuven-kraken-beveiliging-Intel-processor/10039948.html
+: Onderzoekers KU Leuven kraken beveiliging Intel-processor
+https://www.tomshardware.com/news/intel-chips-foreshadow-security-flaws,37608.html: Intel
+  Chips' List of Security Flaws Grows (Updated)
+https://www.tomshardware.com/news/load-value-injection-vulnerability-found-in-intel-chips: New
+  Load Value Injection Vulnerability Found In Intel Chips
+https://www.tomshardware.com/news/plundervolt-new-attack-targets-intels-overclocking-mechanisms: 'Plundervolt:
+  New Attack Targets Intel''s Overclocking Mechanisms'
+? https://www.tomshardware.com/software/security-software/badram-attack-breaches-amd-secure-vms-using-a-raspberry-pi-pico-ddr-socket-and-a-9v-battery
+: BadRAM attack breaches AMD secure VMs using a Raspberry Pi Pico, DDR socket, and
+  a 9V battery
+https://www.vrt.be/vrtnws/nl/2018/08/13/ku-leuven-onderzoekers-ontdekken-grote-lek-bij-computerchips-van/: Onderzoekers
+  KU Leuven ontdekken groot veiligheidslek in computerchips van Intel
+https://www.vrt.be/vrtnws/nl/2025/09/30/beveiliging-cloudservers-gehackt-amd-intel: 'Onderzoekers
+  KU Leuven hacken hyperbeveiligde cloudsoftware met paneeltje van 50 euro: "Zeker
+  niet zomaar afgaan op de beweringen van technologiebedrijven"'
+https://www.wired.com/story/foreshadow-intel-secure-enclave-vulnerability/: '''Foreshadow''
+  Flaw Undermines the Intel CPU Secure Enclave'
+https://www.wired.com/story/intel-mds-attack-speculative-execution-buffer/: Intel
+  Flaw Lets Hackers Siphon Secrets from Millions of PCs
+https://www.wired.com/story/plundervolt-intel-chips-sgx-hack/: Hackers Can Mess With
+  Voltages to Steal Intel Chips' Secrets
+https://www.zdnet.com/article/beyond-spectre-foreshadow-a-new-intel-security-problem/: '​Beyond
+  Spectre: Foreshadow, a new Intel security problem'
+https://www.zdnet.com/article/intel-cpus-vulnerable-to-new-lvi-attacks/: Intel CPUs
+  vulnerable to new LVI attacks
+https://www.zdnet.com/article/manual-code-review-finds-35-vulnerabilities-in-8-enclave-sdks/: Manual
+  code review finds 35 vulnerabilities in 8 enclave SDKs
+https://www.zdnet.com/article/patch-status-for-the-new-mds-attacks-against-intel-cpus/: 'MDS
+  ''Zombieload'' attacks against Intel CPUs: What''s your patch status?'

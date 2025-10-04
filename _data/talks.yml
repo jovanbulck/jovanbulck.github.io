@@ -84,6 +84,7 @@ talks:
     year: 2025
     type: "Talk"
     location: "Bochum, Germany"
+    recording: "https://www.youtube.com/watch?v=0yKJGQZpwcY"
     url: "https://www.ruhrsec.de/2025"
 
   - id: "inaugural25"

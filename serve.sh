@@ -1,5 +1,6 @@
 #!/bin/bash
 ./parse_refs.py
+./fetch_titles.py
 
 for file in files/*.svg; do
     png_file="${file%.svg}.png"

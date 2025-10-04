@@ -1,0 +1,28 @@
+{% include base_path %}
+
+{% assign years = site.data.papers.pubs | group_by: "year" %}
+
+<div style="font-size: .9em;">
+<h1> In the News</h1>
+
+{% for p in site.data.papers.pubs %}
+{% if p.media %}
+<h3><a class="nocolor" href="{% if p.website %}{{p.website}}{% else %}files/{{p.id}}.pdf{% endif %}">{{p.short}} ({{p.year}})</a></h3>
+<ul>
+    {% for d in site.data.domains %}
+        {% for url in p.media %}
+            {% assign tld = url | split: "//" | last | split: "/" | first | split: "." | slice: -2, 2 | join: "." %}
+            {% assign title = site.data.fetched_titles[url] | default: url %}
+            {% if tld == d[0] %}
+                <li>
+                    {{site.data.domains[tld] | default: tld}}:
+                    <a href="{{url}}" style="color: var(--global-secondary-link-color); text-decoration: underline;">{{title}}</a>
+                </li>
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+</div>

@@ -40,7 +40,7 @@
             <br>
             <span class="pub-info">
                 {{p.author | join: ', ' | replace:'Jo Van Bulck','<b>Jo Van Bulck</b>' }}
-                <br> <em>{{p.venue}}</em>, {% if p.month %}{{p.month}},{% endif %} {{p.year}}.
+                <br> <em>{{p.venue}}{% if p.acro %} ({{p.acro}}){% endif %}</em>, {% if p.month %}{{p.month}},{% endif %} {{p.year}}.
             </span>
         </div>
 
@@ -56,15 +56,28 @@
             {% if p.links %}
                 <i class="fas fa-info-circle"></i>
                 {% for l in p.links %}
-                    <a style="color: var(--global-text-color-light);" href="{{ l[1] }}">{{ l[0] }}</a>{% unless forloop.last == true %},{% endunless %}
+                    <a href="{{ l[1] }}">{{ l[0] }}</a>{% unless forloop.last == true %},{% endunless %}
                 {% endfor %}
             {% endif %}
             {% if p.badge %}
                 <i class="fas fa-certificate" style="color:#8C0046;"></i>
                     {{ p.badge }}
             {% endif %}
+            {% if p.media %}
+                <i class="fas fa-globe"></i> <span style="font-weight: 500;">Media:</span>
+                {% for d in site.data.domains %}
+                    {% assign outer_last = forloop.last %}
+                    {% for url in p.media %}
+                        {% assign tld = url | split: "//" | last | split: "/" | first | split: "." | slice: -2, 2 | join: "." %}
+                         {% if tld == d[0] %}
+                            <a href="{{ url }}">{{ d[1] }}</a>{% unless outer_last %},{% endunless %}
+                            {% break %}
+                         {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            {% endif %}
         </div>
-        
+
         <div>
             <a href="files/{{p.id}}.pdf" class="nounderline">
                 <button class="ref-btn">
