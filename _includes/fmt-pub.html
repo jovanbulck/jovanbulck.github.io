@@ -65,6 +65,7 @@
             {% endif %}
             {% if p.media %}
                 <i class="fas fa-globe"></i> <span style="font-weight: 500;">Media:</span>
+                {% comment %} Output in order defined in domains.yml {% endcomment %}
                 {% for d in site.data.domains %}
                     {% assign outer_last = forloop.last %}
                     {% for url in p.media %}
@@ -211,7 +212,6 @@
                     </div>
                     
                     <table class="booktabs">
-                        
                         {% if p.topic %}
                             <tr>
                             <td>

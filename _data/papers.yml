@@ -821,6 +821,7 @@ pubs:
     logo: true
     github: "https://github.com/sancus-tee"
     website: "https://distrinet.cs.kuleuven.be/software/sancus/"
+    media: [https://lwn.net/Articles/747564/]
     bibtex: "noorman2017sancus"
     topic: "defense mcu"
     prev: "wistp15-sfs mass16-rtpma wistp16-has"

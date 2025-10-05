@@ -104,6 +104,11 @@
     }
   }
 
+  a.media-url {
+    color: var(--global-secondary-link-color);
+    text-decoration: underline;
+  }
+
   .pub-info {
       font-size:0.9em;
   }

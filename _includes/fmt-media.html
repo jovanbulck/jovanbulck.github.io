@@ -5,10 +5,23 @@
 <div style="font-size: .9em;">
 <h1> In the News</h1>
 
+<div class="flex-container">
+{% for p in site.data.papers.pubs %}
+    {% if p.media %}
+    {% if p.logo %}
+        <a href="{% if p.website %}{{p.website}}{% else %}files/{{p.id}}.pdf{% endif %}"><img style="height: 50px; width: auto;" src="files/{% if p.logo == true %}{{p.id}}{% else %}{{p.logo}}{% endif %}-logo.svg"></a>
+    {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
+
 {% for p in site.data.papers.pubs %}
 {% if p.media %}
 <h3><a class="nocolor" href="{% if p.website %}{{p.website}}{% else %}files/{{p.id}}.pdf{% endif %}">{{p.short}} ({{p.year}})</a></h3>
 <ul>
+    {% assign matched_urls = "" | split: "" %}
+    
+    {% comment %} Output in order defined in domains.yml {% endcomment %}
     {% for d in site.data.domains %}
         {% for url in p.media %}
             {% assign tld = url | split: "//" | last | split: "/" | first | split: "." | slice: -2, 2 | join: "." %}
@@ -16,12 +29,23 @@
             {% if tld == d[0] %}
                 <li>
                     {{site.data.domains[tld] | default: tld}}:
-                    <a href="{{url}}" style="color: var(--global-secondary-link-color); text-decoration: underline;">{{title}}</a>
+                    <a href="{{url}}" class="media-url">{{title}}</a>
                 </li>
+                {% assign matched_urls = matched_urls | push: url %}
                 {% break %}
             {% endif %}
         {% endfor %}
     {% endfor %}
+    
+    {% comment %} Output undefined in domains.yml {% endcomment %}
+    {%- for url in p.media -%}
+        {% unless matched_urls contains url %}
+            {% assign title = site.data.fetched_titles[url] | default: url %}
+            <li>
+                <a href="{{url}}" class="media-url">{{title}}</a>
+            </li>
+        {% endunless %}
+    {%- endfor -%}
 </ul>
 {% endif %}
 {% endfor %}
