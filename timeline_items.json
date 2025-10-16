@@ -1,0 +1,1478 @@
+{
+    "items": [
+        {
+            "id": "oakland26-batteringram",
+            "content": "Battering RAM",
+            "title": "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing",
+            "authors": [
+                "Jesse De Meulemeester",
+                "David Oswald",
+                "Ingrid Verbauwhede",
+                " Jo Van Bulck"
+            ],
+            "venue": "S&P",
+            "year": 2026,
+            "start": "2026-05-01",
+            "group": "side-channel",
+            "logo": "files/oakland26-batteringram-logo.svg"
+        },
+        {
+            "id": "uasc26-wemu",
+            "content": "WeMu",
+            "title": "WeMu: Effective and Scalable Emulation of Microarchitectural Weird Machines",
+            "authors": [
+                "Dries Vanspauwen",
+                "Lesly-Ann Daniel",
+                "Jo Van Bulck"
+            ],
+            "venue": "uASC",
+            "year": 2026,
+            "start": "2026-02-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "raid25-sgx-dnn",
+            "content": "SGX-DNN",
+            "title": "Activation Functions Considered Harmful: Recovering Neural Network Weights through Controlled Channels",
+            "authors": [
+                "Jesse Spielman",
+                "David Oswald",
+                "Mark Ryan",
+                "Jo Van Bulck"
+            ],
+            "venue": "RAID",
+            "year": 2025,
+            "start": "2025-10-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "usenix25-cve",
+            "content": "CVE",
+            "title": "Confusing Value with Enumeration: Studying the Use of CVEs in Academia",
+            "authors": [
+                "Moritz Schloegel",
+                "Daniel Klischies",
+                "Simon Koch",
+                "David Klein",
+                "Lukas Gerlach",
+                "Malte Wessels",
+                "Leon Trampert",
+                "Martin Johns",
+                "Mathy Vanhoef",
+                "Michael Schwarz",
+                "Thorsten Holz",
+                "Jo Van Bulck"
+            ],
+            "venue": "34th USENIX Security Symposium",
+            "year": 2025,
+            "start": "2025-08-01",
+            "group": "meta-science"
+        },
+        {
+            "id": "usenix25-scase",
+            "content": "SCASE",
+            "title": "SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution",
+            "authors": [
+                "Daniel Weber",
+                "Lukas Gerlach",
+                "Leon Trampert",
+                "Youheng L\u00fc",
+                "Jo Van Bulck",
+                "Michael Schwarz"
+            ],
+            "venue": "34th USENIX Security Symposium",
+            "year": 2025,
+            "start": "2025-08-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "eurosp25-openipe",
+            "content": "openIPE",
+            "title": "openIPE: An Extensible Memory Isolation Framework for Microcontrollers",
+            "authors": [
+                "Marton Bognar",
+                "Jo Van Bulck"
+            ],
+            "venue": "EuroS&P",
+            "year": 2025,
+            "start": "2025-01-01",
+            "group": "interface-shielding",
+            "logo": "files/eurosp25-openipe-logo.svg"
+        },
+        {
+            "id": "systex25-wait",
+            "content": "Wait a Cycle",
+            "title": "Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels",
+            "authors": [
+                "Ruben Van Dijck",
+                "Marton Bognar",
+                "Jo Van Bulck"
+            ],
+            "venue": "SysTEX",
+            "year": 2025,
+            "start": "2025-06-01",
+            "group": "mcu"
+        },
+        {
+            "id": "systex25-pandora-sancus",
+            "content": "Pandora-Sancus",
+            "title": "Principled Symbolic Validation of Enclaves on Low-End Microcontrollers",
+            "authors": [
+                "Gert-Jan Goossens",
+                "Jo Van Bulck"
+            ],
+            "venue": "SysTEX",
+            "year": 2025,
+            "start": "2025-06-01",
+            "group": "interface-shielding"
+        },
+        {
+            "id": "usenix25-tlblur",
+            "content": "TLBlur",
+            "title": "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms",
+            "authors": [
+                "Daan Vanoverloop",
+                "Andres Sanchez",
+                "Flavio Toffalini",
+                "Frank Piessens",
+                "Mathias Payer",
+                "Jo Van Bulck"
+            ],
+            "venue": "34th USENIX Security Symposium",
+            "year": 2025,
+            "start": "2025-08-01",
+            "group": "side-channel",
+            "logo": "files/usenix25-tlblur-logo.svg"
+        },
+        {
+            "id": "oakland25-badram",
+            "content": "BadRAM",
+            "title": "BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments",
+            "authors": [
+                "Jesse De Meulemeester",
+                "Luca Wilke",
+                "David Oswald",
+                "Thomas Eisenbarth",
+                "Ingrid Verbauwhede",
+                " Jo Van Bulck"
+            ],
+            "venue": "S&P",
+            "year": 2025,
+            "start": "2025-05-01",
+            "group": "side-channel",
+            "logo": "files/oakland25-badram-logo.svg"
+        },
+        {
+            "id": "pavetrust24-sancusv",
+            "content": "Sancus-V Exceptions",
+            "title": "Exceptions Prove the Rule: Investigating and Resolving Residual Side Channels in Provably Secure Interrupt Handling",
+            "authors": [
+                "Matteo Busi",
+                "Pierpaolo Degano",
+                "Riccardo Focardi",
+                "Letterio Galletta",
+                "Flaminia Luccio",
+                "Frank Piessens",
+                "Jo Van Bulck"
+            ],
+            "venue": "PAVeTrust",
+            "year": 2024,
+            "start": "2024-09-01",
+            "group": "mcu"
+        },
+        {
+            "id": "usenix24-ipe",
+            "content": "IPEx",
+            "title": "Intellectual Property Exposure: Subverting and Securing Intellectual Property Encapsulation in Texas Instruments Microcontrollers",
+            "authors": [
+                "Marton Bognar",
+                "Cas Magnus",
+                "Frank Piessens",
+                "Jo Van Bulck"
+            ],
+            "venue": "33rd USENIX Security Symposium",
+            "year": 2024,
+            "start": "2024-08-01",
+            "group": "mcu"
+        },
+        {
+            "id": "oakland24-pandora",
+            "content": "Pandora",
+            "title": "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes",
+            "authors": [
+                "Fritz Alder",
+                "Lesly-Ann Daniel",
+                "David Oswald",
+                "Frank Piessens",
+                "Jo Van Bulck"
+            ],
+            "venue": "S&P",
+            "year": 2024,
+            "start": "2024-05-01",
+            "group": "interface-shielding",
+            "logo": "files/oakland24-pandora-logo.svg"
+        },
+        {
+            "id": "acsac23-sgxstep",
+            "content": "SGX-Step Impact Award",
+            "title": "SGX-Step: An Open-Source Framework for Precise Dissection and Practical Exploitation of Intel SGX Enclaves",
+            "authors": [
+                "Jo Van Bulck",
+                "Frank Piessens"
+            ],
+            "venue": "ACSAC 2023 Cybersecurity Artifacts Competition and Impact Award Finalist Short Paper",
+            "year": 2023,
+            "start": "2023-12-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "usenix23-aexnotify",
+            "content": "AEX-Notify",
+            "title": "AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves",
+            "authors": [
+                "Scott Constable",
+                "Jo Van Bulck",
+                "Xiang Cheng",
+                "Yuan Xiao",
+                "Cedric Xing",
+                "Ilya Alexandrovich",
+                "Taesoo Kim",
+                "Frank Piessens",
+                "Mona Vij",
+                "Mark Silberstein"
+            ],
+            "venue": "32nd USENIX Security Symposium",
+            "year": 2023,
+            "start": "2023-08-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "eurosp23-microprofiler",
+            "content": "MicroProfiler",
+            "title": "MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling",
+            "authors": [
+                "Marton Bognar",
+                "Hans Winderix",
+                "Jo Van Bulck",
+                "Frank Piessens"
+            ],
+            "venue": "EuroS&P",
+            "year": 2023,
+            "start": "2023-07-01",
+            "group": "mcu"
+        },
+        {
+            "id": "systex23-time",
+            "content": "About Time",
+            "title": "About Time: On the Challenges of Temporal Guarantees in Untrusted Environments",
+            "authors": [
+                "Fritz Alder",
+                "Gianluca Scopelliti",
+                "Jo Van Bulck",
+                "Jan Tobias M\u00fchlberg"
+            ],
+            "venue": "SysTEX",
+            "year": 2023,
+            "start": "2023-05-01",
+            "group": "interface-shielding"
+        },
+        {
+            "id": "systex22-abi",
+            "content": "SGX-ABI",
+            "title": "A Case for Unified ABI Shielding in Intel SGX Runtimes",
+            "authors": [
+                "Jo Van Bulck",
+                "Fritz Alder",
+                "Frank Piessens"
+            ],
+            "venue": "SysTEX",
+            "year": 2022,
+            "start": "2022-03-01",
+            "group": "interface-shielding"
+        },
+        {
+            "id": "oakland22-gap",
+            "content": "Mind the Gap",
+            "title": "Mind the Gap: Studying the Insecurity of Provably Secure Embedded Trusted Execution Architectures",
+            "authors": [
+                "Marton Bognar",
+                "Jo Van Bulck",
+                "Frank Piessens"
+            ],
+            "venue": "S&P",
+            "year": 2022,
+            "start": "2022-05-01",
+            "group": "mcu"
+        },
+        {
+            "id": "dtrap22-fpu",
+            "content": "FPU Journal",
+            "title": "Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments",
+            "authors": [
+                "Fritz Alder",
+                "Jo Van Bulck",
+                "Jesse Spielman",
+                "David Oswald",
+                "Frank Piessens"
+            ],
+            "venue": "DTRAP",
+            "year": 2022,
+            "start": "2022-02-01",
+            "group": "interface-shielding"
+        },
+        {
+            "id": "ccs21-aion",
+            "content": "Aion",
+            "title": "Aion: Enabling Open Systems through Strong Availability Guarantees for Enclaves",
+            "authors": [
+                "Fritz Alder",
+                "Jo Van Bulck",
+                "Frank Piessens",
+                "Jan Tobias M\u00fchlberg"
+            ],
+            "venue": "CCS",
+            "year": 2021,
+            "start": "2021-11-01",
+            "group": "mcu",
+            "logo": "files/ccs21-aion-logo.svg"
+        },
+        {
+            "id": "toplas21-irq",
+            "content": "Sancus-V Journal",
+            "title": "Securing Interruptible Enclaved Execution on Small Microprocessors",
+            "authors": [
+                "Matteo Busi",
+                "Job Noorman",
+                "Jo Van Bulck",
+                "Letterio Galletta",
+                "Pierpaolo Degano",
+                "Jan Tobias M\u00fchlberg",
+                "Frank Piessens"
+            ],
+            "venue": "TOPLAS",
+            "year": 2021,
+            "start": "2021-01-01",
+            "group": "mcu"
+        },
+        {
+            "id": "comnet21-robust",
+            "content": "CovertCAN",
+            "title": "Robust Authentication for Automotive Control Networks through Covert Channels",
+            "authors": [
+                "Stien Vanderhallen",
+                "Jo Van Bulck",
+                "Frank Piessens",
+                "Jan Tobias M\u00fchlberg"
+            ],
+            "venue": "Computer Networks",
+            "year": 2021,
+            "start": "2021-01-01",
+            "group": "mcu"
+        },
+        {
+            "id": "acsac20-fpu",
+            "content": "SGX-FPU",
+            "title": "Faulty Point Unit: ABI Poisoning Attacks on Intel SGX",
+            "authors": [
+                "Fritz Alder",
+                "Jo Van Bulck",
+                "David Oswald",
+                "Frank Piessens"
+            ],
+            "venue": "ACSAC",
+            "year": 2020,
+            "start": "2020-12-01",
+            "group": "interface-shielding"
+        },
+        {
+            "id": "phd-thesis",
+            "content": "PhD",
+            "title": "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries",
+            "authors": [
+                "Jo Van Bulck"
+            ],
+            "venue": "PhD thesis KU Leuven",
+            "year": 2020,
+            "start": "2020-09-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "usenix20-copycat",
+            "content": "CopyCat",
+            "title": "CopyCat: Controlled Instruction-Level Attacks on Enclaves",
+            "authors": [
+                "Daniel Moghimi",
+                "Jo Van Bulck",
+                "Nadia Heninger",
+                "Frank Piessens",
+                "Berk Sunar"
+            ],
+            "venue": "29th USENIX Security Symposium",
+            "year": 2020,
+            "start": "2020-08-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "csf20-irq",
+            "content": "Sancus-V",
+            "title": "Provably Secure Isolation for Interruptible Enclaved Execution on Small Microprocessors",
+            "authors": [
+                "Matteo Busi",
+                "Job Noorman",
+                "Jo Van Bulck",
+                "Letterio Galletta",
+                "Pierpaolo Degano",
+                "Jan Tobias M\u00fchlberg",
+                "Frank Piessens"
+            ],
+            "venue": "CSF",
+            "year": 2020,
+            "start": "2020-06-01",
+            "group": "mcu"
+        },
+        {
+            "id": "sp20-plundervoltmagazine",
+            "content": "Plundervolt Journal",
+            "title": "Plundervolt: How a Little Bit of Undervolting Can Create a Lot of Trouble",
+            "authors": [
+                "Kit Murdock",
+                "David Oswald",
+                "Flavio D. Garcia",
+                "Jo Van Bulck",
+                "Daniel Gruss",
+                "Frank Piessens"
+            ],
+            "venue": "IEEE Security & Privacy Magazine Special Issue on Hardware-Assisted Security",
+            "year": 2020,
+            "start": "2020-01-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "oakland20-lvi",
+            "content": "LVI",
+            "title": "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection",
+            "authors": [
+                "Jo Van Bulck",
+                "Daniel Moghimi",
+                "Michael Schwarz",
+                "Moritz Lipp",
+                "Marina Minkin",
+                "Daniel Genkin",
+                "Yuval Yarom",
+                "Berk Sunar",
+                "Daniel Gruss",
+                "Frank Piessens"
+            ],
+            "venue": "S&P",
+            "year": 2020,
+            "start": "2020-05-01",
+            "group": "transient-execution",
+            "logo": "files/oakland20-lvi-logo.svg"
+        },
+        {
+            "id": "oakland20-plundervolt",
+            "content": "Plundervolt",
+            "title": "Plundervolt: Software-Based Fault Injection Attacks Against Intel SGX",
+            "authors": [
+                "Kit Murdock",
+                "David Oswald",
+                "Flavio D. Garcia",
+                "Jo Van Bulck",
+                "Daniel Gruss",
+                "Frank Piessens"
+            ],
+            "venue": "S&P",
+            "year": 2020,
+            "start": "2020-05-01",
+            "group": "side-channel",
+            "logo": "files/oakland20-plundervolt-logo.svg"
+        },
+        {
+            "id": "ccs19-tale",
+            "content": "T2W",
+            "title": "A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes",
+            "authors": [
+                "Jo Van Bulck",
+                "David Oswald",
+                "Eduard Marin",
+                "Abdulla Aldoseri",
+                "Flavio D. Garcia",
+                "Frank Piessens"
+            ],
+            "venue": "CCS",
+            "year": 2019,
+            "start": "2019-11-01",
+            "group": "interface-shielding",
+            "logo": "files/ccs19-tale-logo.svg"
+        },
+        {
+            "id": "ccs19-zombieload",
+            "content": "ZombieLoad",
+            "title": "ZombieLoad: Cross-Privilege-Boundary Data Sampling",
+            "authors": [
+                "Michael Schwarz",
+                "Moritz Lipp",
+                "Daniel Moghimi",
+                "Jo Van Bulck",
+                "Julian Stecklina",
+                "Thomas Prescher",
+                "Daniel Gruss"
+            ],
+            "venue": "CCS",
+            "year": 2019,
+            "start": "2019-11-01",
+            "group": "transient-execution",
+            "logo": "files/ccs19-zombieload-logo.svg"
+        },
+        {
+            "id": "ccs19-fallout",
+            "content": "Fallout",
+            "title": "Fallout: Leaking Data on Meltdown-Resistant CPUs",
+            "authors": [
+                "Claudio Canella",
+                "Daniel Genkin",
+                "Lukas Giner",
+                "Daniel Gruss",
+                "Moritz Lipp",
+                "Marina Minkin",
+                "Daniel Moghimi",
+                "Frank Piessens",
+                "Michael Schwarz",
+                "Berk Sunar",
+                "Jo Van Bulck",
+                "Yuval Yarom"
+            ],
+            "venue": "CCS",
+            "year": 2019,
+            "start": "2019-11-01",
+            "group": "transient-execution",
+            "logo": "files/ccs19-fallout-logo.svg"
+        },
+        {
+            "id": "usenix19-transientsok",
+            "content": "Transient SoK",
+            "title": "A Systematic Evaluation of Transient Execution Attacks and Defenses",
+            "authors": [
+                "Claudio Canella",
+                "Jo Van Bulck",
+                "Michael Schwarz",
+                "Moritz Lipp",
+                "Benjamin von Berg",
+                "Philipp Ortner",
+                "Frank Piessens",
+                "Dmitry Evtyushkin",
+                "Daniel Gruss"
+            ],
+            "venue": "28th USENIX Security Symposium",
+            "year": 2019,
+            "start": "2019-08-01",
+            "group": "transient-execution"
+        },
+        {
+            "id": "micro19-foreshadow",
+            "content": "Foreshadow Top Picks",
+            "title": "Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow",
+            "authors": [
+                "Jo Van Bulck",
+                "Marina Minkin",
+                "Ofir Weisse",
+                "Daniel Genkin",
+                "Baris Kasikci",
+                "Frank Piessens",
+                "Mark Silberstein",
+                "Thomas Wenisch",
+                "Yuval Yarom",
+                "Raoul Strackx"
+            ],
+            "venue": "IEEE Micro Top Picks from the 2018 Computer Architecture Conferences",
+            "year": 2019,
+            "start": "2019-01-01",
+            "group": "transient-execution"
+        },
+        {
+            "id": "space18-tutorial",
+            "content": "SGX Tutorial",
+            "title": "Tutorial: Uncovering and Mitigating Side-Channel Leakage in Intel SGX Enclaves",
+            "authors": [
+                "Jo Van Bulck",
+                "Frank Piessens"
+            ],
+            "venue": "SPACE",
+            "year": 2018,
+            "start": "2018-12-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "ccs18-nemesis",
+            "content": "Nemesis",
+            "title": "Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic",
+            "authors": [
+                "Jo Van Bulck",
+                "Frank Piessens",
+                "Raoul Strackx"
+            ],
+            "venue": "CCS",
+            "year": 2018,
+            "start": "2018-10-01",
+            "group": "mcu",
+            "logo": "files/ccs18-nemesis-logo.svg"
+        },
+        {
+            "id": "foreshadow-ng",
+            "content": "Foreshadow-NG",
+            "title": "Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution",
+            "authors": [
+                "Ofir Weisse",
+                "Jo Van Bulck",
+                "Marina Minkin",
+                "Daniel Genkin",
+                "Baris Kasikci",
+                "Frank Piessens",
+                "Mark Silberstein",
+                "Raoul Strackx",
+                "Thomas Wenisch",
+                "Yuval Yarom"
+            ],
+            "venue": "Technical report",
+            "year": 2018,
+            "start": "2018-08-01",
+            "group": "transient-execution"
+        },
+        {
+            "id": "usenix18-foreshadow",
+            "content": "Foreshadow",
+            "title": "Foreshadow: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution",
+            "authors": [
+                "Jo Van Bulck",
+                "Marina Minkin",
+                "Ofir Weisse",
+                "Daniel Genkin",
+                "Baris Kasikci",
+                "Frank Piessens",
+                "Mark Silberstein",
+                "Thomas Wenisch",
+                "Yuval Yarom",
+                "Raoul Strackx"
+            ],
+            "venue": "27th USENIX Security Symposium",
+            "year": 2018,
+            "start": "2018-08-01",
+            "group": "transient-execution",
+            "logo": "files/usenix18-foreshadow-logo.svg"
+        },
+        {
+            "id": "dsn18-tutorial",
+            "content": "Sancus-SGX",
+            "title": "Tutorial: Building Distributed Enclave Applications with Sancus and SGX",
+            "authors": [
+                "Jan Tobias M\u00fchlberg",
+                "Jo Van Bulck"
+            ],
+            "venue": "DSN",
+            "year": 2018,
+            "start": "2018-06-01",
+            "group": "mcu"
+        },
+        {
+            "id": "login18-reflections",
+            "content": "Reflections",
+            "title": "Reflections on Post-Meltdown Trusted Computing: A Case for Open Security Processors",
+            "authors": [
+                "Jan Tobias M\u00fchlberg",
+                "Jo Van Bulck"
+            ],
+            "venue": ";login: the USENIX magazine vol.43 no.3",
+            "year": 2018,
+            "start": "2018-01-01",
+            "group": "meta-science"
+        },
+        {
+            "id": "essos18-offlimits",
+            "content": "Off-Limits",
+            "title": "Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution",
+            "authors": [
+                "Jago Gyselinck",
+                "Jo Van Bulck",
+                "Frank Piessens",
+                "Raoul Strackx"
+            ],
+            "venue": "ESSoS",
+            "year": 2018,
+            "start": "2018-06-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "acsac17-vulcan",
+            "content": "VulCAN",
+            "title": "VulCAN: Efficient Component Authentication and Software Isolation for Automotive Control Networks",
+            "authors": [
+                "Jo Van Bulck",
+                "Jan Tobias M\u00fchlberg",
+                "Frank Piessens"
+            ],
+            "venue": "ACSAC",
+            "year": 2017,
+            "start": "2017-12-01",
+            "group": "mcu"
+        },
+        {
+            "id": "systex17-sgxstep",
+            "content": "SGX-Step",
+            "title": "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control",
+            "authors": [
+                "Jo Van Bulck",
+                "Frank Piessens",
+                "Raoul Strackx"
+            ],
+            "venue": "SysTEX",
+            "year": 2017,
+            "start": "2017-10-01",
+            "group": "side-channel",
+            "logo": "files/systex17-sgxstep-logo.svg"
+        },
+        {
+            "id": "usenix17-pte",
+            "content": "SGX-PTE",
+            "title": "Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution",
+            "authors": [
+                "Jo Van Bulck",
+                "Nico Weichbrodt",
+                "R\u00fcdiger Kapitza",
+                "Frank Piessens",
+                "Raoul Strackx"
+            ],
+            "venue": "26th USENIX Security Symposium",
+            "year": 2017,
+            "start": "2017-08-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "tops17-sancus",
+            "content": "Sancus",
+            "title": "Sancus 2.0: A Low-Cost Security Architecture for IoT Devices",
+            "authors": [
+                "Job Noorman",
+                "Jo Van Bulck",
+                "Jan Tobias M\u00fchlberg",
+                "Frank Piessens",
+                "Pieter Maene",
+                "Bart Preneel",
+                "Ingrid Verbauwhede",
+                "Johannes G\u00f6tzfried",
+                "Tilo M\u00fcller",
+                "Felix Freiling"
+            ],
+            "venue": "TOPS",
+            "year": 2017,
+            "start": "2017-01-01",
+            "group": "mcu",
+            "logo": "files/tops17-sancus-logo.svg"
+        },
+        {
+            "id": "wistp16-has",
+            "content": "HAS",
+            "title": "Implementation of a High Assurance Smart Meter using Protected Module Architectures",
+            "authors": [
+                "Jan Tobias M\u00fchlberg",
+                "Sara Cleemput",
+                "Mustafa A. Mustafa",
+                "Jo Van Bulck",
+                "Bart Preneel",
+                "Frank Piessens"
+            ],
+            "venue": "WISTP",
+            "year": 2016,
+            "start": "2016-08-01",
+            "group": "mcu"
+        },
+        {
+            "id": "mass16-rtpma",
+            "content": "RT-PMA",
+            "title": "Towards Availability and Real-Time Guarantees for Protected Module Architectures",
+            "authors": [
+                "Jo Van Bulck",
+                "Job Noorman",
+                "Jan Tobias M\u00fchlberg",
+                "Frank Piessens"
+            ],
+            "venue": "MASS",
+            "year": 2016,
+            "start": "2016-03-01",
+            "group": "mcu"
+        },
+        {
+            "id": "wistp15-sfs",
+            "content": "SFS",
+            "title": "Secure Resource Sharing for Embedded Protected Module Architectures",
+            "authors": [
+                "Jo Van Bulck",
+                "Job Noorman",
+                "Jan Tobias M\u00fchlberg",
+                "Frank Piessens"
+            ],
+            "venue": "WISTP",
+            "year": 2015,
+            "start": "2015-08-01",
+            "group": "mcu"
+        },
+        {
+            "id": "msc-thesis",
+            "content": "Msc",
+            "title": "Secure Resource Sharing for Embedded Protected Module Architectures",
+            "authors": [
+                "Jo Van Bulck"
+            ],
+            "venue": "Master thesis KU Leuven",
+            "year": 2015,
+            "start": "2015-01-01",
+            "group": "interface-shielding"
+        }
+    ],
+    "groups": [
+        {
+            "id": "interface-shielding",
+            "content": "<b>Enclave shielding</b>"
+        },
+        {
+            "id": "mcu",
+            "content": "<b>Microcontroller security</b>"
+        },
+        {
+            "id": "side-channel",
+            "content": "<b>Side channels</b>"
+        },
+        {
+            "id": "transient-execution",
+            "content": "<b>Transient execution</b>"
+        },
+        {
+            "id": "meta-science",
+            "content": "<b>Meta-science</b>"
+        }
+    ],
+    "arrows": [
+        {
+            "id": 0,
+            "id_item_1": "oakland25-badram",
+            "id_item_2": "oakland26-batteringram",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 1,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "raid25-sgx-dnn",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 2,
+            "id_item_1": "usenix20-copycat",
+            "id_item_2": "raid25-sgx-dnn",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 3,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "usenix25-scase",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 4,
+            "id_item_1": "usenix20-copycat",
+            "id_item_2": "usenix25-scase",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 5,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "eurosp25-openipe",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 6,
+            "id_item_1": "oakland24-pandora",
+            "id_item_2": "eurosp25-openipe",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 7,
+            "id_item_1": "usenix24-ipe",
+            "id_item_2": "eurosp25-openipe",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 8,
+            "id_item_1": "systex25-pandora-sancus",
+            "id_item_2": "eurosp25-openipe",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 9,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "systex25-wait",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 10,
+            "id_item_1": "acsac17-vulcan",
+            "id_item_2": "systex25-wait",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 11,
+            "id_item_1": "oakland22-gap",
+            "id_item_2": "systex25-wait",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 12,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "systex25-pandora-sancus",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 13,
+            "id_item_1": "ccs19-tale",
+            "id_item_2": "systex25-pandora-sancus",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 14,
+            "id_item_1": "oakland24-pandora",
+            "id_item_2": "systex25-pandora-sancus",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 15,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "usenix25-tlblur",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 16,
+            "id_item_1": "usenix23-aexnotify",
+            "id_item_2": "usenix25-tlblur",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 17,
+            "id_item_1": "oakland22-gap",
+            "id_item_2": "pavetrust24-sancusv",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 18,
+            "id_item_1": "csf20-irq",
+            "id_item_2": "pavetrust24-sancusv",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 19,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "usenix24-ipe",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 20,
+            "id_item_1": "ccs18-nemesis",
+            "id_item_2": "usenix24-ipe",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 21,
+            "id_item_1": "ccs19-tale",
+            "id_item_2": "oakland24-pandora",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 22,
+            "id_item_1": "acsac20-fpu",
+            "id_item_2": "oakland24-pandora",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 23,
+            "id_item_1": "systex22-abi",
+            "id_item_2": "oakland24-pandora",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 24,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "acsac23-sgxstep",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 25,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "usenix23-aexnotify",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 26,
+            "id_item_1": "ccs18-nemesis",
+            "id_item_2": "usenix23-aexnotify",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 27,
+            "id_item_1": "csf20-irq",
+            "id_item_2": "usenix23-aexnotify",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 28,
+            "id_item_1": "ccs18-nemesis",
+            "id_item_2": "eurosp23-microprofiler",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 29,
+            "id_item_1": "oakland22-gap",
+            "id_item_2": "eurosp23-microprofiler",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 30,
+            "id_item_1": "ccs19-tale",
+            "id_item_2": "systex22-abi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 31,
+            "id_item_1": "acsac20-fpu",
+            "id_item_2": "systex22-abi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 32,
+            "id_item_1": "ccs19-tale",
+            "id_item_2": "oakland22-gap",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 33,
+            "id_item_1": "csf20-irq",
+            "id_item_2": "oakland22-gap",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 34,
+            "id_item_1": "acsac20-fpu",
+            "id_item_2": "dtrap22-fpu",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 35,
+            "id_item_1": "msc-thesis",
+            "id_item_2": "ccs21-aion",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 36,
+            "id_item_1": "mass16-rtpma",
+            "id_item_2": "ccs21-aion",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 37,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "ccs21-aion",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 38,
+            "id_item_1": "csf20-irq",
+            "id_item_2": "ccs21-aion",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 39,
+            "id_item_1": "csf20-irq",
+            "id_item_2": "toplas21-irq",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 40,
+            "id_item_1": "acsac17-vulcan",
+            "id_item_2": "comnet21-robust",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 41,
+            "id_item_1": "ccs19-tale",
+            "id_item_2": "acsac20-fpu",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 42,
+            "id_item_1": "usenix17-pte",
+            "id_item_2": "phd-thesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 43,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "phd-thesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 44,
+            "id_item_1": "ccs18-nemesis",
+            "id_item_2": "phd-thesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 45,
+            "id_item_1": "usenix18-foreshadow",
+            "id_item_2": "phd-thesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 46,
+            "id_item_1": "ccs19-tale",
+            "id_item_2": "phd-thesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 47,
+            "id_item_1": "oakland20-lvi",
+            "id_item_2": "phd-thesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 48,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "usenix20-copycat",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 49,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "csf20-irq",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 50,
+            "id_item_1": "ccs18-nemesis",
+            "id_item_2": "csf20-irq",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 51,
+            "id_item_1": "oakland20-plundervolt",
+            "id_item_2": "sp20-plundervoltmagazine",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 52,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "oakland20-lvi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 53,
+            "id_item_1": "usenix18-foreshadow",
+            "id_item_2": "oakland20-lvi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 54,
+            "id_item_1": "usenix19-transientsok",
+            "id_item_2": "oakland20-lvi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 55,
+            "id_item_1": "ccs19-fallout",
+            "id_item_2": "oakland20-lvi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 56,
+            "id_item_1": "ccs19-zombieload",
+            "id_item_2": "oakland20-lvi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 57,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "oakland20-plundervolt",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 58,
+            "id_item_1": "msc-thesis",
+            "id_item_2": "ccs19-tale",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 59,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "ccs19-tale",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 60,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "ccs19-tale",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 61,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "ccs19-zombieload",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 62,
+            "id_item_1": "usenix18-foreshadow",
+            "id_item_2": "ccs19-zombieload",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 63,
+            "id_item_1": "usenix19-transientsok",
+            "id_item_2": "ccs19-zombieload",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 64,
+            "id_item_1": "usenix18-foreshadow",
+            "id_item_2": "ccs19-fallout",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 65,
+            "id_item_1": "usenix19-transientsok",
+            "id_item_2": "ccs19-fallout",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 66,
+            "id_item_1": "usenix18-foreshadow",
+            "id_item_2": "usenix19-transientsok",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 67,
+            "id_item_1": "foreshadow-ng",
+            "id_item_2": "usenix19-transientsok",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 68,
+            "id_item_1": "usenix18-foreshadow",
+            "id_item_2": "micro19-foreshadow",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 69,
+            "id_item_1": "foreshadow-ng",
+            "id_item_2": "micro19-foreshadow",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 70,
+            "id_item_1": "mass16-rtpma",
+            "id_item_2": "ccs18-nemesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 71,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "ccs18-nemesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 72,
+            "id_item_1": "usenix17-pte",
+            "id_item_2": "ccs18-nemesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 73,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "ccs18-nemesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 74,
+            "id_item_1": "acsac17-vulcan",
+            "id_item_2": "ccs18-nemesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 75,
+            "id_item_1": "usenix18-foreshadow",
+            "id_item_2": "foreshadow-ng",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 76,
+            "id_item_1": "usenix17-pte",
+            "id_item_2": "usenix18-foreshadow",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 77,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "usenix18-foreshadow",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 78,
+            "id_item_1": "acsac17-vulcan",
+            "id_item_2": "dsn18-tutorial",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 79,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "dsn18-tutorial",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 80,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "login18-reflections",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 81,
+            "id_item_1": "systex17-sgxstep",
+            "id_item_2": "essos18-offlimits",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 82,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "acsac17-vulcan",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 83,
+            "id_item_1": "usenix17-pte",
+            "id_item_2": "systex17-sgxstep",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 84,
+            "id_item_1": "wistp15-sfs",
+            "id_item_2": "tops17-sancus",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 85,
+            "id_item_1": "mass16-rtpma",
+            "id_item_2": "tops17-sancus",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 86,
+            "id_item_1": "wistp16-has",
+            "id_item_2": "tops17-sancus",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 87,
+            "id_item_1": "msc-thesis",
+            "id_item_2": "mass16-rtpma",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 88,
+            "id_item_1": "msc-thesis",
+            "id_item_2": "wistp15-sfs",
+            "direction": 1,
+            "type": 2
+        }
+    ]
+}

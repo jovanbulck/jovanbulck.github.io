@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Publication Timeline</title>
+  <script type="module">
+    import { Timeline } from 'https://unpkg.com/vis-timeline@latest/standalone/esm/vis-timeline-graph2d.min.js';
+    import Arrow from './assets/js/arrow.js';
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      const container = document.getElementById('timeline');
+      const paperInfo = document.getElementById('paper');
+
+      const data = await fetch('timeline_items.json').then(res => res.json());
+
+      const timeline = new Timeline(container, data.items, data.groups, {
+        orientation: 'top',
+        tooltip: { followMouse: true },
+        selectable: true,
+        editable: false,
+        margin: { item: 10, axis: 5 },
+        min: new Date(2014, 10, 1),
+        max: new Date(2027, 0, 1),
+        showCurrentTime: false,
+        xss: {
+          disabled: true,
+        },
+        template: function (item, element, data) {
+          var html = ''
+          if (item.logo)
+            html = "<img style='height: 50px; width: auto;' src='" + item.logo + "'> <br/>"
+          return html + item.content;
+        }
+      });
+
+      const allArrows = data.arrows;
+
+      let arrowInstance = new Arrow(timeline, []);
+      timeline.on('select', function (props) {
+        const selectedId = props.items[0];
+        if (!selectedId) return;
+
+        const item = data.items.find(item => item.id === selectedId)
+        if (item) {
+          const author = item.authors[0].substring(item.authors[0].indexOf(' ') + 1)
+          paperInfo.innerHTML = author + ' et al. <a href="files/' + item.id + '.pdf">"' + item.title + '"</a> In: <em>' + item.venue + '</em> ' + item.year + '.';
+        }
+
+        arrowInstance.clearArrows();
+
+        const filteredArrows = allArrows.filter(
+          arrow => arrow.id_item_1 === selectedId || arrow.id_item_2 === selectedId
+        );
+        filteredArrows.forEach( arrowSpec => {
+          arrowInstance.addArrow(arrowSpec);
+        });
+      });
+
+    });
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #timeline {
+      width: 100%;
+      border: 1px solid #ccc;
+      margin: 20px 0;
+    }
+
+    #paper {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #aaa;
+      text-align: center;
+      a {
+        color: #52adc8;
+        text-decoration: none;
+        font-weight: 550;
+      }
+    }
+
+    .vis-item.vis-line {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Publication Timeline</h2>
+  <em>(Generated using <a href="https://visjs.github.io/vis-timeline/docs/timeline"><code>vis.js</code></a> and <a href="https://github.com/Grihail/timeline-arrows"><code>timeline-arrows</code></a>).</em>
+  <div id="timeline"></div>
+  <div id="paper">Click for paper info.</div>
+</body>
+</html>

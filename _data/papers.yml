@@ -241,6 +241,7 @@ pubs:
     links: [["Artifacts Competition", "https://www.acsac.org/2023/program/artifacts_competition/"]]
     bibtex: "vanbulck2023sgxstep"
     topic: "attack side-channel intel-sgx"
+    prev: "systex17-sgxstep"
     tldr: |
       Insights and impact from maintaining the open-source <a href="#systex17-sgxstep">SGX-Step</a> attack framework that led to mitigations in recent Intel processors and SDKs.
 
@@ -342,6 +343,7 @@ pubs:
     slides: "https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs21-slides.pdf"
     recording: "https://youtu.be/E_SbvA-txnQ"
     topic: "defense mcu"
+    logo: true
     prev: "msc-thesis mass16-rtpma tops17-sancus csf20-irq"
     tldr: |
       Hardware-software co-design for guaranteed real-time availability via enclaved scheduler, secure interrupts, and bounded-atomicity CPU primitives.
