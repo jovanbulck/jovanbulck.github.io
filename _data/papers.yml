@@ -6,6 +6,7 @@ pubs:
     venue: "47th IEEE Symposium on Security and Privacy"
     acro: "S&P"
     year: 2026
+    badge: "Artifacts evaluated: Available"
     github: "https://github.com/batteringramattack/batteringram"
     bibtex: "demeulemeester26batteringram"
     website: "https://batteringram.eu/"
