@@ -1,4 +1,11 @@
 awards:
+  - title: "Applied Research Competition Finalist"
+    venue: "CSAW Europe"
+    paper: "usenix25-tlblur"
+    label: "TLBlur paper"
+    month: "November 14"
+    year: 2025
+
   - title: "Distinguished Paper Award"
     venue: "USENIX Security 2025"
     paper: "usenix25-cve"

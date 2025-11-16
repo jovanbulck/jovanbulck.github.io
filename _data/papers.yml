@@ -17,6 +17,7 @@ pubs:
       https://datanews.knack.be/nieuws/security/kwetsbaarheden/onderzoekers-kuleuven-kunnen-geavanceerde-cloudbeveiliging-intel-en-amd-hacken/,
       https://www.tijd.be/ondernemen/technologie/leuvense-onderzoekers-kraken-beveiligde-servers-van-techreuzen-met-amper-50-euro/10629054.html,
       https://www.hln.be/internet/hardwaremodule-van-nog-geen-50-euro-omzeilt-meest-geavanceerde-cloudbeveiliging~ac84a94a/,
+      https://www.newscientist.nl/nieuws/voor-zon-hackaanval-had-je-ooit-tonnen-nodig-nu-kan-het-met-minder-dan-vijftig-euro/,
       https://arstechnica.com/security/2025/09/intel-and-amd-trusted-enclaves-the-backbone-of-network-security-fall-to-physical-attacks/,
       https://thehackernews.com/2025/10/50-battering-ram-attack-breaks-intel.html,
       https://www.securityweek.com/battering-ram-attack-breaks-intel-and-amd-security-tech-with-50-device/,
@@ -49,6 +50,7 @@ pubs:
     acro: "RAID"
     github: "https://github.com/heavyimage/afch_paper"
     year: 2025
+    slides: true
     bibtex: "spielman2025activation"
     topic: "intel-sgx side-channel attack"
     prev: "systex17-sgxstep usenix20-copycat"
@@ -64,7 +66,10 @@ pubs:
     badge: "Artifacts evaluated: Available"
     github: "https://github.com/mu00d8/cves_in_academia"
     year: 2025
+    media: [ https://www.theregister.com/2025/10/16/cve_cvss_scores_not_useful/ ]
     bibtex: "schloegel2025confusing"
+    slides: https://www.usenix.org/system/files/sec25_slides_schloegel-moritz.pdf
+    recording: https://youtu.be/orDOVQpSlrE
     topic: "meta-science"
     tldr: |
       Quantitative/qualitative analysis and user study of <abbr title="Common Vulnerabilities and Exposures">CVE</abbr> usage in A* security papers, showing increasing inclusion trend and widespread misconceptions.
@@ -142,6 +147,7 @@ pubs:
     year: 2025
     badge: "Artifacts evaluated: Available, Functional, Reproduced"
     github: "https://github.com/TLBlur-SGX"
+    award: "CSAW 2025 Applied Research Competition Finalist"
     bibtex: "vanoverloop2025tlblur"
     logo: true
     slides: true
@@ -484,6 +490,7 @@ pubs:
       https://www.phoronix.com/search/Load+Value+Injection,
       https://nieuws.kuleuven.be/en/content/2020/intel-processors-are-still-vulnerable-to-attack,
     ]
+    award: "CSAW 2020 Applied Research Competition Finalist"
     bibtex: "vanbulck2020lvi"
     poster: "files/oakland22-lvi-poster.pdf"
     topic: "attack transient-execution intel-sgx"
