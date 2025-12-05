@@ -10,11 +10,17 @@ courses:
     home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
 
 guest:
+  - venue: 'International Winter School on Microarchitectural Security'
+    years: [2025]
+
   - venue: 'Graz Summer School'
     years: [2025, 2022]
   
   - venue: 'Carnegie Mellon University Advanced Topics in Hardware Security'
     years: [2024]
+
+  - venue: 'KUL Development of Secure Software'
+    years: [2025]
 
   - venue: 'KUL Ghent Course on Secure Software and Hacking'
     years: [2025]

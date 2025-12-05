@@ -1,4 +1,24 @@
 talks:
+  - id: "rse25"
+    title: "Hack, Fix, Repeat: FOSS and the Future of Systems Security"
+    author: ['Jo Van Bulck']
+    year: 2025
+    month: "December 4"
+    venue: "Research Software Engineering Day 2025"
+    type: "Invited keynote"
+    location: "Leuven, Belgium"
+    website: "https://www.kuleuven.be/rdm/en/training/events/rse-day-2025/abstract-bio-jo-van-bulck.pdf"
+  
+  - id: "micsec25"
+    title: "The Dark Side of Privilege: Understanding and Mitigating Software-Based Side Channels on Trusted Execution Environments"
+    author: ['Jo Van Bulck']
+    year: 2025
+    month: "December 2"
+    venue: "International Winter School on Microarchitectural Security (MIC-SEC 2025)"
+    type: "Invited lecture"
+    location: "Paris, France"
+    website: "https://micsec.wp.imt.fr/"
+  
   - id: "eth25"
     title: "Cracks in the Shield: Understanding and Mitigating Side-Channel Threats to Confidential Computing"
     author: ['Jo Van Bulck']
