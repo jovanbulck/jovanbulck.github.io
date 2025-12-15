@@ -21,6 +21,7 @@ pubs:
       https://arstechnica.com/security/2025/09/intel-and-amd-trusted-enclaves-the-backbone-of-network-security-fall-to-physical-attacks/,
       https://thehackernews.com/2025/10/50-battering-ram-attack-breaks-intel.html,
       https://www.securityweek.com/battering-ram-attack-breaks-intel-and-amd-security-tech-with-50-device/,
+      https://www.darkreading.com/vulnerabilities-threats/cheap-hardware-module-amd-intel-memory-encryption,
       https://nieuws.kuleuven.be/en/content/2025/kuleuven-research-cosic-distrinet-exposes-fundamental-hardware-flaw,
     ]
     logo: true

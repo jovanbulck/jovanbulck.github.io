@@ -1,4 +1,14 @@
 talks:
+  - id: "bheu25"
+    title: "Fifty Dollars To Root The Cloud: Low-Cost Memory Interposer Attacks On Confidential Computing"
+    author: ['Jesse De Meulemeester', 'Jo Van Bulck']
+    year: 2025
+    month: "December 10"
+    venue: "Black Hat Europe 2025"
+    type: "Talk"
+    location: "London, UK"
+    website: "https://blackhat.com/eu-25/briefings/schedule/index.html#fifty-dollars-to-root-the-cloud-low-cost-memory-interposer-attacks-on-confidential-computing-48941"
+  
   - id: "rse25"
     title: "Hack, Fix, Repeat: FOSS and the Future of Systems Security"
     author: ['Jo Van Bulck']
