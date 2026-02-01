@@ -1,4 +1,9 @@
 phd:
+  - name: "Shukai Ni"
+    start: 2026
+    end: "current"
+    home: "https://distrinet.cs.kuleuven.be/people/ShukaiNi"
+  
   - name: "Antonis Louka"
     start: 2025
     end: "current"
@@ -39,7 +44,7 @@ msc:
   - name: "Ruben Van Dijck"
     year: 2025
 
-  - name: "Kobe Sauwen"
+  - name: "Kobe Sauwens"
     year: 2025
 
   - name: "Gert-Jan Goossens"

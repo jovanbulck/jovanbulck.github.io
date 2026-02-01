@@ -8,6 +8,7 @@ chair:
     long-name: 'FOSDEM Open-Source Confidential Computing Devroom'
     ico: 'images/fosdem.ico'
     eds: [
+            [2026, 'https://fosdem.org/2026/schedule/track/confidential-computing/'],
             [2025, 'https://fosdem.org/2025/schedule/track/confidential/'],
             [2024, 'https://fosdem.org/2024/schedule/track/confidential-computing/'],
             [2023, 'https://archive.fosdem.org/2023/schedule/track/confidential_computing/'],
@@ -20,7 +21,13 @@ ae:
 
 steering:
   - id: 'uASC'
+    year: '2025-current'
     long: 'Microarchitecture Security Conference'
+    url: 'https://uasc.cc/'
+
+general:
+  - id: 'uASC 2026'
+    long: '2nd Microarchitecture Security Conference'
     url: 'https://uasc.cc/'
 
 grant:

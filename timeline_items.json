@@ -1,6 +1,22 @@
 {
     "items": [
         {
+            "id": "uasc26-pmplease",
+            "content": "PMPlease",
+            "title": "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP",
+            "authors": [
+                "Antonis Louka",
+                "Jesse De Meulemeester",
+                "Steven Keuchel",
+                "Ingrid Verbauwhede",
+                "Jo Van Bulck"
+            ],
+            "venue": "uASC",
+            "year": 2026,
+            "start": "2026-02-01",
+            "group": "side-channel"
+        },
+        {
             "id": "oakland26-batteringram",
             "content": "Battering RAM",
             "title": "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing",
@@ -854,272 +870,272 @@
         {
             "id": 0,
             "id_item_1": "oakland25-badram",
-            "id_item_2": "oakland26-batteringram",
+            "id_item_2": "uasc26-pmplease",
             "direction": 1,
             "type": 2
         },
         {
             "id": 1,
-            "id_item_1": "systex17-sgxstep",
-            "id_item_2": "raid25-sgx-dnn",
+            "id_item_1": "oakland25-badram",
+            "id_item_2": "oakland26-batteringram",
             "direction": 1,
             "type": 2
         },
         {
             "id": 2,
-            "id_item_1": "usenix20-copycat",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "raid25-sgx-dnn",
             "direction": 1,
             "type": 2
         },
         {
             "id": 3,
-            "id_item_1": "systex17-sgxstep",
-            "id_item_2": "usenix25-scase",
+            "id_item_1": "usenix20-copycat",
+            "id_item_2": "raid25-sgx-dnn",
             "direction": 1,
             "type": 2
         },
         {
             "id": 4,
-            "id_item_1": "usenix20-copycat",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "usenix25-scase",
             "direction": 1,
             "type": 2
         },
         {
             "id": 5,
-            "id_item_1": "tops17-sancus",
-            "id_item_2": "eurosp25-openipe",
+            "id_item_1": "usenix20-copycat",
+            "id_item_2": "usenix25-scase",
             "direction": 1,
             "type": 2
         },
         {
             "id": 6,
-            "id_item_1": "oakland24-pandora",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "eurosp25-openipe",
             "direction": 1,
             "type": 2
         },
         {
             "id": 7,
-            "id_item_1": "usenix24-ipe",
+            "id_item_1": "oakland24-pandora",
             "id_item_2": "eurosp25-openipe",
             "direction": 1,
             "type": 2
         },
         {
             "id": 8,
-            "id_item_1": "systex25-pandora-sancus",
+            "id_item_1": "usenix24-ipe",
             "id_item_2": "eurosp25-openipe",
             "direction": 1,
             "type": 2
         },
         {
             "id": 9,
-            "id_item_1": "tops17-sancus",
-            "id_item_2": "systex25-wait",
+            "id_item_1": "systex25-pandora-sancus",
+            "id_item_2": "eurosp25-openipe",
             "direction": 1,
             "type": 2
         },
         {
             "id": 10,
-            "id_item_1": "acsac17-vulcan",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "systex25-wait",
             "direction": 1,
             "type": 2
         },
         {
             "id": 11,
-            "id_item_1": "oakland22-gap",
+            "id_item_1": "acsac17-vulcan",
             "id_item_2": "systex25-wait",
             "direction": 1,
             "type": 2
         },
         {
             "id": 12,
-            "id_item_1": "tops17-sancus",
-            "id_item_2": "systex25-pandora-sancus",
+            "id_item_1": "oakland22-gap",
+            "id_item_2": "systex25-wait",
             "direction": 1,
             "type": 2
         },
         {
             "id": 13,
-            "id_item_1": "ccs19-tale",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "systex25-pandora-sancus",
             "direction": 1,
             "type": 2
         },
         {
             "id": 14,
-            "id_item_1": "oakland24-pandora",
+            "id_item_1": "ccs19-tale",
             "id_item_2": "systex25-pandora-sancus",
             "direction": 1,
             "type": 2
         },
         {
             "id": 15,
-            "id_item_1": "systex17-sgxstep",
-            "id_item_2": "usenix25-tlblur",
+            "id_item_1": "oakland24-pandora",
+            "id_item_2": "systex25-pandora-sancus",
             "direction": 1,
             "type": 2
         },
         {
             "id": 16,
-            "id_item_1": "usenix23-aexnotify",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "usenix25-tlblur",
             "direction": 1,
             "type": 2
         },
         {
             "id": 17,
-            "id_item_1": "oakland22-gap",
-            "id_item_2": "pavetrust24-sancusv",
+            "id_item_1": "usenix23-aexnotify",
+            "id_item_2": "usenix25-tlblur",
             "direction": 1,
             "type": 2
         },
         {
             "id": 18,
-            "id_item_1": "csf20-irq",
+            "id_item_1": "oakland22-gap",
             "id_item_2": "pavetrust24-sancusv",
             "direction": 1,
             "type": 2
         },
         {
             "id": 19,
-            "id_item_1": "tops17-sancus",
-            "id_item_2": "usenix24-ipe",
+            "id_item_1": "csf20-irq",
+            "id_item_2": "pavetrust24-sancusv",
             "direction": 1,
             "type": 2
         },
         {
             "id": 20,
-            "id_item_1": "ccs18-nemesis",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "usenix24-ipe",
             "direction": 1,
             "type": 2
         },
         {
             "id": 21,
-            "id_item_1": "ccs19-tale",
-            "id_item_2": "oakland24-pandora",
+            "id_item_1": "ccs18-nemesis",
+            "id_item_2": "usenix24-ipe",
             "direction": 1,
             "type": 2
         },
         {
             "id": 22,
-            "id_item_1": "acsac20-fpu",
+            "id_item_1": "ccs19-tale",
             "id_item_2": "oakland24-pandora",
             "direction": 1,
             "type": 2
         },
         {
             "id": 23,
-            "id_item_1": "systex22-abi",
+            "id_item_1": "acsac20-fpu",
             "id_item_2": "oakland24-pandora",
             "direction": 1,
             "type": 2
         },
         {
             "id": 24,
-            "id_item_1": "systex17-sgxstep",
-            "id_item_2": "acsac23-sgxstep",
+            "id_item_1": "systex22-abi",
+            "id_item_2": "oakland24-pandora",
             "direction": 1,
             "type": 2
         },
         {
             "id": 25,
             "id_item_1": "systex17-sgxstep",
-            "id_item_2": "usenix23-aexnotify",
+            "id_item_2": "acsac23-sgxstep",
             "direction": 1,
             "type": 2
         },
         {
             "id": 26,
-            "id_item_1": "ccs18-nemesis",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "usenix23-aexnotify",
             "direction": 1,
             "type": 2
         },
         {
             "id": 27,
-            "id_item_1": "csf20-irq",
+            "id_item_1": "ccs18-nemesis",
             "id_item_2": "usenix23-aexnotify",
             "direction": 1,
             "type": 2
         },
         {
             "id": 28,
+            "id_item_1": "csf20-irq",
+            "id_item_2": "usenix23-aexnotify",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 29,
             "id_item_1": "ccs18-nemesis",
             "id_item_2": "eurosp23-microprofiler",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 29,
+            "id": 30,
             "id_item_1": "oakland22-gap",
             "id_item_2": "eurosp23-microprofiler",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 30,
-            "id_item_1": "ccs19-tale",
-            "id_item_2": "systex22-abi",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 31,
-            "id_item_1": "acsac20-fpu",
+            "id_item_1": "ccs19-tale",
             "id_item_2": "systex22-abi",
             "direction": 1,
             "type": 2
         },
         {
             "id": 32,
+            "id_item_1": "acsac20-fpu",
+            "id_item_2": "systex22-abi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 33,
             "id_item_1": "ccs19-tale",
             "id_item_2": "oakland22-gap",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 33,
+            "id": 34,
             "id_item_1": "csf20-irq",
             "id_item_2": "oakland22-gap",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 34,
+            "id": 35,
             "id_item_1": "acsac20-fpu",
             "id_item_2": "dtrap22-fpu",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 35,
+            "id": 36,
             "id_item_1": "msc-thesis",
             "id_item_2": "ccs21-aion",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 36,
+            "id": 37,
             "id_item_1": "mass16-rtpma",
             "id_item_2": "ccs21-aion",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 37,
-            "id_item_1": "tops17-sancus",
-            "id_item_2": "ccs21-aion",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 38,
-            "id_item_1": "csf20-irq",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "ccs21-aion",
             "direction": 1,
             "type": 2
@@ -1127,153 +1143,153 @@
         {
             "id": 39,
             "id_item_1": "csf20-irq",
-            "id_item_2": "toplas21-irq",
+            "id_item_2": "ccs21-aion",
             "direction": 1,
             "type": 2
         },
         {
             "id": 40,
+            "id_item_1": "csf20-irq",
+            "id_item_2": "toplas21-irq",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 41,
             "id_item_1": "acsac17-vulcan",
             "id_item_2": "comnet21-robust",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 41,
+            "id": 42,
             "id_item_1": "ccs19-tale",
             "id_item_2": "acsac20-fpu",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 42,
+            "id": 43,
             "id_item_1": "usenix17-pte",
             "id_item_2": "phd-thesis",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 43,
-            "id_item_1": "systex17-sgxstep",
-            "id_item_2": "phd-thesis",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 44,
-            "id_item_1": "ccs18-nemesis",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "phd-thesis",
             "direction": 1,
             "type": 2
         },
         {
             "id": 45,
-            "id_item_1": "usenix18-foreshadow",
+            "id_item_1": "ccs18-nemesis",
             "id_item_2": "phd-thesis",
             "direction": 1,
             "type": 2
         },
         {
             "id": 46,
-            "id_item_1": "ccs19-tale",
+            "id_item_1": "usenix18-foreshadow",
             "id_item_2": "phd-thesis",
             "direction": 1,
             "type": 2
         },
         {
             "id": 47,
-            "id_item_1": "oakland20-lvi",
+            "id_item_1": "ccs19-tale",
             "id_item_2": "phd-thesis",
             "direction": 1,
             "type": 2
         },
         {
             "id": 48,
+            "id_item_1": "oakland20-lvi",
+            "id_item_2": "phd-thesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 49,
             "id_item_1": "systex17-sgxstep",
             "id_item_2": "usenix20-copycat",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 49,
-            "id_item_1": "tops17-sancus",
-            "id_item_2": "csf20-irq",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 50,
-            "id_item_1": "ccs18-nemesis",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "csf20-irq",
             "direction": 1,
             "type": 2
         },
         {
             "id": 51,
+            "id_item_1": "ccs18-nemesis",
+            "id_item_2": "csf20-irq",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 52,
             "id_item_1": "oakland20-plundervolt",
             "id_item_2": "sp20-plundervoltmagazine",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 52,
-            "id_item_1": "systex17-sgxstep",
-            "id_item_2": "oakland20-lvi",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 53,
-            "id_item_1": "usenix18-foreshadow",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "oakland20-lvi",
             "direction": 1,
             "type": 2
         },
         {
             "id": 54,
-            "id_item_1": "usenix19-transientsok",
+            "id_item_1": "usenix18-foreshadow",
             "id_item_2": "oakland20-lvi",
             "direction": 1,
             "type": 2
         },
         {
             "id": 55,
-            "id_item_1": "ccs19-fallout",
+            "id_item_1": "usenix19-transientsok",
             "id_item_2": "oakland20-lvi",
             "direction": 1,
             "type": 2
         },
         {
             "id": 56,
-            "id_item_1": "ccs19-zombieload",
+            "id_item_1": "ccs19-fallout",
             "id_item_2": "oakland20-lvi",
             "direction": 1,
             "type": 2
         },
         {
             "id": 57,
+            "id_item_1": "ccs19-zombieload",
+            "id_item_2": "oakland20-lvi",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 58,
             "id_item_1": "systex17-sgxstep",
             "id_item_2": "oakland20-plundervolt",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 58,
+            "id": 59,
             "id_item_1": "msc-thesis",
             "id_item_2": "ccs19-tale",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 59,
-            "id_item_1": "tops17-sancus",
-            "id_item_2": "ccs19-tale",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 60,
-            "id_item_1": "systex17-sgxstep",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "ccs19-tale",
             "direction": 1,
             "type": 2
@@ -1281,132 +1297,132 @@
         {
             "id": 61,
             "id_item_1": "systex17-sgxstep",
-            "id_item_2": "ccs19-zombieload",
+            "id_item_2": "ccs19-tale",
             "direction": 1,
             "type": 2
         },
         {
             "id": 62,
-            "id_item_1": "usenix18-foreshadow",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "ccs19-zombieload",
             "direction": 1,
             "type": 2
         },
         {
             "id": 63,
-            "id_item_1": "usenix19-transientsok",
+            "id_item_1": "usenix18-foreshadow",
             "id_item_2": "ccs19-zombieload",
             "direction": 1,
             "type": 2
         },
         {
             "id": 64,
-            "id_item_1": "usenix18-foreshadow",
-            "id_item_2": "ccs19-fallout",
+            "id_item_1": "usenix19-transientsok",
+            "id_item_2": "ccs19-zombieload",
             "direction": 1,
             "type": 2
         },
         {
             "id": 65,
-            "id_item_1": "usenix19-transientsok",
+            "id_item_1": "usenix18-foreshadow",
             "id_item_2": "ccs19-fallout",
             "direction": 1,
             "type": 2
         },
         {
             "id": 66,
-            "id_item_1": "usenix18-foreshadow",
-            "id_item_2": "usenix19-transientsok",
+            "id_item_1": "usenix19-transientsok",
+            "id_item_2": "ccs19-fallout",
             "direction": 1,
             "type": 2
         },
         {
             "id": 67,
-            "id_item_1": "foreshadow-ng",
+            "id_item_1": "usenix18-foreshadow",
             "id_item_2": "usenix19-transientsok",
             "direction": 1,
             "type": 2
         },
         {
             "id": 68,
-            "id_item_1": "usenix18-foreshadow",
-            "id_item_2": "micro19-foreshadow",
+            "id_item_1": "foreshadow-ng",
+            "id_item_2": "usenix19-transientsok",
             "direction": 1,
             "type": 2
         },
         {
             "id": 69,
-            "id_item_1": "foreshadow-ng",
+            "id_item_1": "usenix18-foreshadow",
             "id_item_2": "micro19-foreshadow",
             "direction": 1,
             "type": 2
         },
         {
             "id": 70,
+            "id_item_1": "foreshadow-ng",
+            "id_item_2": "micro19-foreshadow",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 71,
             "id_item_1": "mass16-rtpma",
             "id_item_2": "ccs18-nemesis",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 71,
-            "id_item_1": "systex17-sgxstep",
-            "id_item_2": "ccs18-nemesis",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 72,
-            "id_item_1": "usenix17-pte",
+            "id_item_1": "systex17-sgxstep",
             "id_item_2": "ccs18-nemesis",
             "direction": 1,
             "type": 2
         },
         {
             "id": 73,
-            "id_item_1": "tops17-sancus",
+            "id_item_1": "usenix17-pte",
             "id_item_2": "ccs18-nemesis",
             "direction": 1,
             "type": 2
         },
         {
             "id": 74,
-            "id_item_1": "acsac17-vulcan",
+            "id_item_1": "tops17-sancus",
             "id_item_2": "ccs18-nemesis",
             "direction": 1,
             "type": 2
         },
         {
             "id": 75,
+            "id_item_1": "acsac17-vulcan",
+            "id_item_2": "ccs18-nemesis",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 76,
             "id_item_1": "usenix18-foreshadow",
             "id_item_2": "foreshadow-ng",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 76,
+            "id": 77,
             "id_item_1": "usenix17-pte",
             "id_item_2": "usenix18-foreshadow",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 77,
+            "id": 78,
             "id_item_1": "systex17-sgxstep",
             "id_item_2": "usenix18-foreshadow",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 78,
-            "id_item_1": "acsac17-vulcan",
-            "id_item_2": "dsn18-tutorial",
-            "direction": 1,
-            "type": 2
-        },
-        {
             "id": 79,
-            "id_item_1": "tops17-sancus",
+            "id_item_1": "acsac17-vulcan",
             "id_item_2": "dsn18-tutorial",
             "direction": 1,
             "type": 2
@@ -1414,61 +1430,68 @@
         {
             "id": 80,
             "id_item_1": "tops17-sancus",
-            "id_item_2": "login18-reflections",
+            "id_item_2": "dsn18-tutorial",
             "direction": 1,
             "type": 2
         },
         {
             "id": 81,
+            "id_item_1": "tops17-sancus",
+            "id_item_2": "login18-reflections",
+            "direction": 1,
+            "type": 2
+        },
+        {
+            "id": 82,
             "id_item_1": "systex17-sgxstep",
             "id_item_2": "essos18-offlimits",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 82,
+            "id": 83,
             "id_item_1": "tops17-sancus",
             "id_item_2": "acsac17-vulcan",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 83,
+            "id": 84,
             "id_item_1": "usenix17-pte",
             "id_item_2": "systex17-sgxstep",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 84,
+            "id": 85,
             "id_item_1": "wistp15-sfs",
             "id_item_2": "tops17-sancus",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 85,
+            "id": 86,
             "id_item_1": "mass16-rtpma",
             "id_item_2": "tops17-sancus",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 86,
+            "id": 87,
             "id_item_1": "wistp16-has",
             "id_item_2": "tops17-sancus",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 87,
+            "id": 88,
             "id_item_1": "msc-thesis",
             "id_item_2": "mass16-rtpma",
             "direction": 1,
             "type": 2
         },
         {
-            "id": 88,
+            "id": 89,
             "id_item_1": "msc-thesis",
             "id_item_2": "wistp15-sfs",
             "direction": 1,

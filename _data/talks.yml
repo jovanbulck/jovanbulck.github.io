@@ -1,4 +1,15 @@
 talks:
+  - id: "fosdem26"
+    title: "bare-sgx: A Bare-Metal C Runtime for Intel SGX Development with Minimal Trust"
+    author: ['Jo Van Bulck', 'Kobe Sauwens']
+    type: "Talk"
+    venue: "7th Confidential Computing Devroom, FOSDEM"
+    location: "Brussels, Belgium"
+    month: "February 1"
+    year: 2026
+    recording: "https://fosdem.org/2026/schedule/event/BA3UQK-bare-sgx/"
+    website: "https://fosdem.org/2026/schedule/event/BA3UQK-bare-sgx/"
+
   - id: "bheu25"
     title: "Fifty Dollars To Root The Cloud: Low-Cost Memory Interposer Attacks On Confidential Computing"
     author: ['Jesse De Meulemeester', 'Jo Van Bulck']

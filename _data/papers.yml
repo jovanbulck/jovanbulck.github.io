@@ -1,4 +1,18 @@
 pubs:
+  - id: "uasc26-pmplease"
+    short: "PMPlease"
+    title: "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP"
+    author: ['Antonis Louka', 'Jesse De Meulemeester', 'Steven Keuchel', 'Ingrid Verbauwhede', 'Jo Van Bulck']
+    venue: "2nd Microarchitecture Security Conference"
+    acro: "uASC"
+    github: "https://github.com/dnet-tee/PMPlease"
+    year: 2026
+    bibtex: "louka26pmplease"
+    topic: "attack side-channel risc-v defense"
+    prev: "oakland25-badram"
+    tldr: |
+      <a href="#oakland25-badram">BadRAM</a>-style memory aliasing bypass and firmware mitigation for RISC-V Physical Memory Protection (PMP).
+
   - id: "oakland26-batteringram"
     short: "Battering RAM"
     title: "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing"
@@ -334,7 +348,7 @@ pubs:
     acro: "DTRAP"
     year: 2022
     bibtex: "alder2022fpu"
-    topic: "attack side-channel intel-sgx interface-shielding"
+    topic: "attack side-channel intel-sgx risc-v interface-shielding"
     prev: "acsac20-fpu"
     tldr: |
       Journal version of the <a href="#acsac20-fpu">FPU-SGX</a> paper, including extension to RISC-V TEEs.
@@ -548,7 +562,7 @@ pubs:
       https://www.zdnet.com/article/manual-code-review-finds-35-vulnerabilities-in-8-enclave-sdks/
     ]
     bibtex: "vanbulck2019tale"
-    topic: "attack side-channel intel-sgx interface-shielding"
+    topic: "attack side-channel intel-sgx risc-v interface-shielding"
     prev: "msc-thesis tops17-sancus systex17-sgxstep"
     tldr: |
       Large-scale study of ABI and API interface sanitization vulnerabilities in Intel SGX enclave shielding runtimes.
