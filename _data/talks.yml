@@ -1,4 +1,22 @@
 talks:
+  - id: "reunion26"
+    title: "RAM Raids: Low-Cost Attacks on Encrypted Memory for Confidential Computing"
+    author: ['Jo Van Bulck']
+    type: "Talk"
+    venue: "DistriNet Reunion"
+    location: "Leuven, Belgium"
+    month: "February 5"
+    year: 2026
+
+  - id: "uasc26"
+    title: "Opening and Welcome"
+    author: ['Jo Van Bulck', 'Kaveh Razavi']
+    type: "Talk"
+    venue: "2nd Microarchitecture Security Conference (uASC 2026)"
+    location: "Leuven, Belgium"
+    month: "February 3"
+    year: 2026
+
   - id: "fosdem26"
     title: "bare-sgx: A Bare-Metal C Runtime for Intel SGX Development with Minimal Trust"
     author: ['Jo Van Bulck', 'Kobe Sauwens']
