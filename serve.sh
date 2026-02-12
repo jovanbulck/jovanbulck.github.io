@@ -2,6 +2,7 @@
 ./parse_refs.py
 ./fetch_titles.py
 ./gen_timeline.py
+./gen_previews.py
 
 for file in files/*.svg; do
     png_file="${file%.svg}.png"

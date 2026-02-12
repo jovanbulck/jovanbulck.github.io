@@ -66,15 +66,21 @@
             {% if p.media %}
                 <i class="fas fa-globe"></i> <span style="font-weight: 500;">Media:</span>
                 {% comment %} Output in order defined in domains.yml {% endcomment %}
+                {% assign items = "" %}
                 {% for d in site.data.domains %}
-                    {% assign outer_last = forloop.last %}
                     {% for url in p.media %}
                         {% assign tld = url | split: "//" | last | split: "/" | first | split: "." | slice: -2, 2 | join: "." %}
                          {% if tld == d[0] %}
-                            <a href="{{ url }}">{{ d[1] }}</a>{% unless outer_last %},{% endunless %}
+                            {% assign item = d[1] | append: ';;;' | append: url %}
+                            {% assign items = items | append: '|||' | append: item %}
                             {% break %}
                          {% endif %}
                     {% endfor %}
+                {% endfor %}
+                {% assign items = items | remove_first: '|||' | split: '|||' %}
+                {% for pair in items %}
+                    {% assign item = pair | split: ';;;' %}
+                    <a href="{{ item[1] }}">{{ item[0] }}</a>{% unless forloop.last %},{% endunless %}
                 {% endfor %}
             {% endif %}
         </div>

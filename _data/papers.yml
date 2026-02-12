@@ -7,6 +7,7 @@ pubs:
     acro: "uASC"
     github: "https://github.com/dnet-tee/PMPlease"
     year: 2026
+    recording: "https://youtu.be/bkYsV6FSWQs"
     bibtex: "louka26pmplease"
     topic: "attack side-channel risc-v defense"
     prev: "oakland25-badram"
@@ -16,7 +17,7 @@ pubs:
   - id: "oakland26-batteringram"
     short: "Battering RAM"
     title: "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing"
-    author: [ 'Jesse De Meulemeester', 'David Oswald' , 'Ingrid Verbauwhede', ' Jo Van Bulck' ]
+    author: [ 'Jesse De Meulemeester', 'David Oswald' , 'Ingrid Verbauwhede', 'Jo Van Bulck' ]
     venue: "47th IEEE Symposium on Security and Privacy"
     acro: "S&P"
     year: 2026
@@ -52,6 +53,7 @@ pubs:
     acro: "uASC"
     github: "https://github.com/driesvanspauwen/wemu/tree/uasc26-artifact"
     year: 2026
+    recording: "https://youtu.be/gIjM6Q5QUCw"
     bibtex: "vanspauwen2026wemu"
     topic: "transient-execution side-channel defense"
     tldr: |

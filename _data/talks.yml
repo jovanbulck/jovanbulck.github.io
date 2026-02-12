@@ -16,6 +16,7 @@ talks:
     location: "Leuven, Belgium"
     month: "February 3"
     year: 2026
+    recording: "https://youtu.be/mTnN34UdJjY"
 
   - id: "fosdem26"
     title: "bare-sgx: A Bare-Metal C Runtime for Intel SGX Development with Minimal Trust"
@@ -25,7 +26,7 @@ talks:
     location: "Brussels, Belgium"
     month: "February 1"
     year: 2026
-    recording: "https://fosdem.org/2026/schedule/event/BA3UQK-bare-sgx/"
+    recording: "https://video.fosdem.org/2026/ud6215/BA3UQK-bare-sgx.av1.webm"
     website: "https://fosdem.org/2026/schedule/event/BA3UQK-bare-sgx/"
 
   - id: "bheu25"
@@ -351,7 +352,7 @@ talks:
     location: "Brussels, Belgium"
     month: "February 5"
     year: 2023
-    recording: "https://video.fosdem.org/2023/K.4.601/cc_closing.mp4"
+    recording: "https://video.fosdem.org/2023/K.4.601/cc_closing.webm"
     website: "https://fosdem.org/2023/schedule/event/cc_closing/"
 
   - title: "Towards Principled Symbolic Validation for Intel SGX Binaries"
@@ -505,7 +506,7 @@ talks:
     type: "Talk"
     location: "Online"
     website: "https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11366.html"
-    recording: "https://media.ccc.de/v/rc3-11366-ramming_enclave_gates_a_systematic_vulnerability_assessment_of_tee_shielding_runtimes"
+    recording: "https://www.youtube.com/watch?v=DldUX_BPmE4"
 
   - id: "rc3-lvi"
     title: "Microarchitectural Inception"
