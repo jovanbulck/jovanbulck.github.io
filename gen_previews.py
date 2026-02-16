@@ -2,12 +2,19 @@
 import glob
 import subprocess
 from pathlib import Path
+import yaml
 
 MAX_WIDTH = 900
 JPEG_QUALITY = 65
 out_dir =  Path('images/previews/')
 
-for pdf in sorted(glob.glob("files/*-poster.pdf")):
+with open('_data/talks.yml') as f:
+    talks = yaml.safe_load(f).get("talks", [])
+
+slides = ["files/" + t["id"] + ".pdf" for t in talks if "id" in t and "no-slides" not in t]
+posters = sorted(glob.glob("files/*-poster.pdf"))
+
+for pdf in slides + posters:
     name = Path(pdf).stem
     img = out_dir / f"{name}.jpg"
 

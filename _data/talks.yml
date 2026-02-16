@@ -1,4 +1,14 @@
 talks:
+  - id: "semiconductor26"
+    title: "Secrets Beneath the Silicon: How Microarchitectural Attacks Break CPU Isolation"
+    author: ['Jo Van Bulck']
+    type: "Lecture"
+    venue: "KU Leuven Semiconductor School"
+    location: "Leuven, Belgium"
+    month: "February 13"
+    year: 2026
+    website: "https://eng.kuleuven.be/nieuws-en-agenda/evenementen/semiconductor-school/summer-school-on-semiconductor-design-and-manufacturing"
+
   - id: "reunion26"
     title: "RAM Raids: Low-Cost Attacks on Encrypted Memory for Confidential Computing"
     author: ['Jo Van Bulck']
@@ -324,6 +334,7 @@ talks:
     location: "Lausanne, Switzerland"
     month: "May 2"
     year: 2023
+    no-slides: true
 
   - id: "drads23"
     title: "Happy Birthday Sancus! – Lessons from 10 Years of Maintaining a Trusted Computing Research Prototype"
@@ -362,6 +373,7 @@ talks:
     year: 2022
     type: "Invited talk"
     location: "Online"
+    no-slides: true
 
   - id: "graz22"
     title: "Privileged Side-Channel Attacks on Trusted Execution Environments"
@@ -776,6 +788,7 @@ talks:
     month: "June 25"
     location: "Luxembourg City, Luxembourg"
     website: "https://dsn2018.uni.lu/tutorials/"
+    no-slides: true
 
   - ext-id: "https://www.imectechnologyforum.com/itf2018belgium/program"
     title: "Secure Automotive Computing with Sancus"

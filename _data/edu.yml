@@ -10,6 +10,9 @@ courses:
     home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
 
 guest:
+  - venue: 'KU Leuven Semiconductor School'
+    years: [2026]
+
   - venue: 'International Winter School on Microarchitectural Security'
     years: [2025]
 
