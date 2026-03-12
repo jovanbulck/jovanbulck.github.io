@@ -35,7 +35,7 @@ grant:
     years: [ 2025 ]
   
   - id: 'ERC'
-    years: [ 2021 ]
+    years: [ 2026, 2021 ]
 
 pc:
   - id: 'USENIX Security'
@@ -51,7 +51,7 @@ pc:
     years: [ 2024 ]
 
   - id: 'SysTEX'
-    years: [ 2025, 2023, 2022 ]
+    years: [ 2026, 2025, 2023, 2022 ]
 
   - id: 'uASC'
     years: [ 2025 ]

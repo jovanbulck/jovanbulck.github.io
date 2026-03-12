@@ -1,4 +1,13 @@
 talks:
+  - id: "seminar26"
+    title: "The Security Arms Race in Confidential Computing"
+    author: ['Jo Van Bulck']
+    venue: "KU Leuven Seminar in Cybersecurity"
+    month: "March 12"
+    year: 2026
+    type: "Guest lecture"
+    location: "Leuven, Belgium"
+
   - id: "semiconductor26"
     title: "Secrets Beneath the Silicon: How Microarchitectural Attacks Break CPU Isolation"
     author: ['Jo Van Bulck']
