@@ -1,4 +1,19 @@
 pubs:
+  - id: "systex26-ipecf"
+    short: "IPE-CF"
+    title: "Control-Flow Balancing for Texas Instruments IPE"
+    author: ['Marton Bognar', 'Alexander Croes', 'Hans Winderix', 'Jo Van Bulck']
+    venue: "9th Workshop on System Software for Trusted Execution"
+    acro: "SysTEX"
+    year: 2026
+    badge: "Artifacts evaluated: Available, Reusable"
+    github: "https://github.com/martonbognar/ipe-balancing"
+    bibtex: "bognar26controlflow"
+    topic: "side-channel mcu defense"
+    prev: "eurosp25-openipe usenix24-ipe eurosp23-microprofiler"
+    tldr: |
+      Improved control-flow balancing and profiling methodology to mitigate side-channel leakage on TI MSP430 microcontrollers with <abbr title="Intellectual Property Encapsulation">IPE</abbr> and an instruction cache.
+
   - id: "uasc26-pmplease"
     short: "PMPlease"
     title: "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP"
@@ -49,6 +64,7 @@ pubs:
     short: "WeMu"
     title: "WeMu: Effective and Scalable Emulation of Microarchitectural Weird Machines"
     author: ['Dries Vanspauwen', 'Lesly-Ann Daniel', 'Jo Van Bulck']
+    award: "uASC'26 Best Paper Award"
     venue: "2nd Microarchitecture Security Conference"
     acro: "uASC"
     github: "https://github.com/driesvanspauwen/wemu/tree/uasc26-artifact"

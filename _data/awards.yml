@@ -1,4 +1,11 @@
 awards:
+  - title: "Best Paper Award"
+    venue: "uASC 2026 "
+    paper: "uasc26-wemu"
+    label: "WeMu paper"
+    month: "February 3"
+    year: 2026
+
   - title: "Applied Research Competition Finalist"
     venue: "CSAW Europe"
     paper: "usenix25-tlblur"

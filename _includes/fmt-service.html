@@ -31,6 +31,13 @@
       </div>
 </li>
 <li>
+  <span style="font-weight: 500;">General Chair:</span>
+  {% for c in service.general %}
+      {{c.long}} (<a href="{{c.url}}">{{ c.id }}</a>)
+      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+  {% endfor %}
+</li>
+<li>
     <span style="font-weight: 500;">Technical Program Committee:</span>
     {% for c in service.pc %}
         {{ c.id }} ({{ c.years | join: ", " }})
@@ -58,13 +65,6 @@
   <span style="font-weight: 500;">Steering Committee:</span>
   {% for c in service.steering %}
       {{c.long}} (<a href="{{c.url}}">{{ c.id }}</a>) {{ c.year }}
-      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
-  {% endfor %}
-</li>
-<li>
-  <span style="font-weight: 500;">General Chair:</span>
-  {% for c in service.general %}
-      {{c.long}} (<a href="{{c.url}}">{{ c.id }}</a>)
       {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
   {% endfor %}
 </li>
