@@ -1,4 +1,19 @@
 pubs:
+  - id: "usenix26-mstep"
+    short: "M-Step"
+    title: "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M"
+    author: ['Cristiano Rodrigues', 'Marton Bognar', 'Sandro Pinto', 'Jo Van Bulck']
+    venue: "35th USENIX Security Symposium"
+    year: 2026
+    badge: "Artifacts evaluated: Available, Functional, Reproduced"
+    cve: "CVE-2025-54764"
+    github: "https://github.com/M-Step-Framework/m-step"
+    bibtex: "rodrigues26mstep"
+    topic: "side-channel attack mcu"
+    prev: "systex17-sgxstep ccs18-nemesis"
+    tldr: |
+      Single-stepping framework and interrupt-latency attacks for TrustZone on Arm Cortex-M microcontrollers.
+  
   - id: "systex26-ipecf"
     short: "IPE-CF"
     title: "Control-Flow Balancing for Texas Instruments IPE"
