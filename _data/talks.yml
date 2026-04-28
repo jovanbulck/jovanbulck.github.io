@@ -1,4 +1,14 @@
 talks:
+  - id: "systex26"
+    title: "Let's Get Physical: Low-Cost Memory Interposer Attacks and the Future of Confidential Computing"
+    author: ['Jo Van Bulck']
+    venue: "9th Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2026
+    month: "April 27"
+    type: "Keynote"
+    location: "Edinburgh, UK"
+    website: "https://systex-workshop.github.io/2026"
+
   - id: "seminar26"
     title: "The Security Arms Race in Confidential Computing"
     author: ['Jo Van Bulck']
