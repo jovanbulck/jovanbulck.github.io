@@ -9,12 +9,18 @@ cves:
         sa: "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3024.html"
       
       - cve: Intel-865767
-        desc: "Physical DDR4 interposer attacks on Intel Scalable SGX"
+        desc: "Physical DDR4 Interposer Attacks on Intel Scalable SGX"
         project: "Battering RAM"
         paper: "oakland26-batteringram"
         vendor: "Intel"
         sa: "https://www.intel.com/content/www/us/en/developer/articles/news/more-information-encrypted-memory-frameworks.html"
-        
+      
+      - cve: CVE-2024-36354
+        desc: "Arbitrary Code Execution at the SMM Level through Memory Aliasing"
+        project: "BadRAM"
+        vendor: "AMD"
+        sa: "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3014.html"
+
       - cve: CVE-2024-21944
         desc: "Undermining Integrity Features of AMD SEV-SNP with Memory Aliasing"
         project: "BadRAM"
@@ -168,6 +174,13 @@ cves:
   
   - type: "Cryptographic side channels"
     cves:
+      - cve: CVE-2025-54764
+        project: "M-Step"
+        desc: "Side channel in RSA key generation and operations"
+        paper: "usenix26-mstep"
+        patch: ['MbedTLS v3.6.5', 'https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2025-10-ssbleed-mstep/#fix-commits']
+        vendor: "Arm"
+        sa: "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2025-10-ssbleed-mstep/"
       - cve: CVE-2017-9526
         project: "SGX-PTE"
         desc: "Secret-dependent control flow in Libgcrypt EdDSA signing"
