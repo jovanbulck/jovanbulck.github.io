@@ -68,7 +68,20 @@
                     </button>
                 </a>
             {% endif %}
+            {% if p.abstract %}
+                <button class="ref-btn" onclick='toggleCollapse("abstract-{{p.id}}")'>
+                    <i class="fas fa-circle-info"></i> Abstract
+                </button>
+            {% endif %}
         </div>
+
+        {% if p.abstract %}
+            <div class="collapsible-panel">
+                <div class="collapsible-content talk-abstract abstract-{{p.id}}">
+                    {{ p.abstract | markdownify }}
+                </div>
+            </div>
+        {% endif %}
         </td>
     </tr>
 {% endfor %}

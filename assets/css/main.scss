@@ -41,3 +41,15 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .page {
+    width: 100% !important;
+    float: none;
+  }
+
+  .page__inner-wrap {
+    width: 100% !important;
+    float: none;
+  }
+}

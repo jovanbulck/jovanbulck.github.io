@@ -1,4 +1,18 @@
 talks:
+  - id: "graz26"
+    title: "Past the Perimeter: Low-Cost Memory Interposer Attacks on Confidential Computing"
+    author: ['Jo Van Bulck']
+    venue: "9th Workshop on System Software for Trusted Execution (SysTEX)"
+    year: 2026
+    month: "May 7"
+    venue: "TU Graz"
+    type: "Invited talk"
+    location: "Graz, Austria"
+    abstract: |
+      As cloud computing adoption grows, so do concerns about trust and data privacy. Confidential computing, powered by innovative hardware technologies like Intel SGX and AMD SEV, promises strong isolation and transparent memory encryption to protect against privileged attackers and physical threats such as bus snooping and cold boot attacks.
+
+      This talk overviews our recent work on BadRAM and BatteringRAM, showing that state-of-the-art memory encryption can be reliably bypassed with limited physical access and ~$50 of custom hardware. By introducing a novel form of runtime memory aliasing, we defeat even the firmware defenses deployed in response to our earlier findings; ultimately exposing fundamental limitations in today's scalable confidential computing designs.
+
   - id: "systex26"
     title: "Let's Get Physical: Low-Cost Memory Interposer Attacks and the Future of Confidential Computing"
     author: ['Jo Van Bulck']
@@ -8,6 +22,10 @@ talks:
     type: "Keynote"
     location: "Edinburgh, UK"
     website: "https://systex-workshop.github.io/2026"
+    abstract: |
+      Confidential computing has opened new possibilities for securing sensitive workloads in untrusted cloud and edge environments. While initial enclave platforms such as Intel SGX offered strong architectural isolation at the cost of tight memory constraints, newer confidential VM technologies, exemplified by AMD SEV and Intel TDX, promise seamless lift-and-shift deployment with vastly expanded encrypted memory.
+
+      In this talk, we challenge a core assumption of today's scalable confidential computing solutions: that meaningful physical memory attacks would require expensive specialized equipment and, therefore, remain impractical in realistic threat models. We present a new class of low-cost physical memory bus interposer attacks using custom PCBs and commodity hardware, allowing privileged adversaries to silently corrupt or replay memory and mount powerful end-to-end exploits against widely deployed systems. Finally, we examine the mitigation landscape and outline challenges and opportunities for next-generation hardened confidential computing architectures.
 
   - id: "seminar26"
     title: "The Security Arms Race in Confidential Computing"
@@ -57,6 +75,12 @@ talks:
     year: 2026
     recording: "https://video.fosdem.org/2026/ud6215/BA3UQK-bare-sgx.av1.webm"
     website: "https://fosdem.org/2026/schedule/event/BA3UQK-bare-sgx/"
+    abstract: |
+      A decade after Intel SGX’s public release, a rich ecosystem of shielding runtimes has emerged, but research on API and ABI sanitization attacks shows that their growing complexity introduces new vulnerabilities. What is still missing is a truly minimal and portable way to develop enclaves.
+
+      In this talk, we will introduce our recent work on "bare-sgx", a lightweight, fully customizable framework for building SGX enclaves directly on bare-metal Linux using only C and assembly. The initial code was forked from the Linux kernel's selftests framework and explicitly encouraged by prominent kernel developers. By interfacing directly with the upstream SGX driver, bare-sgx removes the complexity and overhead of existing SGX SDKs and library OSs. The result is extremely small enclaves, often just a few pages, tailored to a specific purpose and excluding all other unnecessary code and features. Therefore, bare-sgx provides a truly minimal trusted computing base while avoiding fragile dependencies that could hinder portability or long-term reproducibility.
+
+      Although still young, bare-sgx aims to provide a long-term stable foundation for minimal-trust enclave development, reproducible research artifacts, and rapid prototyping of SGX attacks and defenses.
 
   - id: "bheu25"
     title: "Fifty Dollars To Root The Cloud: Low-Cost Memory Interposer Attacks On Confidential Computing"
@@ -67,6 +91,12 @@ talks:
     type: "Talk"
     location: "London, UK"
     website: "https://blackhat.com/eu-25/briefings/schedule/index.html#fifty-dollars-to-root-the-cloud-low-cost-memory-interposer-attacks-on-confidential-computing-48941"
+    abstract: |
+      As cloud computing adoption grows, so do concerns about trust and data privacy. Confidential computing, powered by innovative hardware technologies like Intel SGX and AMD SEV, promises strong isolation and transparent memory encryption to protect against privileged attackers and physical threats such as bus snooping and cold boot attacks. In this talk we present a custom, low-cost (50 dollar) DDR4 interposer that dynamically manipulates memory address lines to create adversarial aliases, tricking the processor into granting unauthorized access to encrypted memory. Crucially, our interposer operates at runtime, allowing it to bypass recent boot-time firmware mitigations deployed by Intel and AMD in response to our earlier software-based "BadRAM" memory aliasing attacks.
+
+      Using our novel interposer, we undermine trust in both the Intel SGX and AMD SEV ecosystems. We demonstrate the first successful attack on Intel's Scalable SGX single-key memory domain, enabling arbitrary plaintext read/write access and extraction of SGX's platform provisioning key used for remote attestation. Additionally, we achieve full attestation bypasses on up-to-date AMD SEV-SNP systems despite the latest firmware defenses, allowing us to forge attestation reports and implant persistent backdoors in SEV-protected virtual machines.
+
+      In the broader context, our results challenge fundamental assumptions about encrypted memory security guarantees and expose critical flaws in the performance-security trade-offs of today's confidential cloud computing systems.
   
   - id: "rse25"
     title: "Hack, Fix, Repeat: FOSS and the Future of Systems Security"
@@ -77,6 +107,10 @@ talks:
     type: "Invited keynote"
     location: "Leuven, Belgium"
     website: "https://www.kuleuven.be/rdm/en/training/events/rse-day-2025/abstract-bio-jo-van-bulck.pdf"
+    abstract: |
+      Free and open-source software (FOSS) plays a dual role in systems security. Its transparency enables deep analysis: the "many-eyeballs" effect not only supports the discovery of vulnerabilities within FOSS itself, but often also allows researchers to extract broader insights that apply even to closed-source systems. At the same time, FOSS accelerates innovation: its modifiability and openness make it an ideal foundation for rapidly prototyping and evaluating both offensive and defensive techniques.
+
+      In this talk, I'll reflect on how FOSS has shaped and enabled our systems security research over the past decade, from uncovering subtle bugs in critical components to contributing practical defenses that have been adopted upstream. I'll also share experiences from releasing and maintaining open research prototypes, and discuss how open science practices have amplified our work through reproducibility, collaboration, and real-world impact. FOSS is more than a research target; it's a driving force for progress in systems security.
   
   - id: "micsec25"
     title: "The Dark Side of Privilege: Understanding and Mitigating Software-Based Side Channels on Trusted Execution Environments"
@@ -87,6 +121,8 @@ talks:
     type: "Invited lecture"
     location: "Paris, France"
     website: "https://micsec.wp.imt.fr/"
+    abstract: |
+      Trusted Execution Environments (TEEs), enabled by recent advances in processor security, form the foundation of confidential computing in untrusted cloud infrastructure. Although privileged software such as the operating system cannot directly access TEE-protected memory, it retains control over shared hardware resources, and such control can be leveraged to launch subtle and powerful side-channel attacks. In this talk, I will examine how such software-based side channels undermine the core trust assumptions of TEEs. Drawing from our recent research, I will highlight key attack vectors, present practical mitigation strategies, and discuss broader challenges in building next-generation resilient confidential computing systems capable of withstanding the dark side of privilege.
   
   - id: "eth25"
     title: "Cracks in the Shield: Understanding and Mitigating Side-Channel Threats to Confidential Computing"
@@ -96,6 +132,8 @@ talks:
     venue: "ETH"
     type: "Invited presentation"
     location: "Zurich, Switzerland"
+    abstract: |
+      Confidential computing has opened new possibilities for securing sensitive workloads in untrusted cloud and edge environments, enabled by recent advances in processor security features. However, this model of trust remains fragile in the face of side-channel vulnerabilities that exploit subtle interactions in trusted software and hardware. In this talk, I will present some of our recent work that examines and challenges the assumptions underlying today's trusted execution environments. I will highlight key side-channel threats, discuss practical mitigation strategies, and outline challenges and opportunities for the next generation of fortified secure computing architectures. 
 
   - id: "graz25"
     title: "Trust Under Siege: Exploiting and Mitigating Interface-Based Attacks on TEEs"
@@ -184,6 +222,8 @@ talks:
     year: 2025
     type: "Inaugural lecture"
     location: "Leuven, Belgium"
+    abstract: |
+      The introduction of innovative hardware security features in commercial processors has driven a new wave of confidential-computing applications in public cloud services and the Internet of things. However, these systems still face risks from hidden vulnerabilities in the trusted software and the CPU hardware itself. In this talk, I will nuance the trust placed in current solutions and outline challenges and opportunities for the next generation of fortified secure computing architectures. 
 
   - ext-id: "https://github.com/confidential-containers"
     title: "BadRAM: Breaching Processor Security via Rogue Memory Modules"
@@ -202,6 +242,8 @@ talks:
     year: 2024
     type: "Guest lecture"
     location: "Leuven, Belgium"
+    abstract: |
+      The advent of hardware-based trusted execution environments (TEEs), such as Intel SGX, in commercial processors has driven a new wave of confidential computing applications. By enabling the creation of isolated "enclaves" where code and data remain secure, even during CPU processing, these architectures offer robust protection against powerful, root-level adversaries. However, TEEs cannot protect against vulnerabilities within the enclave software or the underlying CPU hardware. In this talk, we will explore a decade's worth of research on software-based microarchitectural attacks that significantly nuance the protection offered by the current generation of TEEs. Looking forward, we will distill key lessons learned and examine emerging defenses and mitigation strategies for the next generation of hardened TEEs. 
 
   - id: "cmu24"
     title: "Attacks and Defenses for Trusted Execution Environments"
@@ -232,6 +274,8 @@ talks:
     type: "Keynote"
     location: "Milano, Italy"
     website: "https://pavetrust.github.io/"
+    abstract: |
+      Confidential Computing is an emerging paradigm that is rapidly transforming the computing landscape, ranging from mainstream cloud infrastructures to low-end IoT devices. By creating isolated "enclaves" where code and data remain secure, even during CPU processing, these architectures offer robust protection against powerful, root-level adversaries. However, Confidential Computing cannot protect against vulnerabilities within the enclave software or the underlying CPU hardware. This talk overviews our efforts on developing validation strategies for enclave software and side-channel resistant hardware. We will outline pitfalls for formal-verification approaches and introduce a symbolic-execution framework aimed at enabling principled validation of enclave software on both low-end and high-end devices. 
 
   - id: "ccc24"
     title: "Certified Confidential Computing: Principled Symbolic Validation for Enclave Shielding Runtimes"
@@ -295,6 +339,8 @@ talks:
     website: "https://kuleuvenopenscienceday.pubpub.org/pub/o3gkxy8w/release/1"
     poster: true
     no-slides: true
+    abstract: |
+      In this poster, we share our experience with applying free and open-source principles in low-level computer security research. We overview successful prototypes we maintained over the past decade across various layers of the systems stack. 
 
   - id: "huawei24"
     title: "On the Interplay between Attacks and New Defenses: The Story of SGX-Step and Transferable Insights for Other Architectures"
@@ -570,6 +616,8 @@ talks:
     month: "October 29"
     year: 2020
     website: "https://lsds.doc.ic.ac.uk/content/microarchitectural-side-channel-attacks-untrusted-operating-systems"
+    abstract: |
+      Recent developments on hardware-based trusted execution environments hold the compelling potential of securely offloading sensitive computations to untrusted remote platforms, even after they have been fully compromised by malware. With the advent of commercial solutions like Intel SGX, hardware support for such "enclaved execution" is readily available in today's processors. However, this talk will overview our research on software-based microarchitectural attacks that nuance the protection offered by Intel SGX. Particularly, we will show how untrusted operating systems can leverage their control over traditionally privileged processor interfaces, such as page tables and interrupts, to exploit new kinds of enclave software vulnerabilities, extract enclave metadata through innovative side channels, and ultimately dismantle trust in the Intel SGX ecosystem via high-profile transient-execution attacks, such as Foreshadow, ZombieLoad, and LVI.
 
   - id: "phd-thesis-slides"
     title: "Microarchitectural Side-Channel Attacks for Privileged Software Adversaries"
