@@ -13,12 +13,12 @@ redirect_from:
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div style="display:flex; align-items:center; gap:1.5em;">
-  <div class="author__avatar">
+<div style="display:flex; flex-wrap:wrap; align-items:center; gap:1.5em;">
+  <div class="author__avatar" style="min-width:150px; text-align:center;">
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
   </div>
 
-  <div>
+  <div style="flex:1; min-width:250px;">
     <p>
       I am a professor in the <a href="https://distrinet.cs.kuleuven.be/">DistriNet</a> lab at
       the Department of Computer Science of <a href="https://www.kuleuven.be/english/">KU Leuven</a>, Belgium.
