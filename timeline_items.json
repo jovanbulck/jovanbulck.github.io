@@ -1,6 +1,19 @@
 {
     "items": [
         {
+            "id": "woot26-smm",
+            "content": "SMM-SoK",
+            "title": "SoK: 20 Years of Power, Privilege, and Peril in x86 System Management Mode",
+            "authors": [
+                "Antonis Louka",
+                "Jo Van Bulck"
+            ],
+            "venue": "20th USENIX WOOT Conference on Offensive Technologies",
+            "year": 2026,
+            "start": "2026-08-01",
+            "group": "interface-shielding"
+        },
+        {
             "id": "usenix26-mstep",
             "content": "M-Step",
             "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M",

@@ -1,4 +1,17 @@
 pubs:
+  - id: "woot26-smm"
+    short: "SMM-SoK"
+    title: "SoK: 20 Years of Power, Privilege, and Peril in x86 System Management Mode"
+    author: ['Antonis Louka', 'Jo Van Bulck']
+    venue: "20th USENIX WOOT Conference on Offensive Technologies"
+    badge: "Artifacts evaluated: Available, Functional, Reproduced"
+    year: 2026
+    github: "https://github.com/antonislouca/SoK-SMM"
+    bibtex: "louka2026smm"    
+    topic: "interface-shielding"
+    tldr: |
+      Systematization of two decades SMM attack research from academia, industry, and hacker community.
+
   - id: "usenix26-mstep"
     short: "M-Step"
     title: "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M"
@@ -8,7 +21,7 @@ pubs:
     badge: "Artifacts evaluated: Available, Functional, Reproduced"
     cve: "CVE-2025-54764"
     github: "https://github.com/M-Step-Framework/m-step"
-    bibtex: "rodrigues26mstep"
+    bibtex: "rodrigues2026mstep"
     topic: "side-channel attack mcu"
     prev: "systex17-sgxstep ccs18-nemesis"
     tldr: |
@@ -23,7 +36,7 @@ pubs:
     year: 2026
     badge: "Artifacts evaluated: Available, Reusable"
     github: "https://github.com/martonbognar/ipe-balancing"
-    bibtex: "bognar26controlflow"
+    bibtex: "bognar2026controlflow"
     topic: "side-channel mcu defense"
     prev: "eurosp25-openipe usenix24-ipe eurosp23-microprofiler"
     tldr: |
@@ -38,7 +51,7 @@ pubs:
     github: "https://github.com/dnet-tee/PMPlease"
     year: 2026
     recording: "https://youtu.be/bkYsV6FSWQs"
-    bibtex: "louka26pmplease"
+    bibtex: "louka2026pmplease"
     topic: "attack side-channel risc-v defense"
     prev: "oakland25-badram"
     tldr: |
@@ -53,7 +66,7 @@ pubs:
     year: 2026
     badge: "Artifacts evaluated: Available"
     github: "https://github.com/batteringramattack/batteringram"
-    bibtex: "demeulemeester26batteringram"
+    bibtex: "demeulemeester2026batteringram"
     website: "https://batteringram.eu/"
     links: [['Intel response', 'https://www.intel.com/content/www/us/en/developer/articles/news/more-information-encrypted-memory-frameworks.html'], ['AMD response','https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3024.html']]
     media: [
