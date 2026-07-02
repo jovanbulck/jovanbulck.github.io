@@ -17,7 +17,7 @@ chair:
             [2020, 'https://archive.fosdem.org/2020/schedule/track/hardware_aided_trusted_computing/']
          ]
 ae:
-  - id: 'SysTEX 2025 (Artifact Evaluation Chair)'
+  - id: 'SysTEX 2024, 2025 (Artifact Evaluation Chair)'
 
 steering:
   - id: 'uASC'
@@ -39,10 +39,15 @@ grant:
 
 pc:
   - id: 'USENIX Security'
-    years: [ 2026, 2025, 2024 ]
+    years: [2026, 2025, 2024]
+    awards:
+      - { year: 2025, label: 'Distinguished Reviewer Award' }
 
   - id: 'ACM CCS'
-    years: [ 2023, 2022 ]
+    years: [2023, 2022]
+    awards:
+      - { year: 2022, label: 'Best Reviewer Award' }
+      - { year: 2023, label: 'Top Reviewer Award' }
 
   - id: 'DIMVA'
     years: [ 2026, 2023, 2022 ]

@@ -7,7 +7,7 @@ pubs:
     badge: "Artifacts evaluated: Available, Functional, Reproduced"
     year: 2026
     github: "https://github.com/antonislouca/SoK-SMM"
-    bibtex: "louka2026smm"    
+    bibtex: "louka2026smm"
     topic: "interface-shielding"
     tldr: |
       Systematization of two decades SMM attack research from academia, industry, and hacker community.
@@ -23,6 +23,7 @@ pubs:
     github: "https://github.com/M-Step-Framework/m-step"
     bibtex: "rodrigues2026mstep"
     topic: "side-channel attack mcu"
+    outreach: [['Black Hat USA 2026', 'https://blackhat.com/us-26/briefings/schedule/#tiny-chips-big-leaks-breaking-trustzone-m-with-single-stepping-attacks-52155']]
     prev: "systex17-sgxstep ccs18-nemesis"
     tldr: |
       Single-stepping framework and interrupt-latency attacks for TrustZone on Arm Cortex-M microcontrollers.
@@ -83,6 +84,7 @@ pubs:
       https://nieuws.kuleuven.be/en/content/2025/kuleuven-research-cosic-distrinet-exposes-fundamental-hardware-flaw,
     ]
     logo: true
+    outreach: [['Black Hat EU 2025', 'https://blackhat.com/eu-25/briefings/schedule/?#fifty-dollars-to-root-the-cloud-low-cost-memory-interposer-attacks-on-confidential-computing-48941']]
     topic: "attack side-channel intel-sgx amd-sev"
     prev: "oakland25-badram"
     tldr: |
@@ -241,6 +243,9 @@ pubs:
       https://www.securityweek.com/badram-attack-uses-10-equipment-to-break-amd-processor-protections/,
       https://nieuws.kuleuven.be/en/content/2024/vulnerability-in-cloud-server-security-badram,
     ]
+    outreach: [
+      ['hardwear.io NL 2025', 'https://hardwear.io/when-memory-lies-breaching-processor-security-via-rogue-memory-modules/']
+    ]
     poster: true
     logo: true
     topic: "attack side-channel amd-sev"
@@ -273,6 +278,9 @@ pubs:
     bibtex: "bognar2024exposure"
     topic: "attack defense side-channel mcu"
     prev: "tops17-sancus ccs18-nemesis"
+    outreach: [
+      ['RuhrSec 2025', 'https://www.youtube.com/watch?v=0yKJGQZpwcY']
+    ]
     tldr: |
       Systematic evaluation and mitigation of attack surfaces in the <abbr title="Intellectual Property Encapsulation">IPE</abbr> memory-isolation feature included in TI MSP430 microcontrollers.
 
@@ -551,6 +559,10 @@ pubs:
       https://www.phoronix.com/search/Load+Value+Injection,
       https://nieuws.kuleuven.be/en/content/2020/intel-processors-are-still-vulnerable-to-attack,
     ]
+    outreach: [
+      ['hardwear.io 2020', 'https://hardwear.io/lvi-hijacking-transient-execution-with-load-value-injection/'],
+      ['RC3 2020', 'https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11365.html']
+    ]
     award: "CSAW 2020 Applied Research Competition Finalist"
     bibtex: "vanbulck2020lvi"
     poster: "files/oakland22-lvi-poster.pdf"
@@ -585,6 +597,10 @@ pubs:
       https://techcrunch.com/2019/12/10/plundervolt-attack-breaches-chip-security-with-a-shock-to-the-system/,
       https://nieuws.kuleuven.be/en/content/2019/plundervolt-exposes-vulnerability-in-security-technology-of-intel-processors
     ]
+    outreach: [
+      ['Black Hat USA 2020', 'https://blackhat.com/us-20/briefings/schedule/?#plundervolt-flipping-bits-from-software-without-rowhammer-20712'],
+      ['36C3', 'https://media.ccc.de/v/36c3-10883-plundervolt_flipping_bits_from_software_without_rowhammer']
+    ]
     bibtex: "murdock2020plundervolt"
     topic: "attack side-channel intel-sgx"
     prev: "systex17-sgxstep"
@@ -603,6 +619,9 @@ pubs:
     logo: true
     github: "https://github.com/jovanbulck/0xbadc0de"
     recording: "https://dl.acm.org/doi/abs/10.1145/3319535.3363206"
+    outreach: [
+      ['RC3 2020', 'https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11366.html']
+    ]
     links: [['Intel response','https://software.intel.com/sites/default/files/managed/e1/ec/180309_SGX_SDK_Developer_Guidance_Edger8r.pdf']]
     media: [
       https://www.zdnet.com/article/manual-code-review-finds-35-vulnerabilities-in-8-enclave-sdks/
@@ -639,6 +658,9 @@ pubs:
       https://www.securityweek.com/new-class-data-leaking-vulnerabilities-impact-intel-cpus/,
       https://www.wired.com/story/intel-mds-attack-speculative-execution-buffer/,
       https://nieuws.kuleuven.be/en/content/2019/computer-scientists-discover-a-critical-vulnerability-in-intel-processors
+    ]
+    outreach: [
+      ['Black Hat Asia 2020', 'https://blackhat.com/asia-20/briefings/schedule/?#zombieload-leaking-data-on-intel-cpus-18605']
     ]
     bibtex: "schwarz2019zombieload"
     topic: "attack transient-execution intel-sgx"

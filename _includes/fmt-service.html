@@ -40,8 +40,17 @@
 <li>
     <span style="font-weight: 500;">Technical Program Committee:</span>
     {% for c in service.pc %}
-        {{ c.id }} ({{ c.years | join: ", " }})
-        {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+        {{ c.id }} (
+        {%- for y in c.years -%}
+            {%- assign award = c.awards | where: "year", y | first -%}
+            {%- if award -%}
+                <span style="text-decoration: underline dotted; cursor: help;" title="{{ award.label }}">{{ y }}&thinsp;★</span>
+            {%- else -%}
+                {{ y }}
+            {%- endif -%}
+            {%- unless forloop.last -%}, {% endunless -%}
+        {%- endfor -%})
+        {%- if forloop.last -%}.{% else -%}, {% endif -%}
     {% endfor %}
 </li>
 <li>

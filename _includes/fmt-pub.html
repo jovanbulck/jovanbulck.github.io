@@ -49,6 +49,12 @@
                 <i class="fas fa-star" style="color:#DAA520;"></i>
                 {{p.award}}
             {% endif %}
+            {% if p.outreach %}
+                <i class="fas fa-bullhorn"></i>
+                {% for o in p.outreach %}
+                <a href="{{ o[1] }}" class="nocolor">{{ o[0] }}</a>{% unless forloop.last == true %},{% endunless %}
+                {% endfor %}
+            {% endif %}
             {% if p.cve %}
                 <i class="fas fa-bug"></i>
                 {{p.cve}}

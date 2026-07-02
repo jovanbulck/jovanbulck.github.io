@@ -8,6 +8,10 @@ courses:
         ]
     lab: 'https://os.edu.distrinet-research.be/'
     home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
+  - course: 'Science Communication'
+    note: 'co-taught'
+    years: [2026]
+    id: [['G0D81A', 3]]
 
 guest:
   - venue: 'KU Leuven Semiconductor School'
@@ -32,7 +36,7 @@ guest:
     years: [2024]
 
   - venue: 'COSIC Course on Cryptography and Cyber Security'
-    years: [2024]
+    years: [2024, 2026]
 
   - venue: 'KUL Operating Systems'
     years: [2022, 2021]

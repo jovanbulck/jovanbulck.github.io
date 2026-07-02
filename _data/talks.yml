@@ -1,4 +1,15 @@
 talks:
+  - id: "cosic26"
+    title: "Fast by Design, Leaky by Consequence: How Microarchitectural Attacks Dissolve CPU Isolation Boundaries"
+    author: ['Jo Van Bulck']
+    venue: "COSIC Course on Cryptography and Cybersecurity"
+    month: "June 25"
+    year: 2026
+    location: "Leuven, Belgium"
+    type: "Invited lecture"
+    website: "https://www.esat.kuleuven.be/cosic/events/cosic-course/programme26/"
+    recording: "https://youtu.be/HWCtWZF1bs8"
+
   - id: "graz26"
     title: "Past the Perimeter: Low-Cost Memory Interposer Attacks on Confidential Computing"
     author: ['Jo Van Bulck']

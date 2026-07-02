@@ -120,6 +120,9 @@
       a {
         color: var(--global-secondary-link-color);
       }
+      a.nocolor {
+        color: var(--global-text-color-light);
+      }
   }
 
   .flex-container {
