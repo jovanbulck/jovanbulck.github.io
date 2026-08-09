@@ -1,6 +1,39 @@
 {
     "items": [
         {
+            "id": "usenix26-spectre-rv",
+            "content": "Spectre-RV",
+            "title": "Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors",
+            "authors": [
+                "Lukas Gerlach",
+                "Marton Bognar",
+                "Daniel Weber",
+                "Michael Schwarz",
+                "Jo Van Bulck"
+            ],
+            "venue": "35th USENIX Security Symposium",
+            "year": 2026,
+            "start": "2026-01-01",
+            "group": "side-channel"
+        },
+        {
+            "id": "usenix26-artifacts",
+            "content": "AE",
+            "title": "Not All Those Who Share Are Lost: Analyzing 25 Years of Cybersecurity Artifact Sharing Practices Through Automated Discovery",
+            "authors": [
+                "Daan Vansteenhuyse",
+                "Arthur Bols",
+                "Lieven Desmet",
+                "Victor Le Pochat",
+                "Jo Van Bulck",
+                "Marton Bognar"
+            ],
+            "venue": "35th USENIX Security Symposium",
+            "year": 2026,
+            "start": "2026-01-01",
+            "group": "meta-science"
+        },
+        {
             "id": "woot26-smm",
             "content": "SMM-SoK",
             "title": "SoK: 20 Years of Power, Privilege, and Peril in x86 System Management Mode",
@@ -26,7 +59,8 @@
             "venue": "35th USENIX Security Symposium",
             "year": 2026,
             "start": "2026-01-01",
-            "group": "mcu"
+            "group": "mcu",
+            "logo": "files/usenix26-mstep-logo.svg"
         },
         {
             "id": "systex26-ipecf",

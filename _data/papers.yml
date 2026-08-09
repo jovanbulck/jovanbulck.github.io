@@ -1,10 +1,38 @@
 pubs:
+  - id: "usenix26-spectre-rv"
+    short: "Spectre-RV"
+    title: "Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors"
+    author: ['Lukas Gerlach', 'Marton Bognar', 'Daniel Weber', 'Michael Schwarz', 'Jo Van Bulck']
+    venue: "35th USENIX Security Symposium"
+    year: 2026
+    badge: "Artifacts evaluated: Available, Functional, Reproduced"
+    bibtex: "gerlach2026spectre-rv"
+    github: "https://github.com/s8lvg/riscv-spectre-artifact"
+    topic: "transient-execution risc-v side-channel attack defense"
+    cve: "Patches merged in Linux kernel"
+    tldr: |
+      Systematic RISC-V hardware-software Spectre vulnerability analysis, including the first exploit on commercial out-of-order silicon.
+
+  - id: "usenix26-artifacts"
+    short: "AE"
+    title: "Not All Those Who Share Are Lost: Analyzing 25 Years of Cybersecurity Artifact Sharing Practices Through Automated Discovery"
+    author: ['Daan Vansteenhuyse', 'Arthur Bols', 'Lieven Desmet', 'Victor Le Pochat', 'Jo Van Bulck', 'Marton Bognar']
+    venue: "35th USENIX Security Symposium"
+    year: 2026
+    badge: "Artifacts evaluated: Available, Functional, Reproduced"
+    bibtex: "vansteenhuyse2026artifacts"
+    github: "https://github.com/DistriNet/ArtiFinder"
+    topic: "meta-science"
+    tldr: |
+      Large-scale quantitative analysis of artifact availability in top-tier A* cybersecurity conferences since 2000.
+
   - id: "woot26-smm"
     short: "SMM-SoK"
     title: "SoK: 20 Years of Power, Privilege, and Peril in x86 System Management Mode"
     author: ['Antonis Louka', 'Jo Van Bulck']
     venue: "20th USENIX WOOT Conference on Offensive Technologies"
     badge: "Artifacts evaluated: Available, Functional, Reproduced"
+    website: "https://smmsok.github.io/"
     year: 2026
     github: "https://github.com/antonislouca/SoK-SMM"
     bibtex: "louka2026smm"
@@ -22,6 +50,8 @@ pubs:
     cve: "CVE-2025-54764"
     github: "https://github.com/M-Step-Framework/m-step"
     bibtex: "rodrigues2026mstep"
+    website: "https://mstep.eu/"
+    logo: true
     topic: "side-channel attack mcu"
     outreach: [['Black Hat USA 2026', 'https://blackhat.com/us-26/briefings/schedule/#tiny-chips-big-leaks-breaking-trustzone-m-with-single-stepping-attacks-52155']]
     prev: "systex17-sgxstep ccs18-nemesis"
@@ -65,6 +95,7 @@ pubs:
     venue: "47th IEEE Symposium on Security and Privacy"
     acro: "S&P"
     year: 2026
+    award: "2026 Pwnie Award for Best Server-Side/Cloud Bug"
     badge: "Artifacts evaluated: Available"
     github: "https://github.com/batteringramattack/batteringram"
     bibtex: "demeulemeester2026batteringram"

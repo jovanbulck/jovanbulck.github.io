@@ -1,4 +1,12 @@
 awards:
+  - title: "Pwnie Award for Best Server-Side/Cloud Bug"
+    venue: "DEFCON 2026"
+    paper: "oakland26-batteringram"
+    label: "Battering RAM paper"
+    month: "August 7"
+    year: 2026
+    url: "https://www.youtube.com/live/8Eo4ZDQTAFs?si=dKCFsa1gmv2Dh7tJ&t=5610"
+
   - title: "Best Paper Award"
     venue: "uASC 2026 "
     paper: "uasc26-wemu"
