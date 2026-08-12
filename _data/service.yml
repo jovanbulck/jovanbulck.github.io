@@ -1,12 +1,27 @@
 chair:
-  - id: 'SysTEX'
-    long-name: 'SysTEX'
-    eds: [
-            [2024, 'https://systex24.github.io']
-         ]
-  - id: 'FOSDEM'
-    long-name: 'FOSDEM Open-Source Confidential Computing Devroom'
-    ico: 'images/fosdem.ico'
+  - id: 'USENIX Security 2027'
+    long: '36th USENIX Security Symposium'
+    role: 'Open Science and Compliance Chair'
+    url: 'https://www.usenix.org/conference/usenixsecurity27/call-for-papers'
+
+  - id: 'uASC 2026'
+    role: 'General Chair'
+    long: '2nd Microarchitecture Security Conference'
+    url: 'https://uasc.cc/'
+
+  - id: 'SysTEX 2024'
+    long: '7th Workshop on System Software for Trusted Execution'
+    role: 'PC co-chair'
+    url: 'https://systex24.github.io'
+
+organizer:
+  - id: 'Dagstuhl Seminar #26042'
+    long: 'Trustworthy System Architectures for the Age of Custom Silicon'
+    url: 'https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26042'
+
+  - id: 'FOSDEM Confidential Computing Devroom'
+    long: "Free and Open source Software Developers' European Meeting"
+    url: "https://fosdem.org/"
     eds: [
             [2026, 'https://fosdem.org/2026/schedule/track/confidential-computing/'],
             [2025, 'https://fosdem.org/2025/schedule/track/confidential/'],
@@ -16,8 +31,9 @@ chair:
             [2021, 'https://archive.fosdem.org/2021/schedule/track/hardware_aided_trusted_computing/'],
             [2020, 'https://archive.fosdem.org/2020/schedule/track/hardware_aided_trusted_computing/']
          ]
+
 ae:
-  - id: 'SysTEX 2024, 2025 (Artifact Evaluation Chair)'
+  - id: 'SysTEX 2025, SysTEX 2024'
 
 steering:
   - id: 'uASC'
@@ -25,17 +41,15 @@ steering:
     long: 'Microarchitecture Security Conference'
     url: 'https://uasc.cc/'
 
-general:
-  - id: 'uASC 2026'
-    long: '2nd Microarchitecture Security Conference'
-    url: 'https://uasc.cc/'
-
 grant:
+  - id: 'European Research Council - ERC'
+    years: [ 2026, 2021 ]
+
   - id: 'Swedish Research Council'
     years: [ 2025 ]
-  
-  - id: 'ERC'
-    years: [ 2026, 2021 ]
+
+  - id: 'Dutch Research Council - NWO'
+    years: [ 2026 ]
 
 pc:
   - id: 'USENIX Security'

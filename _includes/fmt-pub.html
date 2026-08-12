@@ -62,7 +62,7 @@
             {% if p.links %}
                 <i class="fas fa-info-circle"></i>
                 {% for l in p.links %}
-                    <a href="{{ l[1] }}">{{ l[0] }}</a>{% unless forloop.last == true %},{% endunless %}
+                    <a href="{{ l[1] }}" class="nocolor">{{ l[0] }}</a>{% unless forloop.last == true %},{% endunless %}
                 {% endfor %}
             {% endif %}
             {% if p.badge %}

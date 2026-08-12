@@ -1,4 +1,8 @@
 phd:
+  - name: "Marco Negro"
+    start: 2026
+    end: "current"
+
   - name: "Shukai Ni"
     start: 2026
     end: "current"
@@ -9,20 +13,45 @@ phd:
     end: "current"
     home: "https://distrinet.cs.kuleuven.be/people/AntonisLouka"
 
+  - name: "Jesse De Meulemeester"
+    start: 2022
+    end: "current"
+    co-supervised: "Ingrid Verbauwhede"
+    home: "https://www.esat.kuleuven.be/cosic/people/person/?u=u0156850"
+
   - name: "Márton Bognár"
     start: 2020
     end: 2025
+    co-supervised: "Frank Piessens"
     home: "https://mici.hu/"
     title: "Security Arms Race at the Hardware-Software Boundary"
 
   - name: "Fritz Alder"
     start: 2019
     end: 2023
+    co-supervised: "Frank Piessens, Jan-Tobias Mühlberg"
     home: "https://falder.org/"
     title: "Interface Sanitization and Real-Time Scheduling for Enclaved Execution"
     pdf: "https://falder.org/files/PhD-Fritz-Alder.pdf"
 
 msc:
+  - name: "Tijs Bellefroid"
+    year: 2026
+    award: "OneSpan Master Thesis Award"
+  
+  - name: "Thibeau Vercruyssen"
+    uni: "UGent"
+    year: 2026
+
+  - name: "Alexander Croes"
+    year: 2026
+  
+  - name: "Kobe Wauters"
+    year: 2026
+
+  - name: "Sander Schildermans"
+    year: 2026
+
   - name: "Merlijn Verstraete"
     year: 2025
   
@@ -64,6 +93,7 @@ msc:
   
   - name: "Jolan Hofmans"
     year: 2022
+  
   - name: "Wouter Jochems"
     year: 2022
 
@@ -78,6 +108,7 @@ msc:
 
   - name: "Márton Bognár"
     year: 2020
+    award: "OneSpan Master Thesis Award"
 
   - name: "Stien Vanderhallen"
     year: 2020
@@ -101,6 +132,19 @@ msc:
     year: 2017
 
 bsc:
+  - name: "Axl Beddegenoodts"
+    year: 2026
+
+  - name: "Simon Vandebeek"
+    year: 2026
+
+  - name: "Emile Haegemans"
+    year: 2026
+
+  - name: "Senne Huybs"
+    year: 2026
+
+honours:
   - name: "Victor Bullynck"
     year: 2025
 

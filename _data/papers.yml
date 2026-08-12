@@ -9,7 +9,7 @@ pubs:
     bibtex: "gerlach2026spectre-rv"
     github: "https://github.com/s8lvg/riscv-spectre-artifact"
     topic: "transient-execution risc-v side-channel attack defense"
-    cve: "Patches merged in Linux kernel"
+    cve: "Patched in Linux v7"
     tldr: |
       Systematic RISC-V hardware-software Spectre vulnerability analysis, including the first exploit on commercial out-of-order silicon.
 
@@ -23,6 +23,8 @@ pubs:
     bibtex: "vansteenhuyse2026artifacts"
     github: "https://github.com/DistriNet/ArtiFinder"
     topic: "meta-science"
+    website: "https://secartifacts.github.io/artifinder/"
+    links: [['Merged in secartifacts.github.io', 'https://secartifacts.github.io/artifinder/']]
     tldr: |
       Large-scale quantitative analysis of artifact availability in top-tier A* cybersecurity conferences since 2000.
 

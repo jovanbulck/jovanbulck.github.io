@@ -1,6 +1,6 @@
 courses:
-  - course: 'Operating Systems'
-    note: 'co-taught with Frank Piessens'
+  - course: 'KU Leuven Operating Systems'
+    note: 'co-lecturer/co-titular'
     years: [2026, 2025, 2024, 2023]
     id: [
             ['G0Q35A', 6 ],
@@ -8,8 +8,8 @@ courses:
         ]
     lab: 'https://os.edu.distrinet-research.be/'
     home: 'https://gitlab.kuleuven.be/distrinet/education/operating-systems/kul-os-homework-student'
-  - course: 'Science Communication'
-    note: 'co-taught'
+  - course: 'KU Leuven Science Communication'
+    note: 'co-lecturer/co-titular'
     years: [2026]
     id: [['G0D81A', 3]]
 
@@ -23,6 +23,9 @@ guest:
   - venue: 'Graz Summer School'
     years: [2025, 2022]
   
+  - venue: 'COSIC Course on Cryptography and Cyber Security'
+    years: [2026, 2024]
+
   - venue: 'Carnegie Mellon University Advanced Topics in Hardware Security'
     years: [2024]
 
@@ -33,10 +36,7 @@ guest:
     years: [2025]
 
   - venue: 'KUL Seminar in Cybersecurity'
-    years: [2024]
-
-  - venue: 'COSIC Course on Cryptography and Cyber Security'
-    years: [2024, 2026]
+    years: [2026, 2024]
 
   - venue: 'KUL Operating Systems'
     years: [2022, 2021]

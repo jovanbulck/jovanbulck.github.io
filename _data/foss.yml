@@ -36,5 +36,5 @@ foss:
         url: "https://github.com/openenclave/openenclave/security"
 
       - title: "Linux kernel"
-        role: "Contributed various security and reliability fixes in the SGX selftest framework"
+        role: "Contributed various security and reliability fixes in the SGX selftest and dm-integrity subsystems"
         url: "https://github.com/search?q=repo:torvalds/linux+jo+van+bulck&type=commits"

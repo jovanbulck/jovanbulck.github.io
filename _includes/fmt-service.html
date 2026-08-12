@@ -4,39 +4,58 @@
 
 <ul>
 <li>
-    <span style="font-weight: 500;">Program Co-Chair:</span> 
+ <span style="font-weight: 500;">Organizer:</span>
+</li>
+
+<ul>
+<li>
+    <span style="font-weight: 500;">Chair:</span> 
       {% for c in service.chair -%}
-            {% assign years = "" | split: "" -%}
-            {% for e in c.eds -%}
-              {%- assign years = years | push: e[0] -%}
-            {% endfor -%}
-            {{- c.long-name }} ({{- years | join: ", " -}})
+            <a href="{{c.url}}" class="nocolor">
+                <span style="text-decoration: underline dotted; cursor: help;" title="{{ c.long }}">{{- c.id -}}</span>
+            </a>
+            {%- if c.role %}
+                ({{- c.role -}})
+            {%- endif %}
             {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
       {%- endfor %}
-      <div>
-        {% for c in service.chair -%}
-          {%- for e in c.eds -%}
-            <a href="{{ e[1] }}">
-              <button class="ref-btn">
-              {%- if c.ico %}
-                  <img src="images/fosdem.ico" style="height:1em;">
-              {%- else %}
-                  <i class="fas fa-globe-europe" aria-hidden="true" style="color:#3793ae"></i>
-              {%- endif %}
-              {{ c.id }} {{ e[0] -}}
-              </button>
-            </a>
-          {%- endfor -%}
-        {%- endfor -%}
-      </div>
 </li>
 <li>
-  <span style="font-weight: 500;">General Chair:</span>
-  {% for c in service.general %}
-      {{c.long}} (<a href="{{c.url}}">{{ c.id }}</a>)
+    <span style="font-weight: 500;">Co-organizer:</span> 
+      {% for c in service.organizer -%}
+            <a href="{{c.url}}" class="nocolor">
+                <span style="text-decoration: underline dotted; cursor: help;" title="{{ c.long }}">{{ c.id }}</span>
+            </a>
+            {%- if c.eds %}
+                {% for ed in c.eds %}
+                    <a href="{{ed[1]}}" class="nocolor">{{ed[0]}}</a>
+                    {%- unless forloop.last -%}, {%  endunless -%}
+                {%- endfor -%}
+            {%- endif %}
+            {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+      {%- endfor %}
+</li>
+<li>
+  <span style="font-weight: 500;">Artifact Evaluation Chair:</span>
+  {% for c in service.ae %}
+      {{ c.id }}
       {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
   {% endfor %}
 </li>
+<li>
+  <span style="font-weight: 500;">Steering Committee:</span>
+  {% for c in service.steering %}
+      <a href="{{c.url}}" class="nocolor">{{c.long}} ({{ c.id }})</a> {{ c.year }}
+      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
+  {% endfor %}
+</li>
+</ul>
+
+<li>
+ <span style="font-weight: 500;">Reviewing:</span>
+</li>
+
+<ul>
 <li>
     <span style="font-weight: 500;">Technical Program Committee:</span>
     {% for c in service.pc %}
@@ -64,24 +83,11 @@
     <span style="font-weight: 500;">Subreviewer:</span> {% for c in service.sub %} {{ c.id }} ({{ c.years | join: ", " }}){% if forloop.last %}.{% else %}, {% endif %}{% endfor %}
 </li>
 <li>
-  <span style="font-weight: 500;">Artifact Evaluation:</span>
-  {% for c in service.ae %}
-      {{ c.id }}
-      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
-  {% endfor %}
-</li>
-<li>
-  <span style="font-weight: 500;">Steering Committee:</span>
-  {% for c in service.steering %}
-      {{c.long}} (<a href="{{c.url}}">{{ c.id }}</a>) {{ c.year }}
-      {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
-  {% endfor %}
-</li>
-<li>
   <span style="font-weight: 500;">Project Grant Reviewer:</span>
   {% for c in service.grant %}
       {{ c.id }} ({{ c.years | join: ", " }})
       {%- if forloop.last -%}.{%  else -%}, {%  endif -%}
   {% endfor %}
 </li>
+</ul>
 </ul>
