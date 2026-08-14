@@ -8,8 +8,17 @@ pubs:
     badge: "Artifacts evaluated: Available, Functional, Reproduced"
     bibtex: "gerlach2026spectre-rv"
     github: "https://github.com/s8lvg/riscv-spectre-artifact"
-    topic: "transient-execution risc-v side-channel attack defense"
+    topic: "attack defense transient-execution risc-v"
+    prev: "usenix19-transientsok"
     cve: "Patched in Linux v7"
+    website: "https://lukasgerlach.me/blog/2026-spectre-on-riscv-silicon-usenix/"
+    logo: true
+    media: [
+      https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978,
+      https://www.phoronix.com/news/Spectre-V1-RISC-V-Patches,
+      https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good,
+      https://www.phoronix.com/news/Linux-6.19-RISC-V-Side-Channel,
+    ]
     tldr: |
       Systematic RISC-V hardware-software Spectre vulnerability analysis, including the first exploit on commercial out-of-order silicon.
 
@@ -54,7 +63,7 @@ pubs:
     bibtex: "rodrigues2026mstep"
     website: "https://mstep.eu/"
     logo: true
-    topic: "side-channel attack mcu"
+    topic: "attack side-channel mcu"
     outreach: [['Black Hat USA 2026', 'https://blackhat.com/us-26/briefings/schedule/#tiny-chips-big-leaks-breaking-trustzone-m-with-single-stepping-attacks-52155']]
     prev: "systex17-sgxstep ccs18-nemesis"
     tldr: |
@@ -70,7 +79,7 @@ pubs:
     badge: "Artifacts evaluated: Available, Reusable"
     github: "https://github.com/martonbognar/ipe-balancing"
     bibtex: "bognar2026controlflow"
-    topic: "side-channel mcu defense"
+    topic: "defense side-channel mcu"
     prev: "eurosp25-openipe usenix24-ipe eurosp23-microprofiler"
     tldr: |
       Improved control-flow balancing and profiling methodology to mitigate side-channel leakage on TI MSP430 microcontrollers with <abbr title="Intellectual Property Encapsulation">IPE</abbr> and an instruction cache.
@@ -85,7 +94,7 @@ pubs:
     year: 2026
     recording: "https://youtu.be/bkYsV6FSWQs"
     bibtex: "louka2026pmplease"
-    topic: "attack side-channel risc-v defense"
+    topic: "attack defense side-channel risc-v"
     prev: "oakland25-badram"
     tldr: |
       <a href="#oakland25-badram">BadRAM</a>-style memory aliasing bypass and firmware mitigation for RISC-V Physical Memory Protection (PMP).
@@ -134,7 +143,7 @@ pubs:
     year: 2026
     recording: "https://youtu.be/gIjM6Q5QUCw"
     bibtex: "vanspauwen2026wemu"
-    topic: "transient-execution side-channel defense"
+    topic: "transient-execution defense"
     tldr: |
       Minimal Unicorn/QEMU extensions enabling accurate and efficient emulation of hidden computations in <em>microarchitectural weird machines</em>.
   

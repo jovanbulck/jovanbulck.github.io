@@ -70,6 +70,12 @@ https://www.pcworld.com/article/402420/foreshadow-l1tf-is-a-speculative-executio
   L1TF attacks Intel CPUs with Spectre-like tactics
 https://www.phoronix.com/news/Intel-AEX-Notify-Linux: Intel AEX Notify Support Prepped
   For Linux To Help Enhance SGX Enclave Security
+https://www.phoronix.com/news/Linux-6.19-RISC-V-Side-Channel: Linux Lands Safeguard
+  For RISC-V Against Another Microarchitectural Attack Vector
+https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good: Security Researchers
+  Find Current RISC-V CPU Implementations Coming Up Short
+https://www.phoronix.com/news/Spectre-V1-RISC-V-Patches: Newer RISC-V CPUs Vulnerable
+  To Spectre V1 - Linux Mitigation Patches Posted
 https://www.phoronix.com/search/Load+Value+Injection: Load Value Injection
 https://www.redhat.com/en/blog/understanding-l1-terminal-fault-aka-foreshadow-what-you-need-know: 'Understanding
   L1 Terminal Fault aka Foreshadow: What you need to know'
@@ -101,6 +107,8 @@ https://www.theregister.com/2024/12/10/amd_secure_vm_tech_undone/: AMD secure VM
   undone by DRAM meddling
 https://www.theregister.com/2025/10/16/cve_cvss_scores_not_useful/: CVE, CVSS scores
   need overhauling, argues Codific CEO
+? https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978
+: Spectre rears its ugly head again as researchers show some RISC-V chips are susceptible
 https://www.theverge.com/2019/5/14/18623708/zombieload-attack-intel-processors-speculative-execution: ZombieLoad
   attack lets hackers steal data from Intel chips
 https://www.tijd.be/ondernemen/halfgeleiders/leuvense-onderzoekers-kraken-beveiliging-amd-chips/10578094: Leuvense
