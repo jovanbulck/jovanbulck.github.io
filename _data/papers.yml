@@ -1,4 +1,14 @@
 pubs:
+  - id: "ccs26-ddrop"
+    short: "DDRop"
+    title: "DDRop: Redacted"
+    author: ['Jesse De Meulemeester', 'Stefan Gloor', 'Patrick Jattke', 'Daniel Moghimi', 'David Oswald', 'Martin Thompson', 'Kaveh Razavi', 'Ingrid Verbauwhede', 'Jo Van Bulck']
+    venue: "33rd ACM Conference on Computer and Communications Security"
+    acro: "CCS"
+    year: 2026
+    tldr: |
+      Accepted at CCS'26, coming soon.
+
   - id: "usenix26-spectre-rv"
     short: "Spectre-RV"
     title: "Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors"
@@ -15,6 +25,7 @@ pubs:
     logo: true
     media: [
       https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978,
+      https://www.scworld.com/brief/spectre-vulnerabilities-found-on-commercial-risc-v-chips,
       https://www.phoronix.com/news/Spectre-V1-RISC-V-Patches,
       https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good,
       https://www.phoronix.com/news/Linux-6.19-RISC-V-Side-Channel,
