@@ -1,13 +1,24 @@
 pubs:
   - id: "ccs26-ddrop"
     short: "DDRop"
-    title: "DDRop: Redacted"
+    title: "DDRop: Active Memory Interposer Attacks on Confidential VMs by Dropping DDR5 Writes"
     author: ['Jesse De Meulemeester', 'Stefan Gloor', 'Patrick Jattke', 'Daniel Moghimi', 'David Oswald', 'Martin Thompson', 'Kaveh Razavi', 'Ingrid Verbauwhede', 'Jo Van Bulck']
     venue: "33rd ACM Conference on Computer and Communications Security"
     acro: "CCS"
+    github: "https://github.com/ddropattack/ddrop"
+    logo: true
+    bibtex: demeulemeester2026ddrop
+    website: "https://ddropattack.eu/"
+    links: [['Intel response', 'https://intel.com/content/www/us/en/security-center/announcement/intel-security-announcement-2026-08-11-001.html'], ['AMD response','https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3048.html']]
+    media: [
+      https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html,
+      https://www.theregister.com/security/2026/09/14/new-hardware-device-can-ram-into-encrypted-memory-expose-your-data/5296377,
+    ]
+    topic: "attack side-channel intel-sgx amd-sev intel-tdx"
     year: 2026
+    prev: "oakland26-batteringram oakland25-badram"
     tldr: |
-      Accepted at CCS'26, coming soon.
+      Novel attack primitive that breaks Intel TDX and AMD SEV-SNP with a low-cost DDR5 interposer by dropping writes to encrypted memory.
 
   - id: "usenix26-spectre-rv"
     short: "Spectre-RV"

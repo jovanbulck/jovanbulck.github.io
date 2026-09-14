@@ -1,6 +1,20 @@
 cves:
   - type: "CPU μ-arch"
     cves:
+      - cve: AMD-SB-3048
+        desc: "Physical Memory Fault Injection Attacks on DDR5"
+        project: "DDRop"
+        paper: "ccs26-ddrop"
+        vendor: "AMD"
+        sa: "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3048.html"
+
+      - cve: Intel-2026-09-14-001
+        desc: "Physical DDR5 Interposer Attacks on Intel TDX"
+        project: "DDRop"
+        paper: "ccs26-ddrop"
+        vendor: "Intel"
+        sa: "https://www.intel.com/content/www/us/en/security-center/announcement/intel-security-announcement-2026-08-11-001.html"
+
       - cve: AMD-SB-3024
         desc: "SEV-SNP Physical Memory Aliasing"
         project: "Battering RAM"

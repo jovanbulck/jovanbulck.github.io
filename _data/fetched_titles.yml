@@ -50,6 +50,8 @@ https://thehackernews.com/2020/03/intel-load-value-injection.html: 'LVI Attacks:
   Intel CPU Vulnerability Puts Data Centers At Risk'
 https://thehackernews.com/2025/10/50-battering-ram-attack-breaks-intel.html: New $50
   Battering RAM Attack Breaks Intel and AMD Cloud Security Protections
+https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html: New
+  DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing
 https://tweakers.net/nieuws/164464/lvi-kwetsbaarheid-in-intel-cpus-treft-sgx-en-is-niet-op-te-lossen-met-microcode.html: LVI-kwetsbaarheid
   in Intel-cpu's treft SGX en is niet op te lossen met microcode
 https://www.bbc.com/news/technology-45191697: '''Foreshadow'' attack affects Intel
@@ -82,6 +84,8 @@ https://www.redhat.com/en/blog/understanding-l1-terminal-fault-aka-foreshadow-wh
 ? https://www.robtv.be/nieuws/onderzoekers-ku-leuven-hacken-beveiligingstechnologie-bedrijven-moeten-bewust-zijn-van-de-kwetsbaarheid-204262
 : 'Onderzoekers KU Leuven hacken beveiligingstechnologie: "Bedrijven moeten bewust
   zijn van de kwetsbaarheid"'
+https://www.scworld.com/brief/spectre-vulnerabilities-found-on-commercial-risc-v-chips: Spectre
+  vulnerabilities found on commercial RISC-V chips
 https://www.securityweek.com/badram-attack-uses-10-equipment-to-break-amd-processor-protections/: BadRAM
   Attack Uses $10 Equipment to Break AMD Processor Protections
 https://www.securityweek.com/battering-ram-attack-breaks-intel-and-amd-security-tech-with-50-device/: Battering
@@ -109,6 +113,8 @@ https://www.theregister.com/2025/10/16/cve_cvss_scores_not_useful/: CVE, CVSS sc
   need overhauling, argues Codific CEO
 ? https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978
 : Spectre rears its ugly head again as researchers show some RISC-V chips are susceptible
+https://www.theregister.com/security/2026/09/14/new-hardware-device-can-ram-into-encrypted-memory-expose-your-data/5296377: New
+  hardware device can RAM into encrypted memory, expose your data
 https://www.theverge.com/2019/5/14/18623708/zombieload-attack-intel-processors-speculative-execution: ZombieLoad
   attack lets hackers steal data from Intel chips
 https://www.tijd.be/ondernemen/halfgeleiders/leuvense-onderzoekers-kraken-beveiliging-amd-chips/10578094: Leuvense
