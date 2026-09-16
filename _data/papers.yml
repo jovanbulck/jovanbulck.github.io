@@ -13,6 +13,9 @@ pubs:
     media: [
       https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html,
       https://www.theregister.com/security/2026/09/14/new-hardware-device-can-ram-into-encrypted-memory-expose-your-data/5296377,
+      https://www.heise.de/en/news/DDROP-Adapter-plug-bypasses-Confidential-Computing-11454812.html,
+      https://gbhackers.com/intel-tdx-under-attack/,
+      https://cybersecuritynews.com/new-ddrop-attack/,
     ]
     topic: "attack side-channel intel-sgx amd-sev intel-tdx"
     year: 2026

@@ -1,4 +1,16 @@
 talks:
+  - id: "starter26"
+    title: "Van bit tot bug: Doorheen de lagen van de systeemstack"
+    author: ['Jo Van Bulck']
+    venue: "KU Leuven Startdagen"
+    month: "September 16"
+    year: 2026
+    location: "Leuven, Belgium"
+    type: "Lecture"
+    website: "https://wet.kuleuven.be/onthaal/onthaalweek#Info"
+    abstract: |
+      Informatici bouwen complexe computersystemen door abstractielagen op elkaar te stapelen, van de hardware onderaan, via besturingsystemen en compilers, tot de applicaties bovenaan. Die lagen zijn onmisbaar om met complexiteit om te gaan, maar ze brengen ook uitdagingen met zich mee die dwars door alle lagen heen snijden, zoals veiligheid en performantie. In deze lezing overlopen we de systeemstack, duiden we waar verschillende lagen aan bod komen in het studieprogramma, en zoomen we in op enkele plekken waar aanvallers grenzen doorbreken. 
+
   - id: "cosic26"
     title: "Fast by Design, Leaky by Consequence: How Microarchitectural Attacks Dissolve CPU Isolation Boundaries"
     author: ['Jo Van Bulck']

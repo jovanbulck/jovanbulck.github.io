@@ -13,6 +13,8 @@ https://arstechnica.com/information-technology/2020/03/hackers-can-steal-secret-
 ? https://arstechnica.com/security/2025/09/intel-and-amd-trusted-enclaves-the-backbone-of-network-security-fall-to-physical-attacks/
 : Intel and AMD trusted enclaves, a foundation for network security, fall to physical
   attacks
+https://cybersecuritynews.com/new-ddrop-attack/: New DDRop Attack Breaks Intel TDX
+  and AMD SEV-SNP With $159 DDR5 Device
 https://datanews.knack.be/nieuws/alweer-ernstig-beveiligingsprobleem-in-intel-processoren-ontdekt/: Alweer
   ernstig beveiligingsprobleem in Intel-processoren ontdekt
 https://datanews.knack.be/nieuws/ku-leuven-ontdekt-nieuwe-kwetsbaarheid-in-intel-chips/: KU
@@ -25,6 +27,8 @@ https://datanews.knack.be/nieuws/security/kwetsbaarheden/ku-leuven-legt-kwetsbaa
 : Onderzoekers KULeuven hacken geavanceerde cloudbeveiliging Intel en AMD
 ? https://fortune.com/2019/05/15/zombieload-flaw-lets-hackers-crack-almost-every-intel-chip-back-to-2011-why-is-it-being-downplayed/
 : Intel 'Zombieload' Chip Flaw Lets Hackers Steal Secrets
+https://gbhackers.com/intel-tdx-under-attack/: DDRop Attack Forces Intel TDX Confidential
+  VMs Into Debug Mode and Exposes Memory
 https://lwn.net/Articles/747564/: Open-source trusted computing for IoT
 https://nieuws.kuleuven.be/en/content/2018/modern-security-technology-in-intel-processors-not-watertight: Modern
   security technology in Intel processors not watertight
@@ -64,6 +68,8 @@ https://www.demorgen.be/nieuws/lek-in-beveiliging-processoren-van-intel-ontdekt-
   in beveiliging processoren van Intel ontdekt door onderzoekers KU Leuven
 https://www.heise.de/en/news/BadRAM-Historical-side-channel-undermines-confidential-computing-in-the-cloud-10194591.html: 'BadRAM:
   Historical side channel undermines confidential computing in the cloud'
+https://www.heise.de/en/news/DDROP-Adapter-plug-bypasses-Confidential-Computing-11454812.html: 'DDROP:
+  Adapter plug bypasses Confidential Computing'
 https://www.hln.be/internet/hardwaremodule-van-nog-geen-50-euro-omzeilt-meest-geavanceerde-cloudbeveiliging~ac84a94a/: Hardwaremodule
   van nog geen 50 euro omzeilt meest geavanceerde cloudbeveiliging
 https://www.newscientist.nl/nieuws/voor-zon-hackaanval-had-je-ooit-tonnen-nodig-nu-kan-het-met-minder-dan-vijftig-euro/: ‘Voor
